@@ -8,6 +8,7 @@ Collection of AppleScripts I've developed over the years for many purposes. Some
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
 
 - [Features](#features)
+- [Applications](#Applications)
 - [Licensing & thanks](#licensing--thanks)
 - [Changelog](#changelog)
 
@@ -20,14 +21,20 @@ Features
 - [update]
 
 
-
+<a id="Applications"></a>
+Applications
+--------
+- [Finder]()
+- [Global]()
+- [Keyboard Maestro]()
+- [Script Debugger]()
 
 
 <a id="licensing--thanks"></a>
 Licensing & thanks
 ------------------
 
-This workflow is released under the [MIT License][mit].
+These scripts are released under the [MIT License][mit].
 
 
 <a id="changelog"></a>
@@ -36,6 +43,9 @@ Changelog
 
 - v1.0.0
 
+### To-Do ###
+- [ ] Add more app categories
+- [ ] Continue to add more AppleScripts
 
 [alfredapp]: https://www.alfredapp.com/
 [alfterm]: https://www.alfredapp.com/help/features/terminal/
