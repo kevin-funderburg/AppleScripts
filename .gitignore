@@ -1,0 +1,9 @@
+#############
+# Mac Files #
+#############
+.DS_Store
+.Trashes
+.Spotlight-V100
+.idea
+
+*.scpt
