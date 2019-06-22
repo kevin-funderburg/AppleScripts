@@ -9,6 +9,7 @@ Collection of AppleScripts I've developed over the years for many purposes. Some
 
 - [Features](#features)
 - [Applications](#Applications)
+- [Various](#Various)
 - [Licensing & thanks](#licensing--thanks)
 - [Changelog](#changelog)
 
@@ -24,11 +25,16 @@ Features
 <a id="Applications"></a>
 Applications
 --------
-- [Finder]()
-- [Global]()
-- [Keyboard Maestro]()
-- [Script Debugger]()
+- [Finder](https://github.com/kevin-funderburg/AppleScripts/tree/master/Finder)
+- [Global](https://github.com/kevin-funderburg/AppleScripts/tree/master/Keyboard%20Maestrohttps://github.com/kevin-funderburg/AppleScripts/tree/master/Finder)
+- [Keyboard Maestro](https://github.com/kevin-funderburg/AppleScripts/tree/master/Keyboard%20Maestro)
+- [Script Debugger](https://github.com/kevin-funderburg/AppleScripts/tree/master/Keyboard%20Maestro)
 
+
+<a id="Various"></a>
+Various
+--------
+- [Document Closers](https://github.com/kevin-funderburg/AppleScripts/tree/master/Document%20Closers)
 
 <a id="licensing--thanks"></a>
 Licensing & thanks
