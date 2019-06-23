@@ -26,7 +26,7 @@ About
 These apps are mostly launched via [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp], [Hazel][hazelapp].
 
 Many of these apps depend on this [script library][kevinsLib] I developed, so if you see this at the top of your script, make sure you get that library.
-```
+```AppleScript
 use kl : script "Kevin's Library"
 ```
 
@@ -34,17 +34,25 @@ use kl : script "Kevin's Library"
 <a id="Applications"></a>
 Applications
 --------
-- [Finder][finder]
+- [Finder](../blob/master/Finder)
+    - [Monthly Cleanups](https://github.com/kevin-funderburg/AppleScripts/blob/master/Finder/Monthly%20Cleanups.applescript)
 - [Global][global]
+    - [Paste Safari URL With Title](https://github.com/kevin-funderburg/AppleScripts/blob/master/Global/Paste%20Safari%20URL%20With%20Title.applescript)
 - [Keyboard Maestro][km]
+    - [Edit Linked or In-Line AppleScript](https://github.com/kevin-funderburg/AppleScripts/blob/master/Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript)
 - [Mail][mail]
+    - [Set Color of Text](https://github.com/kevin-funderburg/AppleScripts/blob/master/Mail/Set%20Color%20of%20Text.applescript)
 - [Script Debugger][sdb]
+    - [Open Used Script Libraries](https://github.com/kevin-funderburg/AppleScripts/blob/master/Script%20Debugger/Open%20Used%20Script%20Libraries.applescript)
+    - [Save For GitHub](https://github.com/kevin-funderburg/AppleScripts/blob/master/Script%20Debugger/Save%20For%20GitHub.applescript)
 
 
 <a id="Various"></a>
 Various
 --------
 - [Document Closers][docclosers]
+    - [Close All Un-Saved Documents](https://github.com/kevin-funderburg/AppleScripts/blob/master/Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript)
+    - [Close All With Saving](https://github.com/kevin-funderburg/AppleScripts/blob/master/Document%20Closers/Close%20All%20With%20Saving.applescript)
 
 <a id="licensing--thanks"></a>
 Licensing & thanks
@@ -74,6 +82,7 @@ Changelog
 [kevinsLib]: https://github.com/kevin-funderburg/AppleScript-libraries/blob/master/Kevin's%20Library.applescript
 
 <!-- Sub directories -->
+[blob]: https://github.com/kevin-funderburg/AppleScripts/blob/master/
 [docclosers]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Document%20Closers
 [finder]:https://github.com/kevin-funderburg/AppleScripts/tree/master/Finder
 [global]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Global
