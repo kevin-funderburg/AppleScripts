@@ -8,12 +8,12 @@ Collection of AppleScripts I've developed over the years for many purposes. Some
 This is will be continually updated as scripts are developed.
 
 
-
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
 
 - [About](#about)
-- [Applications](#Applications)
-- [Various](#Various)
+- [Contents](#contents)
+    - [Applications](#Applications)
+    - [Various](#Various)
 - [Licensing & thanks](#licensing--thanks)
 - [Changelog](#changelog)
 
@@ -30,11 +30,11 @@ Many of these apps depend on this [script library][kevinsLib] I developed, so if
 use kl : script "Kevin's Library"
 ```
 
-
+# Contents
+---
 <a id="Applications"></a>
-Applications
---------
-- [Finder](../blob/master/Finder)
+## Applications
+- [Finder][finder]
     - [Monthly Cleanups](https://github.com/kevin-funderburg/AppleScripts/blob/master/Finder/Monthly%20Cleanups.applescript)
 - [Global][global]
     - [Paste Safari URL With Title](https://github.com/kevin-funderburg/AppleScripts/blob/master/Global/Paste%20Safari%20URL%20With%20Title.applescript)
@@ -42,22 +42,23 @@ Applications
     - [Edit Linked or In-Line AppleScript](https://github.com/kevin-funderburg/AppleScripts/blob/master/Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript)
 - [Mail][mail]
     - [Set Color of Text](https://github.com/kevin-funderburg/AppleScripts/blob/master/Mail/Set%20Color%20of%20Text.applescript)
+    - [Make Mail URL](https://github.com/kevin-funderburg/AppleScripts/blob/master/Mail/Make%20Mail%20URL.applescript)
 - [Script Debugger][sdb]
     - [Open Used Script Libraries](https://github.com/kevin-funderburg/AppleScripts/blob/master/Script%20Debugger/Open%20Used%20Script%20Libraries.applescript)
     - [Save For GitHub](https://github.com/kevin-funderburg/AppleScripts/blob/master/Script%20Debugger/Save%20For%20GitHub.applescript)
 
 
 <a id="Various"></a>
-Various
---------
+## Various
 - [Document Closers][docclosers]
     - [Close All Un-Saved Documents](https://github.com/kevin-funderburg/AppleScripts/blob/master/Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript)
     - [Close All With Saving](https://github.com/kevin-funderburg/AppleScripts/blob/master/Document%20Closers/Close%20All%20With%20Saving.applescript)
 
+---
+
 <a id="licensing--thanks"></a>
 Licensing & thanks
 ------------------
-
 These scripts are released under the [MIT License][mit].
 
 
