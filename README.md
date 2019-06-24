@@ -1,7 +1,6 @@
 <p align="center"> <img src="./imgs/script.png"> </p>
 
-My AppleScripts
-=======================
+# My AppleScripts
 
 Collection of AppleScripts I've developed over the years for many purposes. Some are great as standalone scripts while others are great for incorporation with others.
 
@@ -20,8 +19,7 @@ This is will be continually updated as scripts are developed.
 <!-- /MarkdownTOC -->
 
 <a id="about"></a>
-About
---------
+## About
 
 These apps are mostly launched via [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp], [Hazel][hazelapp].
 
@@ -30,12 +28,12 @@ Many of these apps depend on this [script library][kevinsLib] I developed, so if
 use kl : script "Kevin's Library"
 ```
 
-# Contents
+## Contents
 
 <a id="Applications"></a>
-## Applications
+### Applications
 - [Finder][finder]
-    - [Monthly Cleanups](https://github.com/kevin-funderburg/AppleScripts/blob/master/Finder/Monthly%20Cleanups.applescript)
+    - [Monthly Cleanups](./Finder/Monthly%20Cleanups.applescript)
 - [Global][global]
     - [Click Script Menu](https://github.com/kevin-funderburg/AppleScripts/blob/master/Global/Click%20Script%20Menu.applescript)
     - [Paste Safari URL With Title](https://github.com/kevin-funderburg/AppleScripts/blob/master/Global/Paste%20Safari%20URL%20With%20Title.applescript)
@@ -51,7 +49,7 @@ use kl : script "Kevin's Library"
 
 
 <a id="Various"></a>
-## Various
+### Various
 - [Document Closers][docclosers]
     - [Close All Un-Saved Documents](https://github.com/kevin-funderburg/AppleScripts/blob/master/Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript)
     - [Close All With Saving](https://github.com/kevin-funderburg/AppleScripts/blob/master/Document%20Closers/Close%20All%20With%20Saving.applescript)
@@ -63,20 +61,20 @@ use kl : script "Kevin's Library"
 ---
 
 <a id="licensing--thanks"></a>
-Licensing & thanks
-------------------
+## Licensing & thanks
 These scripts are released under the [MIT License][mit].
 
 
 <a id="changelog"></a>
-Changelog
----------
+## Changelog
 
 - v1.0.0
 
 ### To-Do ###
 - [ ] Add more app categories
 - [ ] Refine readme
+- [ ] Add icons to favorite scripts
+- [ ] Add tips section
 
 <!-- External links -->
 [alfredapp]: https://www.alfredapp.com/
