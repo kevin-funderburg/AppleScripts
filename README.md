@@ -94,5 +94,5 @@ These scripts are released under the [MIT License][mit].
 [km]: ./Keyboard%20Maestro
 [mail]: https://github.com/kevin-funderburg/AppleScripts/tree/master/mail
 [mit]: https://github.com/kevin-funderburg/AppleScripts/blob/master/LICENSE.txt
-[sdb]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Script%20Debugger
+[sdb]: ./Script%20Debugger
 [sc]: https://github.com/kevin-funderburg/AppleScripts/blob/master/System%20Control
