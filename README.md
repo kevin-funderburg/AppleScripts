@@ -7,16 +7,17 @@ Collection of AppleScripts I've developed over the years for many purposes. Some
 > This repo is in continuous development and will be updated as scripts are developed (and as I have time).
 
 
-<!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
+<!-- TOC depthFrom:2 -->
 
 - [About](#about)
 - [Contents](#contents)
-    - [Applications](#Applications)
-    - [Various](#Various)
+    - [Applications](#applications)
+    - [Various](#various)
 - [Licensing & thanks](#licensing--thanks)
 - [Changelog](#changelog)
+- [To-Do](#to-do)
 
-<!-- /MarkdownTOC -->
+<!-- /TOC -->
 
 <a id="about"></a>
 ## About
@@ -33,9 +34,9 @@ use kl : script "Kevin's Library"
 <a id="Applications"></a>
 ### Applications
 - [Finder][finder]
-    - [Monthly Cleanups](./Finder/Monthly%20Cleanups.applescript)
+    - [Monthly Cleanups][2f34cbb7]
 - [Global][global]
-    - [Click Script Menu](./Global/Click%20Script%20Menu.applescript)
+    - [Click Script Menu][d1c0746f]
     - [Paste Safari URL With Title](./Global/Paste%20Safari%20URL%20With%20Title.applescript)
     - [Start|Stop Quicktime Screen Recording](./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript)
 - [Keyboard Maestro][km]
@@ -50,6 +51,9 @@ use kl : script "Kevin's Library"
     - [Open Used Script Libraries](./Script%20Debugger/Open%20Used%20Script%20Libraries.applescript)
     - [Save As Text Script](./Script%20Debugger/Save%20As%20Text%20Script.applescript)
     - [Toggle Minimal View](./Script%20Debugger/Toggle%20Minimal%20View.applescript)
+
+[2f34cbb7]: ./Finder/Monthly%20Cleanups.applescript
+[d1c0746f]: ./Global/Click%20Script%20Menu.applescript
 
 
 <a id="Various"></a>
@@ -74,7 +78,7 @@ These scripts are released under the [MIT License][mit].
 
 - v1.0.0
 
-### To-Do ###
+## To-Do
 - [ ] Add more app categories
 - [ ] Refine readme
 - [ ] Add icons to favorite scripts
