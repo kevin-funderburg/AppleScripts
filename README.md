@@ -55,6 +55,7 @@ I've divided the scripts into an applications section (scripts specific to an ap
 - [Script Debugger][sdb]
     - [Duplicate Tab][ff203baf]
     - [Duplicate for GitHub][ea9fb946]
+    - [Insert Dynamic Handler Description](./Script%20Debugger/Insert%20Dynamic%20Handler%20Description.applescript)
     - [Open Used Script Libraries][3c961777]
     - [Save As Text Script][98e99d57]
     - [Toggle Minimal View][3a899b61]
