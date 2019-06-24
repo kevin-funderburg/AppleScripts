@@ -33,38 +33,56 @@ use kl : script "Kevin's Library"
 
 <a id="Applications"></a>
 ### Applications
+
 - [Finder][finder]
     - [Monthly Cleanups][2f34cbb7]
 - [Global][global]
     - [Click Script Menu][d1c0746f]
-    - [Paste Safari URL With Title](./Global/Paste%20Safari%20URL%20With%20Title.applescript)
-    - [Start|Stop Quicktime Screen Recording](./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript)
+    - [Paste Safari URL With Title][1d8d603d]
+    - [Start|Stop Quicktime Screen Recording][a921fa5d]
 - [Keyboard Maestro][km]
-    - [Edit Linked or In-Line AppleScript](./Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript)
-    - [Add|Remove Status Menu Trigger](./Keyboard%20Maestro/Add|Remove%20Status%20Menu%20Trigger)
+    - [Edit Linked or In-Line AppleScript][3034f6a6]
+    - [Add|Remove Status Menu Trigger][8111e7c4]
 - [Mail][mail]
-    - [Set Color of Text](./Mail/Set%20Color%20of%20Text.applescript)
-    - [Make Mail URL](./Mail/Make%20Mail%20URL.applescript)
+    - [Set Color of Text][d1529523]
+    - [Make Mail URL][63ba2f90]
 - [Script Debugger][sdb]
-    - [Duplicate Tab](./Script%20Debugger/Duplicate%20Tab.applescript)
-    - [Duplicate for GitHub](./Script%20Debugger/Duplicate%20for%20GitHub.applescript)
-    - [Open Used Script Libraries](./Script%20Debugger/Open%20Used%20Script%20Libraries.applescript)
-    - [Save As Text Script](./Script%20Debugger/Save%20As%20Text%20Script.applescript)
-    - [Toggle Minimal View](./Script%20Debugger/Toggle%20Minimal%20View.applescript)
+    - [Duplicate Tab][ff203baf]
+    - [Duplicate for GitHub][ea9fb946]
+    - [Open Used Script Libraries][3c961777]
+    - [Save As Text Script][98e99d57]
+    - [Toggle Minimal View][3a899b61]
 
 [2f34cbb7]: ./Finder/Monthly%20Cleanups.applescript
 [d1c0746f]: ./Global/Click%20Script%20Menu.applescript
+[1d8d603d]: ./Global/Paste%20Safari%20URL%20With%20Title.applescript
+[a921fa5d]: ./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript
+[3034f6a6]: ./Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript
+[8111e7c4]: ./Keyboard%20Maestro/Add|Remove%20Status%20Menu%20Trigger
+[d1529523]: ./Mail/Set%20Color%20of%20Text.applescript
+[63ba2f90]: ./Mail/Make%20Mail%20URL.applescript
+[ff203baf]: ./Script%20Debugger/Duplicate%20Tab.applescript
+[ea9fb946]: ./Script%20Debugger/Duplicate%20for%20GitHub.applescript
+[3c961777]: ./Script%20Debugger/Open%20Used%20Script%20Libraries.applescript
+[98e99d57]: ./Script%20Debugger/Save%20As%20Text%20Script.applescript
+[3a899b61]: ./Script%20Debugger/Toggle%20Minimal%20View.applescript
 
 
 <a id="Various"></a>
 ### Various
 - [Document Closers][docclosers]
-    - [Close All Un-Saved Documents](./Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript)
-    - [Close All With Saving](./Document%20Closers/Close%20All%20With%20Saving.applescript)
+    - [Close All Un-Saved Documents][9a704632]
+    - [Close All With Saving][3b80a0d2]
 - [System Control][sc]
-    - [Toggle Bluetooth](./System%20Control/Toggle%20Bluetooth.applescript)
-    - [Toggle Hazel](./System%20Control/Toggle%20Hazel.applescript)
-    - [Toggle Menu Bar Visibility](./System%20Control/Toggle%20Menu%20Bar%20Visibility.applescript)
+    - [Toggle Bluetooth][25e6a902]
+    - [Toggle Hazel][d2434bdc]
+    - [Toggle Menu Bar Visibility][a517cb4f]
+
+[9a704632]: ./Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript
+[3b80a0d2]: ./Document%20Closers/Close%20All%20With%20Saving.applescript
+[25e6a902]: ./System%20Control/Toggle%20Bluetooth.applescript
+[a517cb4f]: ./System%20Control/Toggle%20Menu%20Bar%20Visibility.applescript
+[d2434bdc]: ./System%20Control/Toggle%20Hazel.applescript
 
 ---
 
