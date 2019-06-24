@@ -40,6 +40,7 @@ use kl : script "Kevin's Library"
     - [Start|Stop Quicktime Screen Recording](./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript)
 - [Keyboard Maestro][km]
     - [Edit Linked or In-Line AppleScript](./Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript)
+    - - [Add|Remove Status Menu Trigger](./Keyboard%20Maestro/Add|Remove%20Status%20Menu%20Trigger)
 - [Mail][mail]
     - [Set Color of Text](./Mail/Set%20Color%20of%20Text.applescript)
     - [Make Mail URL](./Mail/Make%20Mail%20URL.applescript)

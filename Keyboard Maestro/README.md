@@ -1,4 +1,4 @@
-<p align="center"> 
+<p align="center">
 <img src="https://www.stairways.com/img/keyboardmaestro-256.png">
 </p>
 
@@ -12,3 +12,4 @@ Scripts for use while working in [Keyboard Maestro](https://www.keyboardmaestro.
     - If it is in-line, it will compile the text in your editor
     - Check out the demo below.
     ![demo](../imgs/km-editscript.gif)
+- [Add|Remove Status Menu Trigger](./Add|Remove%20Status%20Menu%20Trigger)
