@@ -51,13 +51,13 @@ use kl : script "Kevin's Library"
 <a id="Various"></a>
 ### Various
 - [Document Closers][docclosers]
-    - [Close All Un-Saved Documents](https://github.com/kevin-funderburg/AppleScripts/blob/master/Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript)
-    - [Close All With Saving](https://github.com/kevin-funderburg/AppleScripts/blob/master/Document%20Closers/Close%20All%20With%20Saving.applescript)
+    - [Close All Un-Saved Documents](./Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript)
+    - [Close All With Saving](./Document%20Closers/Close%20All%20With%20Saving.applescript)
 - [System Control][sc]
-    - [Toggle Bluetooth](https://github.com/kevin-funderburg/AppleScripts/blob/master/System%20Control/Toggle%20Bluetooth.applescript)
-    - [Toggle Hazel](https://github.com/kevin-funderburg/AppleScripts/blob/master/System%20Control/Toggle%20Hazel.applescript)
-    - [Toggle Menu Bar Visibility](https://github.com/kevin-funderburg/AppleScripts/blob/master/System%20Control/Toggle%20Menu%20Bar%20Visibility.applescript)
-
+    - [Toggle Bluetooth](./System%20Control/Toggle%20Bluetooth.applescript)
+    - [Toggle Hazel](./System%20Control/Toggle%20Hazel.applescript)
+    - [Toggle Menu Bar Visibility](./System%20Control/Toggle%20Menu%20Bar%20Visibility.applescript)
+[blb][blob]()
 ---
 
 <a id="licensing--thanks"></a>
@@ -91,7 +91,7 @@ These scripts are released under the [MIT License][mit].
 [docclosers]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Document%20Closers
 [finder]:https://github.com/kevin-funderburg/AppleScripts/tree/master/Finder
 [global]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Global
-[km]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Keyboard%20Maestro
+[km]: ./Keyboard%20Maestro
 [mail]: https://github.com/kevin-funderburg/AppleScripts/tree/master/mail
 [mit]: https://github.com/kevin-funderburg/AppleScripts/blob/master/LICENSE.txt
 [sdb]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Script%20Debugger
