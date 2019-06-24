@@ -37,7 +37,9 @@ use kl : script "Kevin's Library"
 - [Finder][finder]
     - [Monthly Cleanups](https://github.com/kevin-funderburg/AppleScripts/blob/master/Finder/Monthly%20Cleanups.applescript)
 - [Global][global]
+    - [Click Script Menu](https://github.com/kevin-funderburg/AppleScripts/blob/master/Global/Click%20Script%20Menu.applescript)
     - [Paste Safari URL With Title](https://github.com/kevin-funderburg/AppleScripts/blob/master/Global/Paste%20Safari%20URL%20With%20Title.applescript)
+    - [Start|Stop Quicktime Screen Recording](https://github.com/kevin-funderburg/AppleScripts/blob/master/Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript)
 - [Keyboard Maestro][km]
     - [Edit Linked or In-Line AppleScript](https://github.com/kevin-funderburg/AppleScripts/blob/master/Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript)
 - [Mail][mail]
@@ -53,6 +55,10 @@ use kl : script "Kevin's Library"
 - [Document Closers][docclosers]
     - [Close All Un-Saved Documents](https://github.com/kevin-funderburg/AppleScripts/blob/master/Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript)
     - [Close All With Saving](https://github.com/kevin-funderburg/AppleScripts/blob/master/Document%20Closers/Close%20All%20With%20Saving.applescript)
+- [System Control][sc]
+    - [Toggle Bluetooth](https://github.com/kevin-funderburg/AppleScripts/blob/master/System%20Control/Toggle%20Bluetooth.applescript)
+    - [Toggle Hazel](https://github.com/kevin-funderburg/AppleScripts/blob/master/System%20Control/Toggle%20Hazel.applescript)
+    - [Toggle Menu Bar Visibility](https://github.com/kevin-funderburg/AppleScripts/blob/master/System%20Control/Toggle%20Menu%20Bar%20Visibility.applescript)
 
 ---
 
@@ -91,5 +97,4 @@ Changelog
 [mail]: https://github.com/kevin-funderburg/AppleScripts/tree/master/mail
 [mit]: https://github.com/kevin-funderburg/AppleScripts/blob/master/LICENSE.txt
 [sdb]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Script%20Debugger
-- [LICENSE.txt](https://github.com/kevin-funderburg/AppleScripts/blob/master/AppleScripts/LICENSE.txt)
-
+[sc]: https://github.com/kevin-funderburg/AppleScripts/blob/master/System%20Control
