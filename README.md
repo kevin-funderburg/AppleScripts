@@ -37,6 +37,7 @@ I've divided the scripts into an applications section (scripts specific to an ap
 
 - [Finder][finder]
     - [Monthly Cleanups][2f34cbb7]
+    - - [Open Selection in iTerm](./Finder/Open%20Selection%20in%20iTerm.applescript)
 - [Keyboard Maestro][km]
     - [Edit Linked or In-Line AppleScript][3034f6a6]
     - [Add|Remove Status Menu Trigger][8111e7c4]
