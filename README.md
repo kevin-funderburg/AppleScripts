@@ -35,17 +35,17 @@ use kl : script "Kevin's Library"
 - [Finder][finder]
     - [Monthly Cleanups](./Finder/Monthly%20Cleanups.applescript)
 - [Global][global]
-    - [Click Script Menu](https://github.com/kevin-funderburg/AppleScripts/blob/master/Global/Click%20Script%20Menu.applescript)
-    - [Paste Safari URL With Title](https://github.com/kevin-funderburg/AppleScripts/blob/master/Global/Paste%20Safari%20URL%20With%20Title.applescript)
-    - [Start|Stop Quicktime Screen Recording](https://github.com/kevin-funderburg/AppleScripts/blob/master/Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript)
+    - [Click Script Menu](./Global/Click%20Script%20Menu.applescript)
+    - [Paste Safari URL With Title](./Global/Paste%20Safari%20URL%20With%20Title.applescript)
+    - [Start|Stop Quicktime Screen Recording](./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript)
 - [Keyboard Maestro][km]
-    - [Edit Linked or In-Line AppleScript](https://github.com/kevin-funderburg/AppleScripts/blob/master/Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript)
+    - [Edit Linked or In-Line AppleScript](./Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript)
 - [Mail][mail]
-    - [Set Color of Text](https://github.com/kevin-funderburg/AppleScripts/blob/master/Mail/Set%20Color%20of%20Text.applescript)
-    - [Make Mail URL](https://github.com/kevin-funderburg/AppleScripts/blob/master/Mail/Make%20Mail%20URL.applescript)
+    - [Set Color of Text](./Mail/Set%20Color%20of%20Text.applescript)
+    - [Make Mail URL](./Mail/Make%20Mail%20URL.applescript)
 - [Script Debugger][sdb]
-    - [Open Used Script Libraries](https://github.com/kevin-funderburg/AppleScripts/blob/master/Script%20Debugger/Open%20Used%20Script%20Libraries.applescript)
-    - [Save For GitHub](https://github.com/kevin-funderburg/AppleScripts/blob/master/Script%20Debugger/Save%20For%20GitHub.applescript)
+    - [Open Used Script Libraries](./Script%20Debugger/Open%20Used%20Script%20Libraries.applescript)
+    - [Save For GitHub](./Script%20Debugger/Save%20For%20GitHub.applescript)
 
 
 <a id="Various"></a>
