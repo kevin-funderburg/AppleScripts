@@ -13,6 +13,10 @@ Collection of AppleScripts I've developed over the years for many purposes. Some
 - [Contents](#contents)
     - [Application Scripts](#application-scripts)
     - [Global Scripts](#global-scripts)
+- [Tools](#tools)
+- [Tips](#tips)
+    - [Keep Scripts In Sync Using Aliases](#keep-scripts-in-sync-using-aliases)
+        - [How to do it:](#how-to-do-it)
 - [Licensing & thanks](#licensing--thanks)
 - [Changelog](#changelog)
 - [To-Do](#to-do)
@@ -48,6 +52,7 @@ I've divided the scripts into an applications section (scripts specific to an ap
 - [Mail][mail]
     - [Set Color of Text][d1529523]
     - [Make Mail URL][63ba2f90]
+    - [Mark All Inbox Messages as Read](./Mail/Mark%20All%20Inbox%20Messages%20as%20Read.applescript)
 - [Safari](./Safari)
     - [Close Left Tab](./Safari/Close%20Left%20Tab.applescript)
     - [Close Right Tab](./Safari/Close%20Right%20Tab.applescript)
@@ -103,7 +108,33 @@ I've divided the scripts into an applications section (scripts specific to an ap
 
 ---
 
-<a id="licensing--thanks"></a>
+## Tools
+- Plugins for Atom
+    - [atom-applescript](https://github.com/franzheidl/atom-applescript) - adds language support to Atom so you can view AppleScript syntax
+    - [build-osa](https://github.com/idleberg/atom-build-osa) - Lets you build and execute AppleScripts from Atom.
+---
+
+## Tips
+### Keep Scripts In Sync Using Aliases
+In order for scripts to be accessible via the Script Menu, scripts must be stored in `~/Library/Scripts`, but if you like to keep your scripts synced between devices, this location is a pain. I used to have a [Hazel][hazelapp] rule set up to sync `~/Library/Scripts` to Dropbox that worked fine for years, but I didn't like all the extra processing needed to sync and worse yet I had 2 copies of every script which was messy and got confusing.<br>
+I realized later that moving all my scripts to `~/Dropbox/Library/Scripts` then creating an alias to that location and moving it `~/Library/Scripts` allows for my scripts to be stored in Dropbox, and still be accessible in the Script Menu! This method works exactly as well with the `~/Library/Script Libraries` folder. Here's a screenshot of what it looks like in Finder.
+
+![aliasDemo](./imgs/aliasPath.png)
+
+#### How to do it:
+1. **Make a backup** of the folder your moving to your Desktop just in case you mess up.
+2. I recommend having the same folder structure in Dropbox so make the folder `~/Dropbox/Library/`
+3. Copy the folder you want to sync (`~/Library/Scripts/`, `~/Library/Script Libraries/`) and paste into the `~/Dropbox/Library/` folder you made.
+4. Delete the original folder you copied from `~/Library/`
+5. Select the folder you pasted into `~/Dropbox/Library/` then click `File > Make Alias`
+6. Move the resulting alias back to `~/Library/`. The result will be like `~/Library/Scripts alias` so rename the alias by removing the "alias" part so it looks like `~/Library/Scripts` and you're good to go!
+- **NOTE**: Symlinks don't work for this method, I originally tried
+```
+ln -s ~/Library/Scripts ~/Dropbox/Library/Scripts/
+```
+but then the scripts weren't accessible via the Script Menu.
+
+---
 ## Licensing & thanks
 These scripts are released under the [MIT License][mit].
 
