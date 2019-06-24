@@ -5,6 +5,7 @@
 # Script Debugger Scripts
 Scripts for use when working in [Script Debugger](https://latenightsw.com/).
 
+## Contents
 - [Duplicate Tab](./Duplicate%20Tab.applescript)
     - Duplicates the front tab, useful for making edits without breaking what is already written.
 - [Duplicate for GitHub](./Duplicate%20for%20GitHub.applescript)
