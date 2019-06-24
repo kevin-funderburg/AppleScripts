@@ -25,13 +25,13 @@ About
 
 These apps are mostly launched via [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp], [Hazel][hazelapp].
 
-Many of these apps depend on this [script library][kevinsLib] I developed, so if you see this at the top of your script, make sure you get that library.
+Many of these apps depend on this [script library][kevinsLib] I developed, so if you see this at the top of the script, make sure you get that library.
 ```AppleScript
 use kl : script "Kevin's Library"
 ```
 
 # Contents
----
+
 <a id="Applications"></a>
 ## Applications
 - [Finder][finder]
@@ -91,3 +91,5 @@ Changelog
 [mail]: https://github.com/kevin-funderburg/AppleScripts/tree/master/mail
 [mit]: https://github.com/kevin-funderburg/AppleScripts/blob/master/LICENSE.txt
 [sdb]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Script%20Debugger
+- [LICENSE.txt](https://github.com/kevin-funderburg/AppleScripts/blob/master/AppleScripts/LICENSE.txt)
+
