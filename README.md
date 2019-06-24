@@ -11,8 +11,8 @@ Collection of AppleScripts I've developed over the years for many purposes. Some
 
 - [About](#about)
 - [Contents](#contents)
-    - [Applications](#applications)
-    - [Various](#various)
+    - [Application Scripts](#application-scripts)
+    - [Global Scripts](#global-scripts)
 - [Licensing & thanks](#licensing--thanks)
 - [Changelog](#changelog)
 - [To-Do](#to-do)
@@ -30,22 +30,25 @@ use kl : script "Kevin's Library"
 ```
 
 ## Contents
+I've divided the scripts into an applications section (scripts specific to an app) and a Global section where they can be used anywhere. Clicking the name of the script will show you the script directly, but **make sure to view the README for each section** by clicking the title of the section.
 
 <a id="Applications"></a>
-### Applications
+### Application Scripts
 
 - [Finder][finder]
     - [Monthly Cleanups][2f34cbb7]
-- [Global][global]
-    - [Click Script Menu][d1c0746f]
-    - [Paste Safari URL With Title][1d8d603d]
-    - [Start|Stop Quicktime Screen Recording][a921fa5d]
 - [Keyboard Maestro][km]
     - [Edit Linked or In-Line AppleScript][3034f6a6]
     - [Add|Remove Status Menu Trigger][8111e7c4]
+    - [Copy Front Macros AppleScript Trigger](./Keyboard%20Maestro/Copy%20Front%20Macros%20AppleScript%20Trigger.applescript)
+    - [Edit Last Executed Macro](./Keyboard%20Maestro/Edit%20Last%20Executed%20Macro.applescript)
 - [Mail][mail]
     - [Set Color of Text][d1529523]
     - [Make Mail URL][63ba2f90]
+- [Safari](./Safari)
+    - [Close Left Tab](./Safari/Close%20Left%20Tab.applescript)
+    - [Close Right Tab](./Safari/Close%20Right%20Tab.applescript)
+    - [Duplicate Tab](./Safari/Duplicate%20Tab.applescript)
 - [Script Debugger][sdb]
     - [Duplicate Tab][ff203baf]
     - [Duplicate for GitHub][ea9fb946]
@@ -54,9 +57,6 @@ use kl : script "Kevin's Library"
     - [Toggle Minimal View][3a899b61]
 
 [2f34cbb7]: ./Finder/Monthly%20Cleanups.applescript
-[d1c0746f]: ./Global/Click%20Script%20Menu.applescript
-[1d8d603d]: ./Global/Paste%20Safari%20URL%20With%20Title.applescript
-[a921fa5d]: ./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript
 [3034f6a6]: ./Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript
 [8111e7c4]: ./Keyboard%20Maestro/Add|Remove%20Status%20Menu%20Trigger
 [d1529523]: ./Mail/Set%20Color%20of%20Text.applescript
@@ -69,20 +69,33 @@ use kl : script "Kevin's Library"
 
 
 <a id="Various"></a>
-### Various
+### Global Scripts
+
 - [Document Closers][docclosers]
     - [Close All Un-Saved Documents][9a704632]
     - [Close All With Saving][3b80a0d2]
+    - [Close All Without Saving](./Document%20Closers/Close%20All%20Without%20Saving.applescript)
+    - [Close With Saving](./Document%20Closers/Close%20With%20Saving.applescript)
+    - [Close Without Saving](./Document%20Closers/Close%20Without%20Saving.applescript)
 - [System Control][sc]
     - [Toggle Bluetooth][25e6a902]
     - [Toggle Hazel][d2434bdc]
     - [Toggle Menu Bar Visibility][a517cb4f]
+    - [Toggle WiFi](./System%20Control/Toggle%20WiFi.applescript)
+- [Various][global]
+    - [Click Script Menu][d1c0746f]
+    - [Paste Safari URL With Title][1d8d603d]
+    - [Start|Stop Quicktime Screen Recording][a921fa5d]]
 
 [9a704632]: ./Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript
 [3b80a0d2]: ./Document%20Closers/Close%20All%20With%20Saving.applescript
 [25e6a902]: ./System%20Control/Toggle%20Bluetooth.applescript
 [a517cb4f]: ./System%20Control/Toggle%20Menu%20Bar%20Visibility.applescript
 [d2434bdc]: ./System%20Control/Toggle%20Hazel.applescript
+[d1c0746f]: ./Global/Click%20Script%20Menu.applescript
+[1d8d603d]: ./Global/Paste%20Safari%20URL%20With%20Title.applescript
+[a921fa5d]: ./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript
+
 
 ---
 
