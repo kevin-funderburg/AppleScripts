@@ -4,7 +4,7 @@
 
 Collection of AppleScripts I've developed over the years for many purposes. Some are great as standalone scripts while others are great for incorporation with others.
 
-This is will be continually updated as scripts are developed.
+> This repo is in continuous development and will be updated as scripts are developed (and as I have time).
 
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
@@ -40,7 +40,7 @@ use kl : script "Kevin's Library"
     - [Start|Stop Quicktime Screen Recording](./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript)
 - [Keyboard Maestro][km]
     - [Edit Linked or In-Line AppleScript](./Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript)
-    - - [Add|Remove Status Menu Trigger](./Keyboard%20Maestro/Add|Remove%20Status%20Menu%20Trigger)
+    - [Add|Remove Status Menu Trigger](./Keyboard%20Maestro/Add|Remove%20Status%20Menu%20Trigger)
 - [Mail][mail]
     - [Set Color of Text](./Mail/Set%20Color%20of%20Text.applescript)
     - [Make Mail URL](./Mail/Make%20Mail%20URL.applescript)
