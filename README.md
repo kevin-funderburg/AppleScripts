@@ -35,6 +35,8 @@ I've divided the scripts into an applications section (scripts specific to an ap
 <a id="Applications"></a>
 ### Application Scripts
 
+- [Alfred](./Alfred)
+    - [Show Recent Files for Front App](./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript)
 - [Finder][finder]
     - [Monthly Cleanups][2f34cbb7]
     - [Open Selection in iTerm](./Finder/Open%20Selection%20in%20iTerm.applescript)
