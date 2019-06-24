@@ -12,3 +12,4 @@ Various scripts for use in Finder.
 
     - I've used this method for years to keep these folders tidy and I love it, here's an example of what the result looks like.
     <p align="center"> <img src="../imgs/folderCleaner.png"> </p>
+- [Open Selection in iTerm](./Open%20Selection%20in%20iTerm.applescript)
