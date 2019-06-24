@@ -45,8 +45,11 @@ use kl : script "Kevin's Library"
     - [Set Color of Text](./Mail/Set%20Color%20of%20Text.applescript)
     - [Make Mail URL](./Mail/Make%20Mail%20URL.applescript)
 - [Script Debugger][sdb]
+    - [Duplicate Tab](./Script%20Debugger/Duplicate%20Tab.applescript)
+    - [Duplicate for GitHub](./Script%20Debugger/Duplicate%20for%20GitHub.applescript)
     - [Open Used Script Libraries](./Script%20Debugger/Open%20Used%20Script%20Libraries.applescript)
-    - [Save For GitHub](./Script%20Debugger/Save%20For%20GitHub.applescript)
+    - [Save As Text Script](./Script%20Debugger/Save%20As%20Text%20Script.applescript)
+    - [Toggle Minimal View](./Script%20Debugger/Toggle%20Minimal%20View.applescript)
 
 
 <a id="Various"></a>
@@ -58,7 +61,7 @@ use kl : script "Kevin's Library"
     - [Toggle Bluetooth](./System%20Control/Toggle%20Bluetooth.applescript)
     - [Toggle Hazel](./System%20Control/Toggle%20Hazel.applescript)
     - [Toggle Menu Bar Visibility](./System%20Control/Toggle%20Menu%20Bar%20Visibility.applescript)
-[blb][blob]()
+
 ---
 
 <a id="licensing--thanks"></a>
