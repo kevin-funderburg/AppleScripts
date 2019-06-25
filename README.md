@@ -57,6 +57,7 @@ I've divided the scripts into an applications section (scripts specific to an ap
     - [Close Left Tab](./Safari/Close%20Left%20Tab.applescript)
     - [Close Right Tab](./Safari/Close%20Right%20Tab.applescript)
     - [Duplicate Tab](./Safari/Duplicate%20Tab.applescript)
+    - [Do Javascript Handler](./Safari/Do%20Javascript%20Handler.applescript)
 - [Script Debugger][sdb]
     - [Duplicate Tab][ff203baf]
     - [Duplicate for GitHub][ea9fb946]
@@ -109,7 +110,11 @@ I've divided the scripts into an applications section (scripts specific to an ap
 ---
 
 ## Tools
-- Plugins for Atom
+- [Script Debugger](https://latenightsw.com/) - By far the most valuable scripting tool. When I first started learning scripting with Script Editor, the process was slow and frustrating. With Script Debugger I learned 100 times faster and understood everything much easier.
+- [UI Browser](https://pfiddlesoft.com/uibrowser/) - Invaluable tool for UI scripting. UI scripting is brutal on its own, and slightly less brutal with the Accessibility Inspector, but UI Browser makes it so much simpler, I tried it once and knew I had to get it.
+- [JSON Helper](https://apps.apple.com/us/app/json-helper-for-applescript/id453114608?mt=12) - Makes working with JSON so much simpler, incredibly useful and free!
+- [Location Helper](https://apps.apple.com/us/app/location-helper/id488536386?mt=12) - Find your geo code location in a snap, and for free!
+- [Atom](https://atom.io/) plugins
     - [atom-applescript](https://github.com/franzheidl/atom-applescript) - adds language support to Atom so you can view AppleScript syntax
     - [build-osa](https://github.com/idleberg/atom-build-osa) - Lets you build and execute AppleScripts from Atom.
 ---
