@@ -18,6 +18,8 @@ Scripts for use when working in [Script Debugger](https://latenightsw.com/).
 
   - Insert a handler description at the beginning of the handler currently selected. The description will inserted by creating a Script Debugger clipping dynamically with the handler's name and parameters.
 
+  ![demo](../imgs/sdb-dynamicdescription.gif)
+
 - [Open Used Script Libraries](./Open%20Used%20Script%20Libraries.applescript)
 
   - Open the script libraries that are currently in use in the front script.
