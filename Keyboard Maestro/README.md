@@ -18,3 +18,5 @@ Scripts for use while working in [Keyboard Maestro](https://www.keyboardmaestro.
 - [Add|Remove Status Menu Trigger](./Add|Remove%20Status%20Menu%20Trigger)
 - [Copy Front Macros AppleScript Trigger](./Copy%20Front%20Macros%20AppleScript%20Trigger.applescript)
 - [Edit Last Executed Macro](./Edit%20Last%20Executed%20Macro.applescript)
+- [Go To Executed Macro](./Go%20To%20Executed%20Macro.applescript)
+- [Run Current Macro](./Run%20Current%20Macro.applescript)

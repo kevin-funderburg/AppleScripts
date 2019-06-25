@@ -4,6 +4,8 @@ Various scripts for System Control use.
 
 ## Contents
 
+- [Restart AirPort Extreme](./Restart%20AirPort%20Extreme.applescript)
+
 - [Toggle Bluetooth](./Toggle%20Bluetooth.applescript)
 
 - [Toggle Hazel](./Toggle%20Hazel.applescript)
