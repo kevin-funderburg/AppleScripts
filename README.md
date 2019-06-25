@@ -51,7 +51,7 @@ I've divided the scripts into an applications section (scripts specific to an ap
   - [Edit Linked or In-Line AppleScript][3034f6a6]
   - [Add|Remove Status Menu Trigger][8111e7c4]
   - [Copy Front Macros AppleScript Trigger](./Keyboard%20Maestro/Copy%20Front%20Macros%20AppleScript%20Trigger.applescript)
-  - [Edit Last Executed Macro](./Keyboard%20Maestro/Edit%20Last%20Executed%20Macro.applescript)
+  - [Edit Last Executed Macro](./Keyboard%20Maestro/Edit%20Last%20Executed%20Macro.applescript) 🌎
   - [Go To Executed Macro](./Keyboard%20Maestro/Go%20To%20Executed%20Macro.applescript)
   - [Run Current Macro](./Keyboard%20Maestro/Run%20Current%20Macro.applescript) 🌎
 - [Mail][mail]
@@ -68,7 +68,7 @@ I've divided the scripts into an applications section (scripts specific to an ap
   - [Duplicate for GitHub][ea9fb946]
   - [Insert Dynamic Handler Description](./Script%20Debugger/Insert%20Dynamic%20Handler%20Description.applescript)
   - [Open Used Script Libraries][3c961777]
-  - [Run Front Script](./Script%20Debugger/Run%20Front%20Script.applescript)
+  - [Run Front Script](./Script%20Debugger/Run%20Front%20Script.applescript) 🌎
   - [Save As Text Script][98e99d57]
   - [Toggle Minimal View][3a899b61]
 
