@@ -43,7 +43,7 @@ I've divided the scripts into an applications section (scripts specific to an ap
 ### Application Scripts
 
 - [Alfred](./Alfred)
-  - [Show Recent Files for Front App](./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript)
+  - [Show Recent Files for Front App](./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript) 🌎
 - [Finder][finder]
   - [Monthly Cleanups][2f34cbb7]
   - [Open Selection in iTerm](./Finder/Open%20Selection%20in%20iTerm.applescript)
@@ -52,6 +52,8 @@ I've divided the scripts into an applications section (scripts specific to an ap
   - [Add|Remove Status Menu Trigger][8111e7c4]
   - [Copy Front Macros AppleScript Trigger](./Keyboard%20Maestro/Copy%20Front%20Macros%20AppleScript%20Trigger.applescript)
   - [Edit Last Executed Macro](./Keyboard%20Maestro/Edit%20Last%20Executed%20Macro.applescript)
+  - [Go To Executed Macro](./Keyboard%20Maestro/Go%20To%20Executed%20Macro.applescript)
+  - [Run Current Macro](./Keyboard%20Maestro/Run%20Current%20Macro.applescript) 🌎
 - [Mail][mail]
   - [Set Color of Text][d1529523]
   - [Make Mail URL][63ba2f90]
@@ -66,12 +68,13 @@ I've divided the scripts into an applications section (scripts specific to an ap
   - [Duplicate for GitHub][ea9fb946]
   - [Insert Dynamic Handler Description](./Script%20Debugger/Insert%20Dynamic%20Handler%20Description.applescript)
   - [Open Used Script Libraries][3c961777]
+  - [Run Front Script](./Script%20Debugger/Run%20Front%20Script.applescript)
   - [Save As Text Script][98e99d57]
   - [Toggle Minimal View][3a899b61]
 
 [2f34cbb7]: ./Finder/Monthly%20Cleanups.applescript
 [3034f6a6]: ./Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript
-[8111e7c4]: ./Keyboard%20Maestro/Add|Remove%20Status%20Menu%20Trigger
+[8111e7c4]: ./Keyboard%20Maestro/Add|Remove%20Status%20Menu%20Trigger.applescript
 [d1529523]: ./Mail/Set%20Color%20of%20Text.applescript
 [63ba2f90]: ./Mail/Make%20Mail%20URL.applescript
 [ff203baf]: ./Script%20Debugger/Duplicate%20Tab.applescript
@@ -91,6 +94,7 @@ I've divided the scripts into an applications section (scripts specific to an ap
   - [Close With Saving](./Document%20Closers/Close%20With%20Saving.applescript)
   - [Close Without Saving](./Document%20Closers/Close%20Without%20Saving.applescript)
 - [System Control][sc]
+  - [Restart AirPort Extreme](./System%20Control/Restart%20AirPort%20Extreme.applescript)
   - [Toggle Bluetooth][25e6a902]
   - [Toggle Hazel][d2434bdc]
   - [Toggle Menu Bar Visibility][a517cb4f]
@@ -98,7 +102,8 @@ I've divided the scripts into an applications section (scripts specific to an ap
 - [Various][global]
   - [Click Script Menu][d1c0746f]
   - [Paste Safari URL With Title][1d8d603d]
-  - [Start|Stop Quicktime Screen Recording][a921fa5d]]
+  - [Start|Stop Quicktime Screen Recording][a921fa5d]
+  - [Play|Pause Apple TV](./Global/Play|Pause%20Apple%20TV.applescript)
 
 [9a704632]: ./Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript
 [3b80a0d2]: ./Document%20Closers/Close%20All%20With%20Saving.applescript

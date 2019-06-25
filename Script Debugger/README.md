@@ -22,6 +22,10 @@ Scripts for use when working in [Script Debugger](https://latenightsw.com/).
 
   - Open the script libraries that are currently in use in the front script.
 
+- [Run Front Script](./Run%20Front%20Script.applescript)
+
+  - Execute the frontmost script globally, great for testing.
+
 - [Save As Text Script](./Save%20As%20Text%20Script.applescript)
 
   - Prompts for a location to save a file as a text script with unix line endings for readability on GitHub.
