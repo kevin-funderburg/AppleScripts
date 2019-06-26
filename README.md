@@ -57,8 +57,7 @@ Clicking the name of the script will show you the script directly, but **make su
 ### Application Scripts
 Application                 |  Scripts
 ---                         |---
- **[Alfred](./Alfred)**     |  [Show Recent Files for Front App][alfShowFiles] 🌎
-  |  
+ **[Alfred](./Alfred)**     |  [Show Recent Files for Front App][a345fg38] 🌎
  **[Calendar](./Calendar)** |  [WFO to Calendar][d2c1694b] 🌎
   |  
  **[Finder][finder]**       |  [Monthly Cleanups][2f34cbb7]
@@ -82,14 +81,14 @@ Application                 |  Scripts
   |
  **[Script Debugger][sdb]** |  [Duplicate Tab][ff203baf]
                             |  [Duplicate for GitHub][ea9fb946]
-                            |  [Insert Dynamic Handler Description][dynamicDescrip]
+                            |  [Insert Dynamic Handler Description][h78j5f3s]
                             |  [Open Used Script Libraries][3c961777]
-                            |  [Run Front Script][runscript] 🌎
+                            |  [Run Front Script][u76g4ds3] 🌎
                             |  [Save As Text Script][98e99d57]
                             |  [Toggle Minimal View][3a899b61]
 
 
-[alfShowFiles]: ./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript
+[a345fg38]: ./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript
 [d2c1694b]: ./Calendar/WFO%20to%20Calendar.applescript
 [2f34cbb7]: ./Finder/Monthly%20Cleanups.applescript
 [8fea9aa4]: ./Finder/Open%20Selection%20in%20iTerm.applescript
@@ -108,9 +107,9 @@ Application                 |  Scripts
 [3d850154]: ./Safari/Do%20Javascript%20Handler.applescript
 [ff203baf]: ./Script%20Debugger/Duplicate%20Tab.applescript
 [ea9fb946]: ./Script%20Debugger/Duplicate%20for%20GitHub.applescript
-[dynamicDescrip]: ./Script%20Debugger/Insert%20Dynamic%20Handler%20Description.applescript
+[h78j5f3s]: ./Script%20Debugger/Insert%20Dynamic%20Handler%20Description.applescript
 [3c961777]: ./Script%20Debugger/Open%20Used%20Script%20Libraries.applescript
-[runscript]: ./Script%20Debugger/Run%20Front%20Script.applescript
+[u76g4ds3]: ./Script%20Debugger/Run%20Front%20Script.applescript
 [98e99d57]: ./Script%20Debugger/Save%20As%20Text%20Script.applescript
 [3a899b61]: ./Script%20Debugger/Toggle%20Minimal%20View.applescript
 
@@ -135,7 +134,7 @@ Context                             |  Scripts
 **[Various][global]**               |  [Click Script Menu][d1c0746f]
                                     |  [Paste Safari URL With Title][1d8d603d]
                                     |  [Start\|Stop Quicktime Screen Recording][a921fa5d]
-                                    |  [Play\|Pause Apple TV][playatv]
+                                    |  [Play\|Pause Apple TV][nh8765gf]
 
 [9a704632]: ./Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript
 [3b80a0d2]: ./Document%20Closers/Close%20All%20With%20Saving.applescript
@@ -150,7 +149,7 @@ Context                             |  Scripts
 [d1c0746f]: ./Global/Click%20Script%20Menu.applescript
 [1d8d603d]: ./Global/Paste%20Safari%20URL%20With%20Title.applescript
 [a921fa5d]: ./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript
-[playatv]: ./Global/Play|Pause%20Apple%20TV.applescript
+[nh8765gf]: ./Global/Play|Pause%20Apple%20TV.applescript
 
 ### Scripts for Script Development
 - [coming soon]
