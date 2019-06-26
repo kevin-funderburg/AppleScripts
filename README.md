@@ -109,13 +109,13 @@ Application                 |  Scripts
 [74151e54]: ./Safari/Duplicate%20Tab.applescript
 [3d850154]: ./Safari/Do%20Javascript%20Handler.applescript
 [225bf283]: ./Safari/Show|Create-Tab.applescript
-[ff203baf]: ./Script%20Debugger/Duplicate%20Tab.applescript
-[ea9fb946]: ./Script%20Debugger/Duplicate%20for%20GitHub.applescript
-[h78j5f3s]: ./Script%20Debugger/Insert%20Dynamic%20Handler%20Description.applescript
-[3c961777]: ./Script%20Debugger/Open%20Used%20Script%20Libraries.applescript
-[u76g4ds3]: ./Script%20Debugger/Run%20Front%20Script.applescript
-[98e99d57]: ./Script%20Debugger/Save%20As%20Text%20Script.applescript
-[3a899b61]: ./Script%20Debugger/Toggle%20Minimal%20View.applescript
+[ff203baf]: ./Script-Debugger/Duplicate-Tab.applescript
+[ea9fb946]: ./Script-Debugger/Duplicate-for-GitHub.applescript
+[h78j5f3s]: ./Script-Debugger/Insert-Dynamic-Handler-Description.applescript
+[3c961777]: ./Script-Debugger/Open-Used-Script-Libraries.applescript
+[u76g4ds3]: ./Script-Debugger/Run-Front-Script.applescript
+[98e99d57]: ./Script-Debugger/Save-As-Text-Script.applescript
+[3a899b61]: ./Script-Debugger/Toggle-Minimal-View.applescript
 
 <a id="Global"></a>
 
