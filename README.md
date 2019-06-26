@@ -56,30 +56,30 @@ Clicking the name of the script will show you the script directly, but **make su
 
 ### Application Scripts
 
-- [Alfred](./Alfred)
+- **[Alfred](./Alfred)**
   - [Show Recent Files for Front App](./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript) 🌎
-- [Calendar](./Calendar)
+- **[Calendar](./Calendar)**
     - [WFO to Calendar](./Calendar/WFO%20to%20Calendar.applescript) 🌎
-- [Finder][finder]
+- **[Finder][finder]**
   - [Monthly Cleanups][2f34cbb7]
   - [Open Selection in iTerm](./Finder/Open%20Selection%20in%20iTerm.applescript)
-- [Keyboard Maestro][km]
+- **[Keyboard Maestro][km]**
   - [Edit Linked or In-Line AppleScript][3034f6a6]
   - [Add|Remove Status Menu Trigger][8111e7c4]
   - [Copy Front Macros AppleScript Trigger](./Keyboard%20Maestro/Copy%20Front%20Macros%20AppleScript%20Trigger.applescript)
   - [Edit Last Executed Macro](./Keyboard%20Maestro/Edit%20Last%20Executed%20Macro.applescript) 🌎
   - [Go To Executed Macro](./Keyboard%20Maestro/Go%20To%20Executed%20Macro.applescript)
   - [Run Current Macro](./Keyboard%20Maestro/Run%20Current%20Macro.applescript) 🌎
-- [Mail][mail]
+- **[Mail][mail]**
   - [Set Color of Text][d1529523]
   - [Make Mail URL][63ba2f90]
   - [Mark All Inbox Messages as Read](./Mail/Mark%20All%20Inbox%20Messages%20as%20Read.applescript)
-- [Safari](./Safari)
+- **[Safari](./Safari)**
   - [Close Left Tab](./Safari/Close%20Left%20Tab.applescript)
   - [Close Right Tab](./Safari/Close%20Right%20Tab.applescript)
   - [Duplicate Tab](./Safari/Duplicate%20Tab.applescript)
   - [Do Javascript Handler](./Safari/Do%20Javascript%20Handler.applescript)
-- [Script Debugger][sdb]
+- **[Script Debugger][sdb]**
   - [Duplicate Tab][ff203baf]
   - [Duplicate for GitHub][ea9fb946]
   - [Insert Dynamic Handler Description](./Script%20Debugger/Insert%20Dynamic%20Handler%20Description.applescript)
@@ -103,19 +103,19 @@ Clicking the name of the script will show you the script directly, but **make su
 
 ### Global Scripts
 
-- [Document Closers][docclosers]
+- **[Document Closers][docclosers]**
   - [Close All Un-Saved Documents][9a704632]
   - [Close All With Saving][3b80a0d2]
   - [Close All Without Saving](./Document%20Closers/Close%20All%20Without%20Saving.applescript)
   - [Close With Saving](./Document%20Closers/Close%20With%20Saving.applescript)
   - [Close Without Saving](./Document%20Closers/Close%20Without%20Saving.applescript)
-- [System Control][sc]
+- **[System Control][sc]**
   - [Restart AirPort Extreme](./System%20Control/Restart%20AirPort%20Extreme.applescript)
   - [Toggle Bluetooth][25e6a902]
   - [Toggle Hazel][d2434bdc]
   - [Toggle Menu Bar Visibility][a517cb4f]
   - [Toggle WiFi](./System%20Control/Toggle%20WiFi.applescript)
-- [Various][global]
+- **[Various][global]**
   - [Click Script Menu][d1c0746f]
   - [Paste Safari URL With Title][1d8d603d]
   - [Start|Stop Quicktime Screen Recording][a921fa5d]
@@ -155,7 +155,10 @@ Clicking the name of the script will show you the script directly, but **make su
 In order for scripts to be accessible via the Script Menu, scripts must be stored in `~/Library/Scripts`, but if you like to keep your scripts synced between devices, this location is a pain. I used to have a [Hazel][hazelapp] rule set up to sync `~/Library/Scripts` to Dropbox that worked fine for years, but I didn't like all the extra processing needed to sync and worse yet I had 2 copies of every script which was messy and got confusing.
 
 
-I realized later that moving all my scripts to `~/Dropbox/Library/Scripts` then creating an alias to that location and moving it `~/Library/Scripts` allows for my scripts to be stored in Dropbox, and still be accessible in the Script Menu! This method works exactly as well with the `~/Library/Script Libraries` folder. Here's a screenshot of what it looks like in Finder.
+I realized later that moving all my scripts to `~/Dropbox/Library/Scripts` then creating an alias to that location and moving it `~/Library` allows for my scripts to be stored in Dropbox, and still be accessible in the Script Menu!
+> This method works exactly as well with the `~/Library/Script Libraries` folder.
+
+Here's a screenshot of what it looks like in Finder.
 
 ![aliasDemo](./imgs/aliasPath.png)
 
@@ -163,10 +166,10 @@ I realized later that moving all my scripts to `~/Dropbox/Library/Scripts` then 
 
 1.  **Make a backup** of the folder your moving to your Desktop just in case you mess up.
 2.  I recommend having the same folder structure in Dropbox so make the folder `~/Dropbox/Library/`
-3.  Copy the folder you want to sync (`~/Library/Scripts/`, `~/Library/Script Libraries/`) and paste into the `~/Dropbox/Library/` folder you made.
+3.  Copy the folder you want to sync (`~/Library/Scripts/` or `~/Library/Script Libraries/`) and paste into the `~/Dropbox/Library/` folder you made.
 4.  Delete the original folder you copied from `~/Library/`
 5.  Select the folder you pasted into `~/Dropbox/Library/` then click `File > Make Alias`
-6.  Move the resulting alias back to `~/Library/`. The result will be like `~/Library/Scripts alias` so rename the alias by removing the "alias" part so it looks like `~/Library/Scripts` and you're good to go!
+6.  Move the resulting alias back to `~/Library/`. The result will be like `~/Library/Scripts alias` so rename the alias by removing the " alias" part so it looks like `~/Library/Scripts` and you're good to go!
 
 - **NOTE**: Symlinks don't work for this method, I originally tried the following command which did make an alias, but then the scripts weren't accessible via the Script Menu.
 
