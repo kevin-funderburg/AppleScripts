@@ -254,7 +254,7 @@ These scripts are released under the [MIT License][mit].
 [finder]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Finder
 [global]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Global
 [km]: ./Keyboard%20Maestro
-[mail]: https://github.com/kevin-funderburg/AppleScripts/tree/master/mail
+[mail]: ./Mail
 [mit]: https://github.com/kevin-funderburg/AppleScripts/blob/master/LICENSE.txt
 [sdb]: ./Script%20Debugger
 [sc]: https://github.com/kevin-funderburg/AppleScripts/blob/master/System%20Control
