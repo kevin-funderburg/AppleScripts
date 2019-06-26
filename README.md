@@ -59,26 +59,21 @@ Application                 |  Scripts
 ---                         |---
  **[Alfred](./Alfred)**     |  [Show Recent Files for Front App][a345fg38] 🌎
  **[Calendar](./Calendar)** |  [WFO to Calendar][d2c1694b] 🌎
-  |  
  **[Finder][finder]**       |  [Monthly Cleanups][2f34cbb7]
                             |  [Open Selection in iTerm][8fea9aa4]
-  |  
 **[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]
                             |  [Add\|Remove Status Menu Trigger][8111e7c4]
                             |  [Copy Front Macro's AppleScript Trigger][4945c497]
                             |  [Edit Last Executed Macro][8265051f] 🌎
                             |  [Go To Executed Macro][4355277b]
                             |  [Run Current Macro][8cbb891d] 🌎
-  |  
 **[Mail][mail]**            |  [Set Color of Text][d1529523]
                             |  [Make Mail URL][63ba2f90]
                             |  [Mark All Inbox Messages as Read][48cdab2f]
- |
  **[Safari](./Safari)**     |  [Close Left Tab][6de3c825]
                             |  [Close Right Tab][2f774cb3]
                             |  [Duplicate Tab][74151e54]
                             |  [Do Javascript Handler][3d850154]
-  |
  **[Script Debugger][sdb]** |  [Duplicate Tab][ff203baf]
                             |  [Duplicate for GitHub][ea9fb946]
                             |  [Insert Dynamic Handler Description][h78j5f3s]
