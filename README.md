@@ -34,7 +34,7 @@ This repo was created for two main reasons.
 With some exceptions, almost all these scripts are executable by themselves via the Script Menu. However, I generally turn to third party automation apps to execute them, including [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp] and [Hazel][hazelapp].
 
 - **Notes on formatting**
-For those who are unaware, the standard file format for AppleScripts is `.scpt` or `.scptd`, but these file types are not readable on GitHub, so for readability's sake, all these scripts have been exported as a .applescript file (which is just a text file). So if you were wondering about the file type, this is the reason.
+For those who are unaware, the standard file format for AppleScripts is `.scpt` or `.scptd`, but these file types are not readable on GitHub, so for readability's sake, all these scripts have been exported as a `.applescript` file (which is just a text file). So if you were wondering about the file type, this is the reason.
 
 - Many of these scripts depend on this [script library][kevinslib] I developed, so if you see the following line at the top of the script, make sure you get that library and place it into `~/Library/Script Libraries` otherwise the script is non-functional.
 
@@ -203,7 +203,7 @@ Here's a screenshot of what it looks like in Finder.
 2.  I recommend having the same folder structure in Dropbox so make the folder `~/Dropbox/Library/`
 3.  Copy the folder you want to sync (`~/Library/Scripts/` or `~/Library/Script Libraries/`) and paste into the `~/Dropbox/Library/` folder you made.
 4.  Delete the original folder you copied from `~/Library/`
-5.  Select the folder you pasted into `~/Dropbox/Library/` then click `File > Make Alias`
+5.  Select the folder you pasted into `~/Dropbox/Library/` then click `File` > `Make Alias`
 6.  Move the resulting alias back to `~/Library/`. The result will be like `~/Library/Scripts alias` so rename the alias by removing the " alias" part so it looks like `~/Library/Scripts` and you're good to go!
 
 - **NOTE**: Symlinks don't work for this method, I originally tried the following command which did make an alias, but then the scripts weren't accessible via the Script Menu.
