@@ -68,19 +68,19 @@ Application                 |  Scripts
 <i></i>                     |  [Go To Executed Macro][4355277b]
 <i></i>                     |  [Run Current Macro][8cbb891d] 🌎
 **[Mail][mail]**            |  [Set Color of Text][d1529523]
-                            |  [Make Mail URL][63ba2f90]
-                            |  [Mark All Inbox Messages as Read][48cdab2f]
+<i></i>                     |  [Make Mail URL][63ba2f90]
+<i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]
  **[Safari](./Safari)**     |  [Close Left Tab][6de3c825]
-                            |  [Close Right Tab][2f774cb3]
-                            |  [Duplicate Tab][74151e54]
-                            |  [Do Javascript Handler][3d850154]
+<i></i>                     |  [Close Right Tab][2f774cb3]
+<i></i>                     |  [Duplicate Tab][74151e54]
+<i></i>                     |  [Do Javascript Handler][3d850154]
  **[Script Debugger][sdb]** |  [Duplicate Tab][ff203baf]
-                            |  [Duplicate for GitHub][ea9fb946]
-                            |  [Insert Dynamic Handler Description][h78j5f3s]
-                            |  [Open Used Script Libraries][3c961777]
-                            |  [Run Front Script][u76g4ds3] 🌎
-                            |  [Save As Text Script][98e99d57]
-                            |  [Toggle Minimal View][3a899b61]
+<i></i>                     |  [Duplicate for GitHub][ea9fb946]
+<i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]
+<i></i>                     |  [Open Used Script Libraries][3c961777]
+<i></i>                     |  [Run Front Script][u76g4ds3] 🌎
+<i></i>                     |  [Save As Text Script][98e99d57]
+<i></i>                     |  [Toggle Minimal View][3a899b61]
 
 
 [a345fg38]: ./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript
@@ -115,21 +115,20 @@ Application                 |  Scripts
 Context                             |  Scripts
 --                                  |--
 **[Document Closers][docclosers]**  |  [Close All Un-Saved Documents][9a704632]
-                                    |  [Close All With Saving][3b80a0d2]
-                                    |  [Close All Without Saving][a5d8c9ea]
-                                    |  [Close With Saving][d370f17e]
-                                    |  [Close Without Saving][dec030b7]
-  |  
+<i></i>                             |  [Close All With Saving][3b80a0d2]
+<i></i>                             |  [Close All Without Saving][a5d8c9ea]
+<i></i>                             |  [Close With Saving][d370f17e]
+<i></i>                             |  [Close Without Saving][dec030b7]  
 **[System Control][sc]**            |  [Restart AirPort Extreme][456bc1d1]
-                                    |  [Toggle Bluetooth][25e6a902]
-                                    |  [Toggle Hazel][d2434bdc]
-                                    |  [Toggle Menu Bar Visibility][a517cb4f]
-                                    |  [Toggle WiFi][aa8be569]
-  |  
+<i></i>                             |  [Toggle Bluetooth][25e6a902]
+<i></i>                             |  [Toggle Hazel][d2434bdc]
+<i></i>                             |  [Toggle Menu Bar Visibility][a517cb4f]
+<i></i>                             |  [Toggle WiFi][aa8be569]
+<i></i>                             |  <i></i>
 **[Various][global]**               |  [Click Script Menu][d1c0746f]
-                                    |  [Paste Safari URL With Title][1d8d603d]
-                                    |  [Start\|Stop Quicktime Screen Recording][a921fa5d]
-                                    |  [Play\|Pause Apple TV][nh8765gf]
+<i></i>                             |  [Paste Safari URL With Title][1d8d603d]
+<i></i>                             |  [Start\|Stop Quicktime Screen Recording][a921fa5d]
+<i></i>                             |  [Play\|Pause Apple TV][nh8765gf]
 
 [9a704632]: ./Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript
 [3b80a0d2]: ./Document%20Closers/Close%20All%20With%20Saving.applescript
