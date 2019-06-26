@@ -125,7 +125,7 @@ Application                 |  Scripts
 
 Context                             |  Scripts
 --                                  |--
-**[Document Closers][docclosers]**  |  [Close All Un-Saved Documents][9a704632]
+**[Document Closers][c98jhawe]**    |  [Close All Un-Saved Documents][9a704632]
 <i></i>                             |  [Close All With Saving][3b80a0d2]
 <i></i>                             |  [Close All Without Saving][a5d8c9ea]
 <i></i>                             |  [Close With Saving][d370f17e]
@@ -142,11 +142,12 @@ Context                             |  Scripts
 <i></i>                             |  [Start\|Stop Quicktime Screen Recording][a921fa5d]
 <i></i>                             |  [Play\|Pause Apple TV][nh8765gf]
 
-[9a704632]: ./Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript
-[3b80a0d2]: ./Document%20Closers/Close%20All%20With%20Saving.applescript
-[a5d8c9ea]: ./Document%20Closers/Close%20All%20Without%20Saving.applescript
-[d370f17e]: ./Document%20Closers/Close%20With%20Saving.applescript
-[dec030b7]: ./Document%20Closers/Close%20Without%20Saving.applescript
+[c98jhawe]: ./Document-Closers
+[9a704632]: ./Document-Closers/Close-All-Un-Saved-Documents.applescript
+[3b80a0d2]: ./Document-Closers/Close-All-With-Saving.applescript
+[a5d8c9ea]: ./Document-Closers/Close-All-Without-Saving.applescript
+[d370f17e]: ./Document-Closers/Close-With-Saving.applescript
+[dec030b7]: ./Document-Closers/Close-Without-Saving.applescript
 [456bc1d1]: ./System-Control/Restart-AirPort-Extreme.applescript
 [25e6a902]: ./System-Control/Toggle-Bluetooth.applescript
 [a517cb4f]: ./System-Control/Toggle-Menu-Bar-Visibility.applescript
@@ -254,7 +255,6 @@ These scripts are released under the [MIT License][mit].
 <!-- Sub directories -->
 
 [blob]: https://github.com/kevin-funderburg/AppleScripts/blob/master/
-[docclosers]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Document%20Closers
 [finder]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Finder
 [global]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Global
 

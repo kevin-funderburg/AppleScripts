@@ -8,8 +8,8 @@ These are simple scripts that are incredibly useful. I have been scripting for y
 
 ## Contents
 
-- [Close All Un-Saved Documents](./Close%20All%20Un-Saved%20Documents.applescript)
-- [Close All With Saving](./Close%20All%20With%20Saving.applescript)
-- [Close All Without Saving](./Close%20All%20Without%20Saving.applescript)
-- [Close With Saving](./Close%20With%20Saving.applescript)
-- [Close Without Saving](./Close%20Without%20Saving.applescript)
+- [Close All Un-Saved Documents](./Close-All-Un-Saved-Documents.applescript)
+- [Close All With Saving](./Close-All-With-Saving.applescript)
+- [Close All Without Saving](./Close-All-Without-Saving.applescript)
+- [Close With Saving](./Close-With-Saving.applescript)
+- [Close Without Saving](./Close-Without-Saving.applescript)
