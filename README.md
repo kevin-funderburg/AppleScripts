@@ -95,6 +95,7 @@ Application                 |  Scripts
 [d2c1694b]: ./Calendar/WFO%20to%20Calendar.applescript
 [2f34cbb7]: ./Finder/Monthly%20Cleanups.applescript
 [8fea9aa4]: ./Finder/Open%20Selection%20in%20iTerm.applescript
+[km]: ./Keyboard-Maestro
 [3034f6a6]: ./Keyboard-Maestro/Edit-Linked-or-In-Line-AppleScript.applescript
 [8111e7c4]: ./Keyboard-Maestro/Add|Remove-Status-Menu-Trigger.applescript
 [4945c497]: ./Keyboard-Maestro/Copy-Front-Macros-AppleScript-Trigger.applescript
@@ -109,6 +110,7 @@ Application                 |  Scripts
 [74151e54]: ./Safari/Duplicate%20Tab.applescript
 [3d850154]: ./Safari/Do%20Javascript%20Handler.applescript
 [225bf283]: ./Safari/Show|Create-Tab.applescript
+[sdb]: ./Script-Debugger
 [ff203baf]: ./Script-Debugger/Duplicate-Tab.applescript
 [ea9fb946]: ./Script-Debugger/Duplicate-for-GitHub.applescript
 [h78j5f3s]: ./Script-Debugger/Insert-Dynamic-Handler-Description.applescript
@@ -255,8 +257,8 @@ These scripts are released under the [MIT License][mit].
 [docclosers]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Document%20Closers
 [finder]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Finder
 [global]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Global
-[km]: ./Keyboard%20Maestro
+
 [mail]: ./Mail
 [mit]: https://github.com/kevin-funderburg/AppleScripts/blob/master/LICENSE.txt
-[sdb]: ./Script%20Debugger
+
 [sc]: https://github.com/kevin-funderburg/AppleScripts/blob/master/System-Control
