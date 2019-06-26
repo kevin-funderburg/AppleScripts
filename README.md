@@ -163,7 +163,7 @@ Context                         |  Scripts
 
 
 
-[jh7839dm]: ./Text-Utilities
+[jh7839dm]: ./Script-Development/Text-Utilities
 [f3fd3ca9]: ./Script-Development/Text-Utilities/Extract-Between.applescript
 [561dd09a]: ./Script-Development/Text-Utilities/Split-Text.applescript
 [5748a92f]: ./Script-Development/Text-Utilities/Transform-Text.applescript
