@@ -80,7 +80,7 @@ Application                 |  Scripts
 <i></i>                     |  [Close Right Tab][2f774cb3]
 <i></i>                     |  [Duplicate Tab][74151e54]
 <i></i>                     |  [Do Javascript Handler][3d850154]
-<i></i>                     |  [Show|Create Tab][225bf283]
+<i></i>                     |  [Show\|Create Tab][225bf283]
 <i></i>                     |  <i></i>  
 **[Script Debugger][sdb]**  |  [Duplicate Tab][ff203baf]
 <i></i>                     |  [Duplicate for GitHub][ea9fb946]
@@ -108,7 +108,7 @@ Application                 |  Scripts
 [2f774cb3]: ./Safari/Close%20Right%20Tab.applescript
 [74151e54]: ./Safari/Duplicate%20Tab.applescript
 [3d850154]: ./Safari/Do%20Javascript%20Handler.applescript
-[225bf283]: ./Safari/Show\|Create-Tab.applescript
+[225bf283]: ./Safari/Show|Create-Tab.applescript
 [ff203baf]: ./Script%20Debugger/Duplicate%20Tab.applescript
 [ea9fb946]: ./Script%20Debugger/Duplicate%20for%20GitHub.applescript
 [h78j5f3s]: ./Script%20Debugger/Insert%20Dynamic%20Handler%20Description.applescript
