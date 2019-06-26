@@ -55,47 +55,62 @@ Clicking the name of the script will show you the script directly, but **make su
 <a id="Applications"></a>
 
 ### Application Scripts
+Application                 |  Scripts
+---                         |---
+ **[Alfred](./Alfred)**     |  [Show Recent Files for Front App][alfShowFiles] 🌎
+  |  
+ **[Calendar](./Calendar)** |  [WFO to Calendar][d2c1694b] 🌎
+  |  
+ **[Finder][finder]**       |  [Monthly Cleanups][2f34cbb7]
+                            |  [Open Selection in iTerm][8fea9aa4]
+  |  
+**[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]
+                            |  [Add\|Remove Status Menu Trigger][8111e7c4]
+                            |  [Copy Front Macro's AppleScript Trigger][4945c497]
+                            |  [Edit Last Executed Macro][8265051f] 🌎
+                            |  [Go To Executed Macro][4355277b]
+                            |  [Run Current Macro][8cbb891d] 🌎
+  |  
+**[Mail][mail]**            |  [Set Color of Text][d1529523]
+                            |  [Make Mail URL][63ba2f90]
+                            |  [Mark All Inbox Messages as Read][48cdab2f]
+ |
+ **[Safari](./Safari)**     |  [Close Left Tab][6de3c825]
+                            |  [Close Right Tab][2f774cb3]
+                            |  [Duplicate Tab][74151e54]
+                            |  [Do Javascript Handler][3d850154]
+  |
+ **[Script Debugger][sdb]** |  [Duplicate Tab][ff203baf]
+                            |  [Duplicate for GitHub][ea9fb946]
+                            |  [Insert Dynamic Handler Description][dynamicDescrip]
+                            |  [Open Used Script Libraries][3c961777]
+                            |  [Run Front Script][runscript] 🌎
+                            |  [Save As Text Script][98e99d57]
+                            |  [Toggle Minimal View][3a899b61]
 
-- **[Alfred](./Alfred)**
-  - [Show Recent Files for Front App](./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript) 🌎
-- **[Calendar](./Calendar)**
-    - [WFO to Calendar](./Calendar/WFO%20to%20Calendar.applescript) 🌎
-- **[Finder][finder]**
-  - [Monthly Cleanups][2f34cbb7]
-  - [Open Selection in iTerm](./Finder/Open%20Selection%20in%20iTerm.applescript)
-- **[Keyboard Maestro][km]**
-  - [Edit Linked or In-Line AppleScript][3034f6a6]
-  - [Add|Remove Status Menu Trigger][8111e7c4]
-  - [Copy Front Macros AppleScript Trigger](./Keyboard%20Maestro/Copy%20Front%20Macros%20AppleScript%20Trigger.applescript)
-  - [Edit Last Executed Macro](./Keyboard%20Maestro/Edit%20Last%20Executed%20Macro.applescript) 🌎
-  - [Go To Executed Macro](./Keyboard%20Maestro/Go%20To%20Executed%20Macro.applescript)
-  - [Run Current Macro](./Keyboard%20Maestro/Run%20Current%20Macro.applescript) 🌎
-- **[Mail][mail]**
-  - [Set Color of Text][d1529523]
-  - [Make Mail URL][63ba2f90]
-  - [Mark All Inbox Messages as Read](./Mail/Mark%20All%20Inbox%20Messages%20as%20Read.applescript)
-- **[Safari](./Safari)**
-  - [Close Left Tab](./Safari/Close%20Left%20Tab.applescript)
-  - [Close Right Tab](./Safari/Close%20Right%20Tab.applescript)
-  - [Duplicate Tab](./Safari/Duplicate%20Tab.applescript)
-  - [Do Javascript Handler](./Safari/Do%20Javascript%20Handler.applescript)
-- **[Script Debugger][sdb]**
-  - [Duplicate Tab][ff203baf]
-  - [Duplicate for GitHub][ea9fb946]
-  - [Insert Dynamic Handler Description](./Script%20Debugger/Insert%20Dynamic%20Handler%20Description.applescript)
-  - [Open Used Script Libraries][3c961777]
-  - [Run Front Script](./Script%20Debugger/Run%20Front%20Script.applescript) 🌎
-  - [Save As Text Script][98e99d57]
-  - [Toggle Minimal View][3a899b61]
 
+[alfShowFiles]: ./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript
+[d2c1694b]: ./Calendar/WFO%20to%20Calendar.applescript
 [2f34cbb7]: ./Finder/Monthly%20Cleanups.applescript
+[8fea9aa4]: ./Finder/Open%20Selection%20in%20iTerm.applescript
 [3034f6a6]: ./Keyboard%20Maestro/Edit%20Linked%20or%20In-Line%20AppleScript.applescript
 [8111e7c4]: ./Keyboard%20Maestro/Add|Remove%20Status%20Menu%20Trigger.applescript
+[4945c497]: ./Keyboard%20Maestro/Copy%20Front%20Macros%20AppleScript%20Trigger.applescript
+[8265051f]: ./Keyboard%20Maestro/Edit%20Last%20Executed%20Macro.applescript
+[4355277b]: ./Keyboard%20Maestro/Go%20To%20Executed%20Macro.applescript
+[8cbb891d]: ./Keyboard%20Maestro/Run%20Current%20Macro.applescript
 [d1529523]: ./Mail/Set%20Color%20of%20Text.applescript
 [63ba2f90]: ./Mail/Make%20Mail%20URL.applescript
+[48cdab2f]: ./Mail/Mark%20All%20Inbox%20Messages%20as%20Read.applescript
+[6de3c825]: ./Safari/Close%20Left%20Tab.applescript
+[2f774cb3]: ./Safari/Close%20Right%20Tab.applescript
+[74151e54]: ./Safari/Duplicate%20Tab.applescript
+[3d850154]: ./Safari/Do%20Javascript%20Handler.applescript
 [ff203baf]: ./Script%20Debugger/Duplicate%20Tab.applescript
 [ea9fb946]: ./Script%20Debugger/Duplicate%20for%20GitHub.applescript
+[dynamicDescrip]: ./Script%20Debugger/Insert%20Dynamic%20Handler%20Description.applescript
 [3c961777]: ./Script%20Debugger/Open%20Used%20Script%20Libraries.applescript
+[runscript]: ./Script%20Debugger/Run%20Front%20Script.applescript
 [98e99d57]: ./Script%20Debugger/Save%20As%20Text%20Script.applescript
 [3a899b61]: ./Script%20Debugger/Toggle%20Minimal%20View.applescript
 
@@ -103,32 +118,39 @@ Clicking the name of the script will show you the script directly, but **make su
 
 ### Global Scripts
 
-- **[Document Closers][docclosers]**
-  - [Close All Un-Saved Documents][9a704632]
-  - [Close All With Saving][3b80a0d2]
-  - [Close All Without Saving](./Document%20Closers/Close%20All%20Without%20Saving.applescript)
-  - [Close With Saving](./Document%20Closers/Close%20With%20Saving.applescript)
-  - [Close Without Saving](./Document%20Closers/Close%20Without%20Saving.applescript)
-- **[System Control][sc]**
-  - [Restart AirPort Extreme](./System%20Control/Restart%20AirPort%20Extreme.applescript)
-  - [Toggle Bluetooth][25e6a902]
-  - [Toggle Hazel][d2434bdc]
-  - [Toggle Menu Bar Visibility][a517cb4f]
-  - [Toggle WiFi](./System%20Control/Toggle%20WiFi.applescript)
-- **[Various][global]**
-  - [Click Script Menu][d1c0746f]
-  - [Paste Safari URL With Title][1d8d603d]
-  - [Start|Stop Quicktime Screen Recording][a921fa5d]
-  - [Play|Pause Apple TV](./Global/Play|Pause%20Apple%20TV.applescript)
+Context                             |  Scripts
+--                                  |--
+**[Document Closers][docclosers]**  |  [Close All Un-Saved Documents][9a704632]
+                                    |  [Close All With Saving][3b80a0d2]
+                                    |  [Close All Without Saving][a5d8c9ea]
+                                    |  [Close With Saving][d370f17e]
+                                    |  [Close Without Saving][dec030b7]
+  |  
+**[System Control][sc]**            |  [Restart AirPort Extreme][456bc1d1]
+                                    |  [Toggle Bluetooth][25e6a902]
+                                    |  [Toggle Hazel][d2434bdc]
+                                    |  [Toggle Menu Bar Visibility][a517cb4f]
+                                    |  [Toggle WiFi][aa8be569]
+  |  
+**[Various][global]**               |  [Click Script Menu][d1c0746f]
+                                    |  [Paste Safari URL With Title][1d8d603d]
+                                    |  [Start\|Stop Quicktime Screen Recording][a921fa5d]
+                                    |  [Play\|Pause Apple TV][playatv]
 
 [9a704632]: ./Document%20Closers/Close%20All%20Un-Saved%20Documents.applescript
 [3b80a0d2]: ./Document%20Closers/Close%20All%20With%20Saving.applescript
+[a5d8c9ea]: ./Document%20Closers/Close%20All%20Without%20Saving.applescript
+[d370f17e]: ./Document%20Closers/Close%20With%20Saving.applescript
+[dec030b7]: ./Document%20Closers/Close%20Without%20Saving.applescript
+[456bc1d1]: ./System%20Control/Restart%20AirPort%20Extreme.applescript
 [25e6a902]: ./System%20Control/Toggle%20Bluetooth.applescript
 [a517cb4f]: ./System%20Control/Toggle%20Menu%20Bar%20Visibility.applescript
 [d2434bdc]: ./System%20Control/Toggle%20Hazel.applescript
+[aa8be569]: ./System%20Control/Toggle%20WiFi.applescript
 [d1c0746f]: ./Global/Click%20Script%20Menu.applescript
 [1d8d603d]: ./Global/Paste%20Safari%20URL%20With%20Title.applescript
 [a921fa5d]: ./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript
+[playatv]: ./Global/Play|Pause%20Apple%20TV.applescript
 
 ### Scripts for Script Development
 - [coming soon]
