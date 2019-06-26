@@ -2,20 +2,20 @@
 
 # My AppleScripts
 
-Collection of AppleScripts I've developed over the years for many purposes. Some are great as standalone scripts while others are great for incorporation with others.
+Collection of AppleScripts I've developed or acquired over the years for many purposes. Some are great as standalone scripts while others are great for incorporation with others.
 
 > This repo is in continuous development and will be updated as scripts are developed (and as I have time).
 
-<!-- TOC depthFrom:2 -->
+<!-- TOC -->
 
 - [About](#about)
 - [Contents](#contents)
     - [Application Scripts](#application-scripts)
     - [Global Scripts](#global-scripts)
+    - [Scripts for Script Development](#scripts-for-script-development)
 - [Tools](#tools)
 - [Tips](#tips)
     - [Keep Scripts In Sync Using Aliases](#keep-scripts-in-sync-using-aliases)
-        - [How to do it:](#how-to-do-it)
 - [Licensing & thanks](#licensing--thanks)
 - [Changelog](#changelog)
 - [To-Do](#to-do)
@@ -26,9 +26,16 @@ Collection of AppleScripts I've developed over the years for many purposes. Some
 
 ## About
 
-These apps are mostly launched via [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp], [Hazel][hazelapp].
+This repo was created for two main reasons.
+1. Provide others with useful scripts for automating their workflow on macOS.
+2. As a tool for AppleScript education by providing example scripts, tools, tips and AppleScript resources.
 
-Many of these apps depend on this [script library][kevinslib] I developed, so if you see this at the top of the script, make sure you get that library.
+With some exceptions, almost all these scripts are executable by themselves via the Script Menu. However, I generally turn to third party automation apps to execute them, including [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp] and [Hazel][hazelapp].
+
+- **Notes on formatting**
+For those who are unaware, the standard file format for AppleScripts is `.scpt` or `.scptd`, but these file types are not readable on GitHub, so for readability's sake, all these scripts have been exported as a .applescript file (which is just a text file). So if you were wondering about the file type, this is the reason.
+
+- Many of these scripts depend on this [script library][kevinslib] I developed, so if you see the following line at the top of the script, make sure you get that library and place it into `~/Library/Script Libraries` otherwise the script is non-functional.
 
 ```AppleScript
 use kl : script "Kevin's Library"
@@ -36,7 +43,13 @@ use kl : script "Kevin's Library"
 
 ## Contents
 
-I've divided the scripts into an applications section (scripts specific to an app) and a Global section where they can be used anywhere. Clicking the name of the script will show you the script directly, but **make sure to view the README for each section** by clicking the title of the section.
+I've divided the scripts into 3 sections:
+1. **Application Scripts** - Scripts designed for use in a specific application.
+2. **Global Scripts** - Scripts that are meant to be executed in any application.
+    - _NOTE_: There are scripts here that are specific to an application but are meant to executed globally, so the scripts in the Application Scripts section with the globe icon [ 🌎 ] next to them imply global scope for that specific application.
+3. **Scripts for Script Development** - These scripts are useful handlers that can be copied into scripts or into a script library that makes scripting much simpler.
+
+Clicking the name of the script will show you the script directly, but **make sure to view the README for each section** by clicking the title of the section to see instructions/explanations/demos.
 
 <a id="Applications"></a>
 
@@ -44,6 +57,8 @@ I've divided the scripts into an applications section (scripts specific to an ap
 
 - [Alfred](./Alfred)
   - [Show Recent Files for Front App](./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript) 🌎
+- [Calendar](./Calendar)
+    - [WFO to Calendar](./Calendar/WFO%20to%20Calendar.applescript) 🌎
 - [Finder][finder]
   - [Monthly Cleanups][2f34cbb7]
   - [Open Selection in iTerm](./Finder/Open%20Selection%20in%20iTerm.applescript)
@@ -83,7 +98,7 @@ I've divided the scripts into an applications section (scripts specific to an ap
 [98e99d57]: ./Script%20Debugger/Save%20As%20Text%20Script.applescript
 [3a899b61]: ./Script%20Debugger/Toggle%20Minimal%20View.applescript
 
-<a id="Various"></a>
+<a id="Global"></a>
 
 ### Global Scripts
 
@@ -114,30 +129,36 @@ I've divided the scripts into an applications section (scripts specific to an ap
 [1d8d603d]: ./Global/Paste%20Safari%20URL%20With%20Title.applescript
 [a921fa5d]: ./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript
 
----
+### Scripts for Script Development
+- [coming soon]
+
+* * *
 
 ## Tools
 
-- [Script Debugger](https://latenightsw.com/) - By far the most valuable scripting tool. When I first started learning scripting with Script Editor, the process was slow and frustrating. With Script Debugger I learned 100 times faster and understood everything much easier.
-- [UI Browser](https://pfiddlesoft.com/uibrowser/) - Invaluable tool for UI scripting. UI scripting is brutal on its own, and slightly less brutal with the Accessibility Inspector, but UI Browser makes it so much simpler, I tried it once and knew I had to get it.
-- [JSON Helper](https://apps.apple.com/us/app/json-helper-for-applescript/id453114608?mt=12) - Makes working with JSON so much simpler, incredibly useful and free!
-- [Location Helper](https://apps.apple.com/us/app/location-helper/id488536386?mt=12) - Find your geo code location in a snap, and for free!
-- [Atom](https://atom.io/) plugins
+- **[Script Debugger](https://latenightsw.com/)** - By far the most valuable scripting tool. When I first started learning scripting with Script Editor, the process was slow and frustrating. With Script Debugger I learned 100 times faster and understood everything much easier.
+- **[UI Browser](https://pfiddlesoft.com/uibrowser/)** - Invaluable tool for UI scripting. UI scripting is brutal on its own, and slightly less brutal with the Accessibility Inspector, but UI Browser makes it so much simpler, I tried it once and knew I had to get it.
+- **[JSON Helper](https://apps.apple.com/us/app/json-helper-for-applescript/id453114608?mt=12)** - Makes working with JSON so much simpler, incredibly useful and **free**!
+- **[Location Helper](https://apps.apple.com/us/app/location-helper/id488536386?mt=12)** - Find your geo code location in a snap, and for **free**!
+- **[Dash](https://kapeli.com/dash)** - Fantastic tool for API browsing, after installation go to `Preferences > Downloads` and install the AppleScript docset to have blazing fast access to AppleScript documentation, plus its **free**!
+- **[Atom Packages](https://atom.io/packages)** (I do all my script writing in Script Debugger but most of my Markdown stuff in [Atom](https://atom.io/) so these are very useful.)
   - [atom-applescript](https://github.com/franzheidl/atom-applescript) - adds language support to Atom so you can view AppleScript syntax
   - [build-osa](https://github.com/idleberg/atom-build-osa) - Lets you build and execute AppleScripts from Atom.
 
----
+* * *
 
 ## Tips
 
 ### Keep Scripts In Sync Using Aliases
 
-In order for scripts to be accessible via the Script Menu, scripts must be stored in `~/Library/Scripts`, but if you like to keep your scripts synced between devices, this location is a pain. I used to have a [Hazel][hazelapp] rule set up to sync `~/Library/Scripts` to Dropbox that worked fine for years, but I didn't like all the extra processing needed to sync and worse yet I had 2 copies of every script which was messy and got confusing.<br><br>
+In order for scripts to be accessible via the Script Menu, scripts must be stored in `~/Library/Scripts`, but if you like to keep your scripts synced between devices, this location is a pain. I used to have a [Hazel][hazelapp] rule set up to sync `~/Library/Scripts` to Dropbox that worked fine for years, but I didn't like all the extra processing needed to sync and worse yet I had 2 copies of every script which was messy and got confusing.
+
+
 I realized later that moving all my scripts to `~/Dropbox/Library/Scripts` then creating an alias to that location and moving it `~/Library/Scripts` allows for my scripts to be stored in Dropbox, and still be accessible in the Script Menu! This method works exactly as well with the `~/Library/Script Libraries` folder. Here's a screenshot of what it looks like in Finder.
 
 ![aliasDemo](./imgs/aliasPath.png)
 
-#### How to do it:
+**How to do it:**
 
 1.  **Make a backup** of the folder your moving to your Desktop just in case you mess up.
 2.  I recommend having the same folder structure in Dropbox so make the folder `~/Dropbox/Library/`
@@ -148,10 +169,16 @@ I realized later that moving all my scripts to `~/Dropbox/Library/Scripts` then 
 
 - **NOTE**: Symlinks don't work for this method, I originally tried the following command which did make an alias, but then the scripts weren't accessible via the Script Menu.
 
-
+    ```shell
     ln -s ~/Library/Scripts ~/Dropbox/Library/Scripts/
+    ```
 
----
+* * *
+
+## Resources
+- [AppleScript Language Guide](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) - Necessary for efficient script development, explains everything about how to script with AppleScript. (I highly recommend the [Dash](https://kapeli.com/dash) version though, much faster and easier to use)
+- [Macscripter.net](https://macscripter.net/) - Forum for AppleScripters to post examples and ask questions. Definitely create a free account.
+
 
 ## Licensing & thanks
 
