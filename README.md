@@ -145,11 +145,11 @@ Context                             |  Scripts
 [a5d8c9ea]: ./Document%20Closers/Close%20All%20Without%20Saving.applescript
 [d370f17e]: ./Document%20Closers/Close%20With%20Saving.applescript
 [dec030b7]: ./Document%20Closers/Close%20Without%20Saving.applescript
-[456bc1d1]: ./System%20Control/Restart%20AirPort%20Extreme.applescript
-[25e6a902]: ./System%20Control/Toggle%20Bluetooth.applescript
-[a517cb4f]: ./System%20Control/Toggle%20Menu%20Bar%20Visibility.applescript
-[d2434bdc]: ./System%20Control/Toggle%20Hazel.applescript
-[aa8be569]: ./System%20Control/Toggle%20WiFi.applescript
+[456bc1d1]: ./System-Control/Restart-AirPort-Extreme.applescript
+[25e6a902]: ./System-Control/Toggle-Bluetooth.applescript
+[a517cb4f]: ./System-Control/Toggle-Menu-Bar-Visibility.applescript
+[d2434bdc]: ./System-Control/Toggle-Hazel.applescript
+[aa8be569]: ./System-Control/Toggle-WiFi.applescript
 [d1c0746f]: ./Global/Click%20Script%20Menu.applescript
 [1d8d603d]: ./Global/Paste%20Safari%20URL%20With%20Title.applescript
 [a921fa5d]: ./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript
@@ -259,4 +259,4 @@ These scripts are released under the [MIT License][mit].
 [mail]: ./Mail
 [mit]: https://github.com/kevin-funderburg/AppleScripts/blob/master/LICENSE.txt
 [sdb]: ./Script%20Debugger
-[sc]: https://github.com/kevin-funderburg/AppleScripts/blob/master/System%20Control
+[sc]: https://github.com/kevin-funderburg/AppleScripts/blob/master/System-Control
