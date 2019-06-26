@@ -1,4 +1,4 @@
--- This script requires the Home app to be installed and your Apple TV is connected
+# This script requires the Home app to be installed and your Apple TV is connected
 -- You may want to update the name of the Apple TV below
 try
     tell application "Home"
