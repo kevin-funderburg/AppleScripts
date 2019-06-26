@@ -55,13 +55,14 @@ Clicking the name of the script will show you the script directly, but **make su
 <a id="Applications"></a>
 
 ### Application Scripts
+
 Application                 |  Scripts
 ---                         |---
- **[Alfred](./Alfred)**     |  [Show Recent Files for Front App][a345fg38] 🌎
- <i></i>                    |  <i></i>
- **[Calendar](./Calendar)** |  [WFO to Calendar][d2c1694b] 🌎
- <i></i>                    |  <i></i>
- **[Finder][finder]**       |  [Monthly Cleanups][2f34cbb7]
+**[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38] 🌎
+<i></i>                     |  <i></i>
+**[Calendar](./Calendar)**  |  [WFO to Calendar][d2c1694b] 🌎
+<i></i>                     |  <i></i>
+**[Finder][finder]**        |  [Monthly Cleanups][2f34cbb7]
 <i></i>                     |  [Open Selection in iTerm][8fea9aa4]
 <i></i>                     |  <i></i>
 **[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]
@@ -75,12 +76,12 @@ Application                 |  Scripts
 <i></i>                     |  [Make Mail URL][63ba2f90]
 <i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]
 <i></i>                     |  <i></i>
- **[Safari](./Safari)**     |  [Close Left Tab][6de3c825]
+**[Safari](./Safari)**      |  [Close Left Tab][6de3c825]
 <i></i>                     |  [Close Right Tab][2f774cb3]
 <i></i>                     |  [Duplicate Tab][74151e54]
 <i></i>                     |  [Do Javascript Handler][3d850154]
 <i></i>                     |  <i></i>  
- **[Script Debugger][sdb]** |  [Duplicate Tab][ff203baf]
+**[Script Debugger][sdb]**  |  [Duplicate Tab][ff203baf]
 <i></i>                     |  [Duplicate for GitHub][ea9fb946]
 <i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]
 <i></i>                     |  [Open Used Script Libraries][3c961777]
@@ -153,7 +154,13 @@ Context                             |  Scripts
 [nh8765gf]: ./Global/Play|Pause%20Apple%20TV.applescript
 
 ### Scripts for Script Development
-- [coming soon]
+
+Context                         |  Scripts
+--                              |--
+**[Text Utilities][jh7839dm]**  |  [Transform Text][5748a92f]
+
+[jh7839dm]: ./Text-Utilities
+[5748a92f]: ./Script-Development/Text-Utilities/Transform-Text.applescript
 
 * * *
 
