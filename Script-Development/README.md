@@ -4,7 +4,10 @@ These scripts are generally to make development of scripts easier. They can be c
 
 ## Contents
 
+- [Extract Between][f3fd3ca9]
+- [Split Text][561dd09a]
 - [Transform Text][5748a92f]
 
-
+[f3fd3ca9]: ./Extract-Between.applescript
+[561dd09a]: ./Split-Text.applescript
 [5748a92f]: ./Transform-Text.applescript

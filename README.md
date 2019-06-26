@@ -157,9 +157,15 @@ Context                             |  Scripts
 
 Context                         |  Scripts
 --                              |--
-**[Text Utilities][jh7839dm]**  |  [Transform Text][5748a92f]
+**[Text Utilities][jh7839dm]**  |  [Extract Between][f3fd3ca9]
+<i></i>                         |  [Split Text][561dd09a]
+<i></i>                         |  [Transform Text][5748a92f]
+
+
 
 [jh7839dm]: ./Text-Utilities
+[f3fd3ca9]: ./Script-Development/Text-Utilities/Extract-Between.applescript
+[561dd09a]: ./Script-Development/Text-Utilities/Split-Text.applescript
 [5748a92f]: ./Script-Development/Text-Utilities/Transform-Text.applescript
 
 * * *
