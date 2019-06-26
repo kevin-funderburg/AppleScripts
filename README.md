@@ -60,7 +60,7 @@ Application                 |  Scripts
  **[Alfred](./Alfred)**     |  [Show Recent Files for Front App][a345fg38] 🌎
  **[Calendar](./Calendar)** |  [WFO to Calendar][d2c1694b] 🌎
  **[Finder][finder]**       |  [Monthly Cleanups][2f34cbb7]
-                            |  [Open Selection in iTerm][8fea9aa4]
+<i></i>                     |  [Open Selection in iTerm][8fea9aa4]
 **[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]
                             |  [Add\|Remove Status Menu Trigger][8111e7c4]
                             |  [Copy Front Macro's AppleScript Trigger][4945c497]
