@@ -58,22 +58,28 @@ Clicking the name of the script will show you the script directly, but **make su
 Application                 |  Scripts
 ---                         |---
  **[Alfred](./Alfred)**     |  [Show Recent Files for Front App][a345fg38] 🌎
+ <i></i>                    |  <i></i>
  **[Calendar](./Calendar)** |  [WFO to Calendar][d2c1694b] 🌎
+ <i></i>                    |  <i></i>
  **[Finder][finder]**       |  [Monthly Cleanups][2f34cbb7]
 <i></i>                     |  [Open Selection in iTerm][8fea9aa4]
+<i></i>                     |  <i></i>
 **[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]
 <i></i>                     |  [Add\|Remove Status Menu Trigger][8111e7c4]
 <i></i>                     |  [Copy Front Macro's AppleScript Trigger][4945c497]
 <i></i>                     |  [Edit Last Executed Macro][8265051f] 🌎
 <i></i>                     |  [Go To Executed Macro][4355277b]
 <i></i>                     |  [Run Current Macro][8cbb891d] 🌎
+<i></i>                     |  <i></i>
 **[Mail][mail]**            |  [Set Color of Text][d1529523]
 <i></i>                     |  [Make Mail URL][63ba2f90]
 <i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]
+<i></i>                     |  <i></i>
  **[Safari](./Safari)**     |  [Close Left Tab][6de3c825]
 <i></i>                     |  [Close Right Tab][2f774cb3]
 <i></i>                     |  [Duplicate Tab][74151e54]
 <i></i>                     |  [Do Javascript Handler][3d850154]
+<i></i>                     |  <i></i>  
  **[Script Debugger][sdb]** |  [Duplicate Tab][ff203baf]
 <i></i>                     |  [Duplicate for GitHub][ea9fb946]
 <i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]
@@ -119,6 +125,7 @@ Context                             |  Scripts
 <i></i>                             |  [Close All Without Saving][a5d8c9ea]
 <i></i>                             |  [Close With Saving][d370f17e]
 <i></i>                             |  [Close Without Saving][dec030b7]  
+<i></i>                             |  <i></i>
 **[System Control][sc]**            |  [Restart AirPort Extreme][456bc1d1]
 <i></i>                             |  [Toggle Bluetooth][25e6a902]
 <i></i>                             |  [Toggle Hazel][d2434bdc]
