@@ -8,17 +8,19 @@ Collection of AppleScripts I've developed or acquired over the years for many pu
 
 <!-- TOC -->
 
-- [About](#about)
-- [Contents](#contents)
-    - [Application Scripts](#application-scripts)
-    - [Global Scripts](#global-scripts)
-    - [Scripts for Script Development](#scripts-for-script-development)
-- [Tools](#tools)
-- [Tips](#tips)
-    - [Keep Scripts In Sync Using Aliases](#keep-scripts-in-sync-using-aliases)
-- [Licensing & thanks](#licensing--thanks)
-- [Changelog](#changelog)
-- [To-Do](#to-do)
+- [My AppleScripts](#my-applescripts)
+    - [About](#about)
+    - [Contents](#contents)
+        - [Application Scripts](#application-scripts)
+        - [Global Scripts](#global-scripts)
+        - [Scripts for Script Development](#scripts-for-script-development)
+    - [Tools](#tools)
+    - [Tips](#tips)
+        - [Keep Scripts In Sync Using Aliases](#keep-scripts-in-sync-using-aliases)
+    - [Resources](#resources)
+    - [Licensing & thanks](#licensing--thanks)
+    - [Changelog](#changelog)
+    - [To-Do](#to-do)
 
 <!-- /TOC -->
 
