@@ -91,10 +91,10 @@ Application                 |  Scripts
 <i></i>                     |  [Toggle Minimal View][3a899b61]
 
 
-[a345fg38]: ./Alfred/Show%20Recent%20Files%20for%20Front%20App.applescript
-[d2c1694b]: ./Calendar/WFO%20to%20Calendar.applescript
-[2f34cbb7]: ./Finder/Monthly%20Cleanups.applescript
-[8fea9aa4]: ./Finder/Open%20Selection%20in%20iTerm.applescript
+[a345fg38]: ./Alfred/Show-Recent-Files-for-Front-App.applescript
+[d2c1694b]: ./Calendar/WFO-to-Calendar.applescript
+[2f34cbb7]: ./Finder/Monthly-Cleanups.applescript
+[8fea9aa4]: ./Finder/Open-Selection-in-iTerm.applescript
 [km]: ./Keyboard-Maestro
 [3034f6a6]: ./Keyboard-Maestro/Edit-Linked-or-In-Line-AppleScript.applescript
 [8111e7c4]: ./Keyboard-Maestro/Add|Remove-Status-Menu-Trigger.applescript
@@ -102,13 +102,13 @@ Application                 |  Scripts
 [8265051f]: ./Keyboard-Maestro/Edit-Last-Executed-Macro.applescript
 [4355277b]: ./Keyboard-Maestro/Go-To-Executed-Macro.applescript
 [8cbb891d]: ./Keyboard-Maestro/Run-Current-Macro.applescript
-[d1529523]: ./Mail/Set%20Color%20of%20Text.applescript
-[63ba2f90]: ./Mail/Make%20Mail%20URL.applescript
-[48cdab2f]: ./Mail/Mark%20All%20Inbox%20Messages%20as%20Read.applescript
-[6de3c825]: ./Safari/Close%20Left%20Tab.applescript
-[2f774cb3]: ./Safari/Close%20Right%20Tab.applescript
-[74151e54]: ./Safari/Duplicate%20Tab.applescript
-[3d850154]: ./Safari/Do%20Javascript%20Handler.applescript
+[d1529523]: ./Mail/Set-Color-of-Text.applescript
+[63ba2f90]: ./Mail/Make-Mail-URL.applescript
+[48cdab2f]: ./Mail/Mark-All-Inbox-Messages-as-Read.applescript
+[6de3c825]: ./Safari/Close-Left-Tab.applescript
+[2f774cb3]: ./Safari/Close-Right-Tab.applescript
+[74151e54]: ./Safari/Duplicate-Tab.applescript
+[3d850154]: ./Safari/Do-Javascript-Handler.applescript
 [225bf283]: ./Safari/Show|Create-Tab.applescript
 [sdb]: ./Script-Debugger
 [ff203baf]: ./Script-Debugger/Duplicate-Tab.applescript
@@ -141,6 +141,7 @@ Context                             |  Scripts
 <i></i>                             |  [Paste Safari URL With Title][1d8d603d]
 <i></i>                             |  [Start\|Stop Quicktime Screen Recording][a921fa5d]
 <i></i>                             |  [Play\|Pause Apple TV][nh8765gf]
+<i></i>                             |  {++KEYCHAIN ACCESS++}
 
 [c98jhawe]: ./Document-Closers
 [9a704632]: ./Document-Closers/Close-All-Un-Saved-Documents.applescript
@@ -153,10 +154,10 @@ Context                             |  Scripts
 [a517cb4f]: ./System-Control/Toggle-Menu-Bar-Visibility.applescript
 [d2434bdc]: ./System-Control/Toggle-Hazel.applescript
 [aa8be569]: ./System-Control/Toggle-WiFi.applescript
-[d1c0746f]: ./Global/Click%20Script%20Menu.applescript
-[1d8d603d]: ./Global/Paste%20Safari%20URL%20With%20Title.applescript
-[a921fa5d]: ./Global/Start|Stop%20Quicktime%20Screen%20Recording.applescript
-[nh8765gf]: ./Global/Play|Pause%20Apple%20TV.applescript
+[d1c0746f]: ./Global/Click-Script-Menu.applescript
+[1d8d603d]: ./Global/Paste-Safari-URL-With-Title.applescript
+[a921fa5d]: ./Global/Start|Stop-Quicktime-Screen-Recording.applescript
+[nh8765gf]: ./Global/Play|Pause-Apple-TV.applescript
 
 ### Scripts for Script Development
 
