@@ -1,0 +1,1 @@
+error [[template:errMsg]] number [[template:errNum]]

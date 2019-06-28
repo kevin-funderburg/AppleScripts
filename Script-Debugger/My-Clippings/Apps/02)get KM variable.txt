@@ -1,0 +1,3 @@
+tell application "Keyboard Maestro Engine"
+	set [[linked-template:varName]] to getvariable "km__[[linked-template:varName]]"
+end tell

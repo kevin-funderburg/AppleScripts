@@ -2,36 +2,39 @@
 
 # Script Debugger Scripts
 
-Scripts for use when working in [Script Debugger](https://latenightsw.com/).
+Scripts and clippings for use when working in [Script Debugger](https://latenightsw.com/).
+
+> Although not needed, the shortcut keys I use to execute these via [Keyboard Maestro][kmapp] or [Alfred][alfredapp] are included in case you're interested
 
 ## Contents
 
-- [Duplicate Tab](./Duplicate-Tab.applescript)
-
-  - Duplicates the front tab, useful for making edits without breaking what is already written.
+- [Duplicate Tab](./Duplicate-Tab.applescript) <kbd>F7</kbd>
+    - Duplicates the front tab, useful for making edits without breaking what is already written.
 
 - [Duplicate for GitHub](./Duplicate-for-GitHub.applescript)
-
-  - This duplicates the front script in its current file location as a .applescript file with unix style line endings so it is readable on GitHub.
+    - This duplicates the front script in its current file location as a `.applescript` file with unix style line endings so it is readable on GitHub.
 
 - [Insert Dynamic Handler Description](./Insert-Dynamic-Handler-Description.applescript)
-
-  - Insert a handler description at the beginning of the handler currently selected. The description will inserted by creating a Script Debugger clipping dynamically with the handler's name and parameters.
+    - Insert a handler description at the beginning of the handler currently selected. The description will inserted by creating a Script Debugger clipping _dynamically_ with the handler's name and parameters.
+    - Check out the demo below.
 
   ![demo](../imgs/sdb-dynamicdescription.gif)
 
-- [Open Used Script Libraries](./Open-Used-Script-Libraries.applescript)
+- [Open Used Script Libraries](./Open-Used-Script-Libraries.applescript) <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
+    - Open the script libraries that are currently in use in the front script.
 
-  - Open the script libraries that are currently in use in the front script.
+- [Run Front Script](./Run-Front-Script.applescript) :earth_americas: <kbd>hyperkey</kbd><kbd>R</kbd>
+    - Execute the frontmost script globally, I use this constantly for testing scripts in other applications.
 
-- [Run Front Script](./Run-Front-Script.applescript)
+- [Save As Text Script](./Save-As-Text-Script.applescript) <kbd>⌃</kbd><kbd>S</kbd>
+    - Prompts for a location to save a file as a text script with unix line endings for readability on GitHub.
 
-  - Execute the frontmost script globally, great for testing.
+- [Toggle Minimal View](./Toggle-Minimal-View.applescript) <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
+    - Hides/Shows the toolbar, sidebar, and logging panel.
 
-- [Save As Text Script](./Save-As-Text-Script.applescript)
+- [My Clippings](./My-Clippings)
+    - Custom clippings I've made over the years. To use them save the `.txt` files into `~/Library/Application Support/Script Debugger 7/Clippings`
 
-  - Prompts for a location to save a file as a text script with unix line endings for readability on GitHub.
 
-- [Toggle Minimal View](./Toggle-Minimal-View.applescript)
-
-  - Hides/Shows the toolbar, sidebar, and logging panel.
+[kmapp]: https://www.keyboardmaestro.com/
+[alfredapp]: https://www.alfredapp.com/

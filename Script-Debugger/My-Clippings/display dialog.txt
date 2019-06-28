@@ -1,0 +1,1 @@
+display dialog "[[template:message]]" buttons {[[template:"Cancel", "OK"]]} default button [[template:"OK"]]

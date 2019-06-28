@@ -89,8 +89,8 @@ Application                 |  Scripts                                          
 **[Script Debugger][sdb]**  |  [Duplicate Tab][ff203baf]                                    | <kbd>F7</kbd>
 <i></i>                     |  [Duplicate for GitHub][ea9fb946]                             | <i></i>
 <i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]               | <i></i>
-<i></i>                     |  [Open Used Script Libraries][3c961777]                       | <kbd>⌃</kbd> <kbd>⌥</kbd> <kbd>O</kbd>
-<i></i>                     |  [Run Front Script][u76g4ds3] :earth_americas:                | <kbd>hyperkey</kbd> <kbd>R</kbd>
+<i></i>                     |  [Open Used Script Libraries][3c961777]                       | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
+<i></i>                     |  [Run Front Script][u76g4ds3] :earth_americas:                | <kbd>hyperkey</kbd><kbd>R</kbd>
 <i></i>                     |  [Save As Text Script][98e99d57]                              | <kbd>⌃</kbd> <kbd>S</kbd>
 <i></i>                     |  [Toggle Minimal View][3a899b61]                              | <kbd>⌘</kbd> <kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>M</kbd>
 

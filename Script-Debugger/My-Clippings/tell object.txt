@@ -1,0 +1,3 @@
+tell [[template:object]]
+	[[selected-lines:--tell statement goes here]]
+end tell

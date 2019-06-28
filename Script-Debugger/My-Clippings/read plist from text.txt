@@ -1,0 +1,1 @@
+tell application "System Events"	set [[template:info]] to value of (make property list item with properties {text:[[template:xmlText]]})end tell
