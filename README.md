@@ -66,7 +66,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  <i></i>                                                      | <i></i>
 **[Calendar](./Calendar)**  |  [WFO to Calendar][d2c1694b] :earth_americas:                 | <i></i>
 <i></i>                     |  <i></i>                                                      | <i></i>
-**[Finder][finder]**        |  [Go-to-Custom-Folder][fb40138e]                              | <kbd>too many to list</kbd>
+**[Finder][finder]**        |  [Go to Custom Folder][fb40138e]                              | <kbd>too many to list</kbd>
 <i></i>                     |  [Monthly Cleanups][2f34cbb7]                                 | <i></i>
 <i></i>                     |  [Open Selection in iTerm][8fea9aa4]                          | <kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>T</kbd>
 <i></i>                     |  <i></i>                                                      | <i></i>
