@@ -24,12 +24,12 @@ Scripts for use while working in [Keyboard Maestro](https://www.keyboardmaestro.
     - My shortcut key: <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
     - Result looks like:
     ```AppleScript
-    \-- ignoring application responses
+    # ignoring application responses
     tell application "Keyboard Maestro Engine"
             do script "97A494D2-4988-4B66-853F-D72C028197D8"
-            \-- or: do script "97A494D2-4988-4B66-853F-D72C028197D8" with parameter "Whatever"
+            # or: do script "97A494D2-4988-4B66-853F-D72C028197D8" with parameter "Whatever"
     end tell
-    \-- end ignoring
+    # end ignoring
     ```
 - [Edit Last Executed Macro](./Edit-Last-Executed-Macro.applescript) :earth_americas:
     - Global script that shows the last executed macro, great when an edit needs to be made after execution.
