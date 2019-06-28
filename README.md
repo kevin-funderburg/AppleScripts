@@ -18,6 +18,7 @@ Collection of AppleScripts I've developed or acquired over the years for many pu
     - [Keep Scripts In Sync Using Aliases](#keep-scripts-in-sync-using-aliases)
     - [Make a Hyperkey](#make-a-hyperkey)
 - [Resources](#resources)
+    - [My Favorite Tutorials](#my-favorite-tutorials)
 - [Licensing & thanks](#licensing--thanks)
 - [Changelog](#changelog)
 - [To-Do](#to-do)
