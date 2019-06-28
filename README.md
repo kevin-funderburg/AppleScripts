@@ -281,6 +281,7 @@ These scripts are released under the [MIT License][mit].
 - [ ] Add icons to favorite scripts
 - [X] Add tips section
 - [ ] Add descriptions to all the READMEs
+- [ ] Add my Script Debugger clippings
 
 <!-- External links -->
 
