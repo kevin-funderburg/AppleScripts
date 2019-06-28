@@ -259,8 +259,7 @@ This are tutorials I've bookmarked over the years that have been particularly he
     - [Date/Time Calculations using AppleScript](https://erikslab.com/2007/11/26/date-time-calculations-using-applescript/)
     - [Storing and Accessing Data with AppleScript](http://preserve.mactech.com/articles/mactech/Vol.22/22.03/StoringandAccessingData/index.html)
     - [AppleScript Power Handlers](https://www.apeth.net/matt/unm/asph.html)
-    - [Giving your AppleScripts a Face Lift with AppleScriptObjC](https://www.youtube.com/watch?v=HE5jFCfkD0w&app=desktop)
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HE5jFCfkD0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    - [Giving your AppleScripts a Face Lift with AppleScriptObjC](https://www.youtube.com/watch?v=HE5jFCfkD0w&app=desktop) :tv:
 
 ## Licensing & thanks
 
