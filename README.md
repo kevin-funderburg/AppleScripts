@@ -54,9 +54,9 @@ I've divided the scripts into 3 sections:
 
 Clicking the name of the script will show you the script directly, but **make sure to view the README for each section** by clicking the title of the section to see instructions/explanations/demos.
 
-The shortcut keys I use to execute these via [Keyboard Maestro][kmapp] or [Alfred][alfredapp] are included in case your're interested
-<a id="Application Scripts"></a>
+Although not needed, the shortcut keys I use to execute these via [Keyboard Maestro][kmapp] or [Alfred][alfredapp] are included in case your're interested
 
+<a id="Application Scripts"></a>
 ### Application Scripts
 
 Application                 |  Scripts                                                      |  Shortcut Key
@@ -248,7 +248,7 @@ Here's a screenshot of what it looks like in Finder.
 - [Macscripter.net](https://macscripter.net/) - Forum for AppleScripters to post examples and ask questions. Definitely create a free account.
 
 ### My Favorite Tutorials
-This are tutorials I've bookmarked over the years that have been particularly helpful for me.
+Tutorials I've bookmarked over the years that I've found particularly helpful or educational.
 - Safari Stuff
     - [How to Fill Out Forms on Websites with AppleScript](http://www.cubemg.com/how-to-fill-out-forms-on-websites-with-applescript/)
     - [How to click a button on a Web Page with AppleScript](http://www.cubemg.com/how-to-click-a-button-on-a-web-page-with-applescript/)
@@ -279,7 +279,8 @@ These scripts are released under the [MIT License][mit].
 - [ ] Add more app categories
 - [ ] Refine readme
 - [ ] Add icons to favorite scripts
-- [ ] Add tips section
+- [X] Add tips section
+- [ ] Add descriptions to all the READMEs
 
 <!-- External links -->
 
