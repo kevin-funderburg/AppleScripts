@@ -16,6 +16,7 @@ Collection of AppleScripts I've developed or acquired over the years for many pu
 - [Tools](#tools)
 - [Tips](#tips)
     - [Keep Scripts In Sync Using Aliases](#keep-scripts-in-sync-using-aliases)
+    - [Make a Hyperkey](#make-a-hyperkey)
 - [Resources](#resources)
 - [Licensing & thanks](#licensing--thanks)
 - [Changelog](#changelog)
@@ -31,7 +32,7 @@ This repo was created for two main reasons.
 1. Provide others with useful scripts for automating their workflow on macOS.
 2. As a tool for AppleScript education by providing example scripts, tools, tips and AppleScript resources.
 
-With some exceptions, almost all these scripts are executable by themselves via the Script Menu. However, I generally turn to third party automation apps to execute them, including [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp] and [Hazel][hazelapp].
+With some exceptions, almost all these scripts are executable by themselves via the {==Script Menu==}{>>make into link<<}. However, I generally turn to third party automation apps to execute them, including [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp] and [Hazel][hazelapp].
 
 - **Notes on formatting**
 For those who are unaware, the standard file format for AppleScripts is `.scpt` or `.scptd`, but these file types are not readable on GitHub, so for readability's sake, all these scripts have been exported as a `.applescript` file (which is just a text file). So if you were wondering about the file type, this is the reason.
@@ -47,48 +48,49 @@ use kl : script "Kevin's Library"
 I've divided the scripts into 3 sections:
 1. **Application Scripts** - Scripts designed for use in a specific application.
 2. **Global Scripts** - Scripts that are meant to be executed in any application.
-    - _NOTE_: There are scripts here that are specific to an application but are meant to executed globally, so the scripts in the Application Scripts section with the globe icon [ 🌎 ] next to them imply global scope for that specific application.
+    - _NOTE_: There are scripts here that are specific to an application but are meant to executed globally, so the scripts in the Application Scripts section with the globe icon ( :earth_americas: ) next to them imply global scope for that specific application.
 3. **Scripts for Script Development** - These scripts are useful handlers that can be copied into scripts or into a script library that makes scripting much simpler.
 
 Clicking the name of the script will show you the script directly, but **make sure to view the README for each section** by clicking the title of the section to see instructions/explanations/demos.
 
-<a id="Applications"></a>
+The shortcut keys I use to execute these via [Keyboard Maestro][kmapp] or [Alfred][alfredapp] are included in case your're interested
+<a id="Application Scripts"></a>
 
 ### Application Scripts
 
-Application                 |  Scripts
----                         |---
-**[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38] 🌎
-<i></i>                     |  <i></i>
-**[Calendar](./Calendar)**  |  [WFO to Calendar][d2c1694b] 🌎
-<i></i>                     |  <i></i>
-**[Finder][finder]**        |  [Monthly Cleanups][2f34cbb7]
-<i></i>                     |  [Open Selection in iTerm][8fea9aa4]
-<i></i>                     |  <i></i>
-**[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]
-<i></i>                     |  [Add\|Remove Status Menu Trigger][8111e7c4]
-<i></i>                     |  [Copy Front Macro's AppleScript Trigger][4945c497]
-<i></i>                     |  [Edit Last Executed Macro][8265051f] 🌎
-<i></i>                     |  [Go To Executed Macro][4355277b]
-<i></i>                     |  [Run Current Macro][8cbb891d] 🌎
-<i></i>                     |  <i></i>
-**[Mail][mail]**            |  [Set Color of Text][d1529523]
-<i></i>                     |  [Make Mail URL][63ba2f90]
-<i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]
-<i></i>                     |  <i></i>
-**[Safari](./Safari)**      |  [Close Left Tab][6de3c825]
-<i></i>                     |  [Close Right Tab][2f774cb3]
-<i></i>                     |  [Duplicate Tab][74151e54]
-<i></i>                     |  [Do Javascript Handler][3d850154]
-<i></i>                     |  [Show\|Create Tab][225bf283]
-<i></i>                     |  <i></i>  
-**[Script Debugger][sdb]**  |  [Duplicate Tab][ff203baf]
-<i></i>                     |  [Duplicate for GitHub][ea9fb946]
-<i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]
-<i></i>                     |  [Open Used Script Libraries][3c961777]
-<i></i>                     |  [Run Front Script][u76g4ds3] 🌎
-<i></i>                     |  [Save As Text Script][98e99d57]
-<i></i>                     |  [Toggle Minimal View][3a899b61]
+Application                 |  Scripts                                                      |  Shortcut Key
+----------------------------|---------------------------------------------------------------|-----------------------------------------------------------
+**[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38] :earth_americas: | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>⇧</kbd><kbd>O</kbd>
+<i></i>                     |  <i></i>                                                      | <i></i>
+**[Calendar](./Calendar)**  |  [WFO to Calendar][d2c1694b] :earth_americas:                 | <i></i>
+<i></i>                     |  <i></i>                                                      | <i></i>
+**[Finder][finder]**        |  [Monthly Cleanups][2f34cbb7]                                 | <i></i>
+<i></i>                     |  [Open Selection in iTerm][8fea9aa4]                          | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>T</kbd>
+<i></i>                     |  <i></i>                                                      | <i></i>
+**[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]               | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>E</kbd>
+<i></i>                     |  [Add\|Remove Status Menu Trigger][8111e7c4]                  | <kbd>⌥</kbd><kbd>S</kbd>
+<i></i>                     |  [Copy Front Macro's AppleScript Trigger][4945c497]           | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>S</kbd>
+<i></i>                     |  [Edit Last Executed Macro][8265051f] :earth_americas:        | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>E</kbd>
+<i></i>                     |  [Go To Executed Macro][4355277b]                             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>G</kbd>
+<i></i>                     |  [Run Current Macro][8cbb891d] :earth_americas:               | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>R</kbd>
+<i></i>                     |  <i></i>                                                      | <i></i>
+**[Mail][mail]**            |  [Set Color of Text][d1529523]                                | <i></i>
+<i></i>                     |  [Make Mail URL][63ba2f90]                                    | <kbd>⌃</kbd><kbd>U</kbd>
+<i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]                  | <i></i>
+<i></i>                     |  <i></i>                                                      | <i></i>
+**[Safari](./Safari)**      |  [Close Left Tab][6de3c825]                                   | <kbd>⌥</kbd><kbd>[</kbd>
+<i></i>                     |  [Close Right Tab][2f774cb3]                                  | <kbd>⌥</kbd><kbd>]</kbd>
+<i></i>                     |  [Duplicate Tab][74151e54]                                    | <kbd>⌃</kbd><kbd>D</kbd>
+<i></i>                     |  [Do Javascript Handler][3d850154]                            | <i></i>
+<i></i>                     |  [Show\|Create Tab][225bf283]                                 | <i></i>
+<i></i>                     |  <i></i>                                                      | <i></i>
+**[Script Debugger][sdb]**  |  [Duplicate Tab][ff203baf]                                    | <kbd>F7</kbd>
+<i></i>                     |  [Duplicate for GitHub][ea9fb946]                             | <i></i>
+<i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]               | <i></i>
+<i></i>                     |  [Open Used Script Libraries][3c961777]                       | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
+<i></i>                     |  [Run Front Script][u76g4ds3] :earth_americas:                | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>R</kbd>
+<i></i>                     |  [Save As Text Script][98e99d57]                              | <kbd>⌃</kbd><kbd>S</kbd>
+<i></i>                     |  [Toggle Minimal View][3a899b61]                              | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
 
 
 [a345fg38]: ./Alfred/Show-Recent-Files-for-Front-App.applescript
@@ -123,25 +125,25 @@ Application                 |  Scripts
 
 ### Global Scripts
 
-Context                             |  Scripts
---                                  |--
-**[Document Closers][c98jhawe]**    |  [Close All Un-Saved Documents][9a704632]
-<i></i>                             |  [Close All With Saving][3b80a0d2]
-<i></i>                             |  [Close All Without Saving][a5d8c9ea]
-<i></i>                             |  [Close With Saving][d370f17e]
-<i></i>                             |  [Close Without Saving][dec030b7]  
-<i></i>                             |  <i></i>
-**[System Control][sc]**            |  [Restart AirPort Extreme][456bc1d1]
-<i></i>                             |  [Toggle Bluetooth][25e6a902]
-<i></i>                             |  [Toggle Hazel][d2434bdc]
-<i></i>                             |  [Toggle Menu Bar Visibility][a517cb4f]
-<i></i>                             |  [Toggle WiFi][aa8be569]
-<i></i>                             |  <i></i>
-**[Various][global]**               |  [Click Script Menu][d1c0746f]
-<i></i>                             |  [Paste Safari URL With Title][1d8d603d]
-<i></i>                             |  [Start\|Stop Quicktime Screen Recording][a921fa5d]
-<i></i>                             |  [Play\|Pause Apple TV][nh8765gf]
-<i></i>                             |  {++KEYCHAIN ACCESS++}
+Context                             |  Scripts                                              |  Shortcut Key
+------------------------------------|-------------------------------------------------------|---------------------------------------------------------
+**[Document Closers][c98jhawe]**    |  [Close All Un-Saved Documents][9a704632]             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
+<i></i>                             |  [Close All With Saving][3b80a0d2]                    | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
+<i></i>                             |  [Close All Without Saving][a5d8c9ea]                 | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
+<i></i>                             |  [Close With Saving][d370f17e]                        | <kbd>⌥</kbd><kbd>W</kbd>
+<i></i>                             |  [Close Without Saving][dec030b7]                     | <kbd>⌃</kbd><kbd>W</kbd>
+<i></i>                             |  <i></i>                                              | <i></i>
+**[System Control][sc]**            |  [Restart AirPort Extreme][456bc1d1]                  | <i></i>
+<i></i>                             |  [Toggle Bluetooth][25e6a902]                         | <i></i>
+<i></i>                             |  [Toggle Hazel][d2434bdc]                             | <i></i>
+<i></i>                             |  [Toggle Menu Bar Visibility][a517cb4f]               | <i></i>
+<i></i>                             |  [Toggle WiFi][aa8be569]                              | <i></i>
+<i></i>                             |  <i></i>                                              | <i></i>
+**[Various][global]**               |  [Click Script Menu][d1c0746f]                        | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>S</kbd>
+<i></i>                             |  [Paste Safari URL With Title][1d8d603d]              | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>⇧</kbd><kbd>U</kbd>
+<i></i>                             |  [Start\|Stop Quicktime Screen Recording][a921fa5d]   | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>Q</kbd>
+<i></i>                             |  [Play\|Pause Apple TV][nh8765gf]                     | <i></i>
+<i></i>                             |  {++keychain access++}                                | <i></i>
 
 [c98jhawe]: ./Document-Closers
 [9a704632]: ./Document-Closers/Close-All-Un-Saved-Documents.applescript
@@ -182,7 +184,7 @@ Context                         |  Scripts
 - **[UI Browser](https://pfiddlesoft.com/uibrowser/)** - Invaluable tool for UI scripting. UI scripting is brutal on its own, and slightly less brutal with the Accessibility Inspector, but UI Browser makes it so much simpler, I tried it once and knew I had to get it.
 - **[JSON Helper](https://apps.apple.com/us/app/json-helper-for-applescript/id453114608?mt=12)** - Makes working with JSON so much simpler, incredibly useful and **free**!
 - **[Location Helper](https://apps.apple.com/us/app/location-helper/id488536386?mt=12)** - Find your geo code location in a snap, and for **free**!
-- **[Dash](https://kapeli.com/dash)** - Fantastic tool for API browsing, after installation go to `Preferences > Downloads` and install the AppleScript docset to have blazing fast access to AppleScript documentation, plus its **free**!
+- **[Dash](https://kapeli.com/dash)** - Fantastic tool for API browsing, after installation go to `Preferences` > `Downloads` and install the AppleScript docset to have blazing fast access to AppleScript documentation, plus its **free**!
 - **[Atom Packages](https://atom.io/packages)** (I do all my script writing in Script Debugger but most of my Markdown stuff in [Atom](https://atom.io/) so these are very useful.)
   - [atom-applescript](https://github.com/franzheidl/atom-applescript) - adds language support to Atom so you can view AppleScript syntax
   - [build-osa](https://github.com/idleberg/atom-build-osa) - Lets you build and execute AppleScripts from Atom.
@@ -218,6 +220,8 @@ Here's a screenshot of what it looks like in Finder.
     ln -s ~/Library/Scripts ~/Dropbox/Library/Scripts/
     ```
 
+### Make a Hyperkey
+{++karabiner description++}
 * * *
 
 ## Resources
