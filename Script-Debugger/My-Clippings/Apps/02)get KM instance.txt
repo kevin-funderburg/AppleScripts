@@ -1,0 +1,4 @@
+set km to system attribute "KMINSTANCE"
+tell application "Keyboard Maestro Engine"
+	set [[linked-template:varName]] to getvariable "instance__[[linked-template:varName]]" instance km
+end tell

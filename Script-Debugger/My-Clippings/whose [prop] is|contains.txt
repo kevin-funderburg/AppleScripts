@@ -1,0 +1,1 @@
+whose name is [[template:varname]]

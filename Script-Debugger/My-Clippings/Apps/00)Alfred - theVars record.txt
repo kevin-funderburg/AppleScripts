@@ -1,0 +1,1 @@
+{{|name|:"[[template:varName]]", value:[[template:varVal]]}}

@@ -1,0 +1,1 @@
+display alert "[[template:theAlertText]]" message "[[template:theAlertMessage]]" as critical buttons {"Cancel", "OK"} default button "OK" cancel button "Cancel"

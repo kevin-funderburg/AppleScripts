@@ -1,0 +1,24 @@
+(*
+===============================================================================
+                                [[template:scriptName]]
+===============================================================================
+
+Version: [[template:1.0]]                                 Updated: [[date]] CST
+By: [[name]]
+
+PURPOSE:
+
+[[template:When you trigger this script, ]]
+
+REQUIRED:
+	1.    Mac OS X Yosemite 10.10.5+
+	2.    Mac Applications
+                • [[template:appName]]
+				
+        3.    EXTERNAL OSAX Additions/LIBRARIES/FUNCTIONS
+                • [[template:None]]
+
+VERSION HISTORY:
+1.0 - Initial version.
+===============================================================================
+*)

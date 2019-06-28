@@ -1,0 +1,5 @@
+if [[template:expression]] then
+	[[template:-- your then code goes here]]
+else
+	[[selected-lines:-- your else code goes here]]
+end if

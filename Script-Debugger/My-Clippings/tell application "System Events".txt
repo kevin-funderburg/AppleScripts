@@ -1,0 +1,5 @@
+tell application "System Events"
+	tell process "[[template:application]]"
+		[[selected-lines:...your code here]]
+	end tell
+end tell

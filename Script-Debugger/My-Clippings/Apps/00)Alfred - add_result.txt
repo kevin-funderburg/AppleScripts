@@ -1,0 +1,6 @@
+-- @param $theUid - the uid of the result, should be unique-- @param $theArg - the argument that will be passed on-- @param $theTitle - The title of the result item
+-- @param $theSubtitle - The subtitle text for the result item-- @param $theIcon - {theType:_type,thePath:_path}-- @param $isValid - sets whether the result item can be actioned-- @param $theAutocomplete - the autocomplete value for the result item
+-- @param $theVars - {{|name|:"varName", value:"varVal"}}
+-- @param $theMods - {cmd:{isValid:"valid", theArg:_arg, theSubtitle:_subtitle}, alt:{isValid:"valid", theArg:_arg, theSubtitle:_subtitle}}
+
+add_result of wf given theUid:[[template:_uid]], theArg:[[template:_arg]], theTitle:[[template:_title]], theSubtitle:[[template:_sub]], theIcon:[[template:_icon]], theAutocomplete:[[template:_auto]], theType:[[template:_type]], isValid:[[template:"yes"]], theQuicklook:[[template:missing value]], theVars:[[template:missing value]], theMods:[[template:missing value]], theText:[[template:missing value]]

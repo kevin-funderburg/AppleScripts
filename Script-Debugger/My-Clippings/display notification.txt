@@ -1,0 +1,4 @@
+display notification ¬
+"[[template:Message contents…]]" with title ¬
+"[[template:Title]]" subtitle ¬
+"[[template:Error:]]" sound name "[[template:Basso:]]"

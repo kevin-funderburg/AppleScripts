@@ -1,0 +1,1 @@
+tell application "System Events"	set [[template:info]] to value of property list file [[template:plistPath]]end tell
