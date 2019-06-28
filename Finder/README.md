@@ -26,6 +26,8 @@ Various scripts for use in Finder.
 
 - [Open Selection in iTerm](./Open%20Selection%20in%20iTerm.applescript) <kbd>⌥</kbd><kbd>⇧</kbd><kbd>T</kbd>
     - Open [iTerm](https://www.iterm2.com/) and change directory to the current location in Finder. Super useful if you are on the command-line a lot.
+    ![demo](../imgs/finder-iterm.gif)
+
 
 [fb40138e]: ./Go-to-Custom-Folder.applescript
 [kmapp]: https://www.keyboardmaestro.com/
