@@ -61,6 +61,7 @@ The shortcut keys I use to execute these via [Keyboard Maestro][kmapp] or [Alfre
 Application                 |  Scripts                                                      |  Shortcut Key
 ----------------------------|---------------------------------------------------------------|-----------------------------------------------------------
 **[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38] :earth_americas: | <kbd>hyperkey</kbd> <kbd>O</kbd>
+<i></i>                     |  [Browse Current Workflow in Alfred][6274c240]                | <kbd>⌘</kbd> <kbd>R</kbd>
 <i></i>                     |  <i></i>                                                      | <i></i>
 **[Calendar](./Calendar)**  |  [WFO to Calendar][d2c1694b] :earth_americas:                 | <i></i>
 <i></i>                     |  <i></i>                                                      | <i></i>
@@ -94,6 +95,7 @@ Application                 |  Scripts                                          
 
 
 [a345fg38]: ./Alfred/Show-Recent-Files-for-Front-App.applescript
+[6274c240]: ./Alfred/Browse-Current-Workflow-in-Alfred.applescript
 [d2c1694b]: ./Calendar/WFO-to-Calendar.applescript
 [2f34cbb7]: ./Finder/Monthly-Cleanups.applescript
 [8fea9aa4]: ./Finder/Open-Selection-in-iTerm.applescript
