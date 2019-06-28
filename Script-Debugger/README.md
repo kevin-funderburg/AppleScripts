@@ -1,4 +1,6 @@
-![](https://latenightsw.com/wordpress/wp-content/uploads/2018/03/cropped-icon_512x512.png)
+<p align="center">
+<img src="https://latenightsw.com/wordpress/wp-content/uploads/2018/03/cropped-icon_512x512.png" width="256" height="256">
+</p>
 
 # Script Debugger Scripts
 
