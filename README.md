@@ -54,7 +54,7 @@ I've divided the scripts into 3 sections:
 
 Clicking the name of the script will show you the script directly, but **make sure to view the README for each section** by clicking the title of the section to see instructions/explanations/demos.
 
-Although not needed, the shortcut keys I use to execute these via [Keyboard Maestro][kmapp] or [Alfred][alfredapp] are included in case your're interested
+> Although not needed, the shortcut keys I use to execute these via [Keyboard Maestro][kmapp] or [Alfred][alfredapp] are included in case your're interested
 
 
 
@@ -62,7 +62,7 @@ Although not needed, the shortcut keys I use to execute these via [Keyboard Maes
 <a id="Application Scripts"></a>
 ### Application Scripts
 
-Application                 |  Scripts                                            |  <i></i>             |  Shortcut Key
+Application                 |  Scripts                                            |  <i></i>            |  Shortcut Key
 ----------------------------|-----------------------------------------------------|---------------------|--------------------------
 **[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38]        | :earth_americas: :cinema:   | <kbd>hyperkey</kbd><kbd>O</kbd>
 <i></i>                     |  [Browse Current Workflow in Alfred][6274c240]      | <i></i>             | <kbd>⌘</kbd><kbd>R</kbd>
@@ -189,10 +189,10 @@ Context                         |  Scripts
 _Icon Key_
 
 icon                |  meaning
---                  |--
+--------------------|--------------------------------------------
 :cinema:            | script has a gif demo in its section's README
 :camera:            | script has a screenshot in its section's README
-:earth_americas:    | script is executed globally
+:earth_americas:    | script is executed globally for a specific app
 
 _Shortcut key symbols_
 
@@ -254,7 +254,11 @@ Here's a screenshot of what it looks like in Finder.
     ```
 
 ### Make a Hyperkey
-{++karabiner description++}
+The `caps lock` key is a border-line useless key for a decent typist, but what's great about Macs is that we can change that. By a few adjustments in `System Preferences` and installing the free software [Karabiner](https://pqrs.org/osx/karabiner/), we can turn that useless key into a extremely useful `hyperkey`.
+
+Hyperkey just means that the `caps lock` key will emulate holding down <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd> at the same time, and since no application would use such a combination of keys to execute a command, this makes a whole new key for us to use.
+
+{++karabiner tutorial & examples++}
 * * *
 
 ## Resources
@@ -294,7 +298,7 @@ These scripts are released under the [MIT License][mit].
 - [ ] Refine readme
 - [ ] Add icons to favorite scripts
 - [X] Add tips section
-- [ ] Add karabiner tutorialææ
+- [ ] Add karabiner tutorial
 - [ ] Add descriptions to all the READMEs
 - [X] Add my Script Debugger clippings
 
