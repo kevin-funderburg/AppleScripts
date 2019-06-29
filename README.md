@@ -56,21 +56,24 @@ Clicking the name of the script will show you the script directly, but **make su
 
 Although not needed, the shortcut keys I use to execute these via [Keyboard Maestro][kmapp] or [Alfred][alfredapp] are included in case your're interested
 
+
+
+
 <a id="Application Scripts"></a>
 ### Application Scripts
 
 Application                 |  Scripts                                                      |  Shortcut Key
 ----------------------------|---------------------------------------------------------------|--------------------------------------
-**[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38] :earth_americas: | <kbd>hyperkey</kbd><kbd>O</kbd>
+**[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38] :earth_americas: :cinema: | <kbd>hyperkey</kbd><kbd>O</kbd>
 <i></i>                     |  [Browse Current Workflow in Alfred][6274c240]                | <kbd>⌘</kbd><kbd>R</kbd>
 <i></i>                     |  <i></i>                                                      | <i></i>
 **[Calendar](./Calendar)**  |  [WFO to Calendar][d2c1694b] :earth_americas:                 | <i></i>
 <i></i>                     |  <i></i>                                                      | <i></i>
 **[Finder][finder]**        |  [Go to Custom Folder][fb40138e]                              | <kbd>too many to list</kbd>
-<i></i>                     |  [Monthly Cleanups][2f34cbb7]                                 | <i></i>
-<i></i>                     |  [Open Selection in iTerm][8fea9aa4]                          | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>T</kbd>
+<i></i>                     |  [Monthly Cleanups][2f34cbb7] :camera:                        | <i></i>
+<i></i>                     |  [Open Selection in iTerm][8fea9aa4] :cinema:                 | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>T</kbd>
 <i></i>                     |  <i></i>                                                      | <i></i>
-**[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]               | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>E</kbd>
+**[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6] :cinema:      | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>E</kbd>
 <i></i>                     |  [Add\|Remove Status Menu Trigger][8111e7c4]                  | <kbd>⌥</kbd><kbd>S</kbd>
 <i></i>                     |  [Copy Front Macro's AppleScript Trigger][4945c497]           | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
 <i></i>                     |  [Edit Last Executed Macro][8265051f] :earth_americas:        | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>E</kbd>
@@ -89,7 +92,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  <i></i>                                                      | <i></i>
 **[Script Debugger][sdb]**  |  [Duplicate Tab][ff203baf]                                    | <kbd>F7</kbd>
 <i></i>                     |  [Duplicate for GitHub][ea9fb946]                             | <i></i>
-<i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]               | <i></i>
+<i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s] :cinema:      | <i></i>
 <i></i>                     |  [Open Used Script Libraries][3c961777]                       | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
 <i></i>                     |  [Run Front Script][u76g4ds3] :earth_americas:                | <kbd>hyperkey</kbd><kbd>R</kbd>
 <i></i>                     |  [Save As Text Script][98e99d57]                              | <kbd>⌃</kbd><kbd>S</kbd>
@@ -130,25 +133,25 @@ Application                 |  Scripts                                          
 
 ### Global Scripts
 
-Context                             |  Scripts                                              |  Shortcut Key
-------------------------------------|-------------------------------------------------------|---------------------------------------------------------
-**[Document Closers][c98jhawe]**    |  [Close All Un-Saved Documents][9a704632]             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
-<i></i>                             |  [Close All With Saving][3b80a0d2]                    | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
-<i></i>                             |  [Close All Without Saving][a5d8c9ea]                 | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
-<i></i>                             |  [Close With Saving][d370f17e]                        | <kbd>⌥</kbd><kbd>W</kbd>
-<i></i>                             |  [Close Without Saving][dec030b7]                     | <kbd>⌃</kbd><kbd>W</kbd>
-<i></i>                             |  <i></i>                                              | <i></i>
-**[System Control][sc]**            |  [Restart AirPort Extreme][456bc1d1]                  | <i></i>
-<i></i>                             |  [Toggle Bluetooth][25e6a902]                         | <i></i>
-<i></i>                             |  [Toggle Hazel][d2434bdc]                             | <i></i>
-<i></i>                             |  [Toggle Menu Bar Visibility][a517cb4f]               | <i></i>
-<i></i>                             |  [Toggle WiFi][aa8be569]                              | <i></i>
-<i></i>                             |  <i></i>                                              | <i></i>
-**[Various][global]**               |  [Click Script Menu][d1c0746f]                        | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>S</kbd>
-<i></i>                             |  [Paste Safari URL With Title][1d8d603d]              | <kbd>hyperkey</kbd><kbd>U</kbd>
-<i></i>                             |  [Start\|Stop Quicktime Screen Recording][a921fa5d]   | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>Q</kbd>
-<i></i>                             |  [Play\|Pause Apple TV][nh8765gf]                     | <i></i>
-<i></i>                             |  {++keychain access++}                                | <i></i>
+Context                                     |  Scripts                                              |  Shortcut Key
+--------------------------------------------|-------------------------------------------------------|---------------------------------------------------------
+**[Document Closers][c98jhawe]** :camera:   |  [Close All Un-Saved Documents][9a704632]             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
+<i></i>                                     |  [Close All With Saving][3b80a0d2]                    | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
+<i></i>                                     |  [Close All Without Saving][a5d8c9ea]                 | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
+<i></i>                                     |  [Close With Saving][d370f17e]                        | <kbd>⌥</kbd><kbd>W</kbd>
+<i></i>                                     |  [Close Without Saving][dec030b7]                     | <kbd>⌃</kbd><kbd>W</kbd>
+<i></i>                                     |  <i></i>                                              | <i></i>
+**[System Control][sc]**                    |  [Restart AirPort Extreme][456bc1d1]                  | <i></i>
+<i></i>                                     |  [Toggle Bluetooth][25e6a902]                         | <i></i>
+<i></i>                                     |  [Toggle Hazel][d2434bdc]                             | <i></i>
+<i></i>                                     |  [Toggle Menu Bar Visibility][a517cb4f]               | <i></i>
+<i></i>                                     |  [Toggle WiFi][aa8be569]                              | <i></i>
+<i></i>                                     |  <i></i>                                              | <i></i>
+**[Various][global]**                       |  [Click Script Menu][d1c0746f]                        | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>S</kbd>
+<i></i>                                     |  [Paste Safari URL With Title][1d8d603d]              | <kbd>hyperkey</kbd><kbd>U</kbd>
+<i></i>                                     |  [Start\|Stop Quicktime Screen Recording][a921fa5d]   | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>Q</kbd>
+<i></i>                                     |  [Play\|Pause Apple TV][nh8765gf]                     | <i></i>
+<i></i>                                     |  {++keychain access++}                                | <i></i>
 
 [c98jhawe]: ./Document-Closers
 [9a704632]: ./Document-Closers/Close-All-Un-Saved-Documents.applescript
@@ -166,6 +169,7 @@ Context                             |  Scripts                                  
 [a921fa5d]: ./Global/Start|Stop-Quicktime-Screen-Recording.applescript
 [nh8765gf]: ./Global/Play|Pause-Apple-TV.applescript
 
+
 ### Scripts for Script Development
 
 Context                         |  Scripts
@@ -181,6 +185,14 @@ Context                         |  Scripts
 [561dd09a]: ./Script-Development/Text-Utilities/Split-Text.applescript
 [5748a92f]: ./Script-Development/Text-Utilities/Transform-Text.applescript
 
+
+_Icon Key_
+
+icon                |  meaning
+--                  |--
+:cinema:            | script has a gif demo in its section's README
+:camera:            | script has a screenshot in its section's README
+:earth_americas:    | script is executed globally
 
 _Shortcut key symbols_
 
@@ -282,8 +294,9 @@ These scripts are released under the [MIT License][mit].
 - [ ] Refine readme
 - [ ] Add icons to favorite scripts
 - [X] Add tips section
+- [ ] Add karabiner tutorial
 - [ ] Add descriptions to all the READMEs
-- [ ] Add my Script Debugger clippings
+- [X] Add my Script Debugger clippings
 
 <!-- External links -->
 
@@ -301,7 +314,7 @@ These scripts are released under the [MIT License][mit].
 [blob]: https://github.com/kevin-funderburg/AppleScripts/blob/master/
 [finder]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Finder
 [global]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Global
-
+[gf]: ./imgs/gif.png
 [mail]: ./Mail
 [mit]: https://github.com/kevin-funderburg/AppleScripts/blob/master/LICENSE.txt
 
