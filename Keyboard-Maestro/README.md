@@ -47,4 +47,5 @@ Scripts for use while working in [Keyboard Maestro](https://www.keyboardmaestro.
     - Crucial action, I use it all the time to test out the macro I'm working on but haven't set a trigger for it yet.
 
 
-[kmapp]: https://www.keyboardmaestro.co;
+[kmapp]: https://www.keyboardmaestro.co[m/
+[alfredapp]: https://www.alfredapp.com/]
