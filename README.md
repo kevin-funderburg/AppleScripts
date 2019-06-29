@@ -60,30 +60,30 @@ Although not needed, the shortcut keys I use to execute these via [Keyboard Maes
 ### Application Scripts
 
 Application                 |  Scripts                                                      |  Shortcut Key
-----------------------------|---------------------------------------------------------------|-----------------------------------------------------------
-**[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38] :earth_americas: | <kbd>hyperkey</kbd> <kbd>O</kbd>
-<i></i>                     |  [Browse Current Workflow in Alfred][6274c240]                | <kbd>⌘</kbd> <kbd>R</kbd>
+----------------------------|---------------------------------------------------------------|--------------------------------------
+**[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38] :earth_americas: | <kbd>hyperkey</kbd><kbd>O</kbd>
+<i></i>                     |  [Browse Current Workflow in Alfred][6274c240]                | <kbd>⌘</kbd><kbd>R</kbd>
 <i></i>                     |  <i></i>                                                      | <i></i>
 **[Calendar](./Calendar)**  |  [WFO to Calendar][d2c1694b] :earth_americas:                 | <i></i>
 <i></i>                     |  <i></i>                                                      | <i></i>
 **[Finder][finder]**        |  [Go to Custom Folder][fb40138e]                              | <kbd>too many to list</kbd>
 <i></i>                     |  [Monthly Cleanups][2f34cbb7]                                 | <i></i>
-<i></i>                     |  [Open Selection in iTerm][8fea9aa4]                          | <kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>T</kbd>
+<i></i>                     |  [Open Selection in iTerm][8fea9aa4]                          | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>T</kbd>
 <i></i>                     |  <i></i>                                                      | <i></i>
-**[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]               | <kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>E</kbd>
-<i></i>                     |  [Add\|Remove Status Menu Trigger][8111e7c4]                  | <kbd>⌥</kbd> <kbd>S</kbd>
-<i></i>                     |  [Copy Front Macro's AppleScript Trigger][4945c497]           | <kbd>⌘</kbd> <kbd>⌃</kbd> <kbd>C</kbd>
-<i></i>                     |  [Edit Last Executed Macro][8265051f] :earth_americas:        | <kbd>⌃</kbd> <kbd>⇧</kbd> <kbd>E</kbd>
-<i></i>                     |  [Go To Executed Macro][4355277b]                             | <kbd>⌘</kbd> <kbd>⌥</kbd> <kbd>G</kbd>
-<i></i>                     |  [Run Current Macro][8cbb891d] :earth_americas:               | <kbd>⌘</kbd> <kbd>⌃</kbd> <kbd>R</kbd>
+**[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]               | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>E</kbd>
+<i></i>                     |  [Add\|Remove Status Menu Trigger][8111e7c4]                  | <kbd>⌥</kbd><kbd>S</kbd>
+<i></i>                     |  [Copy Front Macro's AppleScript Trigger][4945c497]           | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
+<i></i>                     |  [Edit Last Executed Macro][8265051f] :earth_americas:        | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>E</kbd>
+<i></i>                     |  [Go To Executed Macro][4355277b]                             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>G</kbd>
+<i></i>                     |  [Run Current Macro][8cbb891d] :earth_americas:               | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>R</kbd>
 <i></i>                     |  <i></i>                                                      | <i></i>
 **[Mail][mail]**            |  [Set Color of Text][d1529523]                                | <i></i>
-<i></i>                     |  [Make Mail URL][63ba2f90]                                    | <kbd>⌃</kbd> <kbd>U</kbd>
+<i></i>                     |  [Make Mail URL][63ba2f90]                                    | <kbd>⌃</kbd><kbd>U</kbd>
 <i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]                  | <i></i>
 <i></i>                     |  <i></i>                                                      | <i></i>
-**[Safari](./Safari)**      |  [Close Left Tab][6de3c825]                                   | <kbd>⌥</kbd> <kbd>[</kbd>
-<i></i>                     |  [Close Right Tab][2f774cb3]                                  | <kbd>⌥</kbd> <kbd>]</kbd>
-<i></i>                     |  [Duplicate Tab][74151e54]                                    | <kbd>⌃</kbd> <kbd>D</kbd>
+**[Safari](./Safari)**      |  [Close Left Tab][6de3c825]                                   | <kbd>⌥</kbd><kbd>[</kbd>
+<i></i>                     |  [Close Right Tab][2f774cb3]                                  | <kbd>⌥</kbd><kbd>]</kbd>
+<i></i>                     |  [Duplicate Tab][74151e54]                                    | <kbd>⌃</kbd><kbd>D</kbd>
 <i></i>                     |  [Do Javascript Handler][3d850154]                            | <i></i>
 <i></i>                     |  [Show\|Create Tab][225bf283]                                 | <i></i>
 <i></i>                     |  <i></i>                                                      | <i></i>
@@ -92,8 +92,8 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]               | <i></i>
 <i></i>                     |  [Open Used Script Libraries][3c961777]                       | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
 <i></i>                     |  [Run Front Script][u76g4ds3] :earth_americas:                | <kbd>hyperkey</kbd><kbd>R</kbd>
-<i></i>                     |  [Save As Text Script][98e99d57]                              | <kbd>⌃</kbd> <kbd>S</kbd>
-<i></i>                     |  [Toggle Minimal View][3a899b61]                              | <kbd>⌘</kbd> <kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>M</kbd>
+<i></i>                     |  [Save As Text Script][98e99d57]                              | <kbd>⌃</kbd><kbd>S</kbd>
+<i></i>                     |  [Toggle Minimal View][3a899b61]                              | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
 
 
 [a345fg38]: ./Alfred/Show-Recent-Files-for-Front-App.applescript
@@ -132,11 +132,11 @@ Application                 |  Scripts                                          
 
 Context                             |  Scripts                                              |  Shortcut Key
 ------------------------------------|-------------------------------------------------------|---------------------------------------------------------
-**[Document Closers][c98jhawe]**    |  [Close All Un-Saved Documents][9a704632]             | <kbd>⌘</kbd> <kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>W</kbd>
-<i></i>                             |  [Close All With Saving][3b80a0d2]                    | <kbd>⌘</kbd> <kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>W</kbd>
-<i></i>                             |  [Close All Without Saving][a5d8c9ea]                 | <kbd>⌘</kbd> <kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>W</kbd>
-<i></i>                             |  [Close With Saving][d370f17e]                        | <kbd>⌥</kbd> <kbd>W</kbd>
-<i></i>                             |  [Close Without Saving][dec030b7]                     | <kbd>⌃</kbd> <kbd>W</kbd>
+**[Document Closers][c98jhawe]**    |  [Close All Un-Saved Documents][9a704632]             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
+<i></i>                             |  [Close All With Saving][3b80a0d2]                    | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
+<i></i>                             |  [Close All Without Saving][a5d8c9ea]                 | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
+<i></i>                             |  [Close With Saving][d370f17e]                        | <kbd>⌥</kbd><kbd>W</kbd>
+<i></i>                             |  [Close Without Saving][dec030b7]                     | <kbd>⌃</kbd><kbd>W</kbd>
 <i></i>                             |  <i></i>                                              | <i></i>
 **[System Control][sc]**            |  [Restart AirPort Extreme][456bc1d1]                  | <i></i>
 <i></i>                             |  [Toggle Bluetooth][25e6a902]                         | <i></i>
@@ -144,8 +144,8 @@ Context                             |  Scripts                                  
 <i></i>                             |  [Toggle Menu Bar Visibility][a517cb4f]               | <i></i>
 <i></i>                             |  [Toggle WiFi][aa8be569]                              | <i></i>
 <i></i>                             |  <i></i>                                              | <i></i>
-**[Various][global]**               |  [Click Script Menu][d1c0746f]                        | <kbd>⌃</kbd> <kbd>⇧</kbd> <kbd>S</kbd>
-<i></i>                             |  [Paste Safari URL With Title][1d8d603d]              | <kbd>hyperkey</kbd> <kbd>U</kbd>
+**[Various][global]**               |  [Click Script Menu][d1c0746f]                        | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>S</kbd>
+<i></i>                             |  [Paste Safari URL With Title][1d8d603d]              | <kbd>hyperkey</kbd><kbd>U</kbd>
 <i></i>                             |  [Start\|Stop Quicktime Screen Recording][a921fa5d]   | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>Q</kbd>
 <i></i>                             |  [Play\|Pause Apple TV][nh8765gf]                     | <i></i>
 <i></i>                             |  {++keychain access++}                                | <i></i>
@@ -190,7 +190,7 @@ Symbol              | Key
 <kbd>⌥</kbd>        | <kbd>option</kbd>
 <kbd>⌃</kbd>        | <kbd>control</kbd>
 <kbd>⇧</kbd>        | <kbd>shift</kbd>
-<kbd>hyperkey</kbd> | <kbd>command</kbd> <kbd>option</kbd> <kbd>control</kbd> <kbd>shift</kbd>
+<kbd>hyperkey</kbd> | <kbd>command</kbd><kbd>option</kbd><kbd>control</kbd><kbd>shift</kbd>
 
 
 * * *
