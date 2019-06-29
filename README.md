@@ -254,9 +254,9 @@ Here's a screenshot of what it looks like in Finder.
     ```
 
 ### Make a Hyperkey
-The `caps lock` key is a border-line useless key for a decent typist, but what's great about Macs is that we can change that. By a few adjustments in `System Preferences` and installing the free software [Karabiner](https://pqrs.org/osx/karabiner/), we can turn that useless key into a extremely useful `hyperkey`.
+The <kbd>caps lock</kbd> key is a border-line useless key for a decent typist, but what's great about Macs is that we can change that. By a few adjustments in `System Preferences` and installing the free software [Karabiner](https://pqrs.org/osx/karabiner/), we can turn that useless key into a extremely useful <kbd>hyperkey</kbd>.
 
-Hyperkey just means that the `caps lock` key will emulate holding down <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd> at the same time, and since no application would use such a combination of keys to execute a command, this makes a whole new key for us to use.
+Hyperkey just means that the <kbd>caps lock</kbd> key will emulate holding down <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd> at the same time, and since no application would use such a combination of keys to execute a command, this makes a whole new key for us to use.
 
 {++karabiner tutorial & examples++}
 * * *
