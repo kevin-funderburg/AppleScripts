@@ -14,8 +14,8 @@ Various scripts for use in Finder.
     ```
 - [Go to Custom Folder][fb40138e]&emsp;<kbd>too many to list</kbd>
     - Script that lets you jump to any folder you like in an instant, works exactly like the `Finder` > `Go` menu, but you add your favorite folders.
+    - I use this script for about 8 different folders that I'm constantly in and out of.
     - **How to** - Duplicate the script for each folder you want, and update the `t` variable to the HFS path of the folder you want.
-    > I use this script for about 8 different folders that I'm constantly in and out of.
 
 - [Monthly Cleanups][cfd2fea0]
 

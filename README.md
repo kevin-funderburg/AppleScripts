@@ -197,6 +197,7 @@ Context                          |  Scripts                                     
 Context                         |  Scripts
 --------------------------------|----------------------------------
 **[Text Utilities][jh7839dm]**  |  [Extract Between][f3fd3ca9]
+<i></i>                         |  [Search With Regex][4b6da3a9]
 <i></i>                         |  [Split Text][561dd09a]
 <i></i>                         |  [Transform Text][5748a92f]
 
@@ -204,6 +205,7 @@ Context                         |  Scripts
 
 [jh7839dm]: ./Script-Development/Text-Utilities
 [f3fd3ca9]: ./Script-Development/Text-Utilities/Extract-Between.applescript
+[4b6da3a9]: ./Script-Development/Text-Utilities/Search-with-Regex.applescript
 [561dd09a]: ./Script-Development/Text-Utilities/Split-Text.applescript
 [5748a92f]: ./Script-Development/Text-Utilities/Transform-Text.applescript
 
