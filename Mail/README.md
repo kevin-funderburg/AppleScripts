@@ -8,7 +8,7 @@ Scripts for supercharging Mail.
 
 - [Make Mail URL][cnj3ds8l]&emsp;<kbd>⌃</kbd><kbd>U</kbd>
 
-- [Mark All Inbox Messages as Read][dj28346f]
+- [Mark All Inbox Messages as Read][dj28346f]&emsp;:earth_americas:
 
 - [Set Color of Text][djka87dj]&emsp;<kbd>⌘</kbd><kbd>⇧</kbd><kbd>(C)olor</kbd>
     - This script was made after Dark Mode was introduced on Mojave. I used to set the background color of messages to color code everything, but in Dark Mode, setting the color of text is much sexier. But for some reason, text color is not settable through the Mail scripting language.
@@ -29,7 +29,7 @@ Scripts for supercharging Mail.
 
 * * *
 
-- [Show Message][9c348c76]
+- [Show Message][9c348c76]&emsp;:earth_americas:
     - This script is used in conjunction with Mail rules to open and show an email
     message. Particularly useful for messages that are important that you don't
     want to miss.
@@ -43,5 +43,6 @@ Scripts for supercharging Mail.
 [cnj3ds8l]: ./Make-Mail-URL.applescript
 [djka87dj]: ./Set-Color-of-Text.applescript
 [9c348c76]: ./Show-Message.applescript
+
 [kmapp]: https://www.keyboardmaestro.com/
 [alfredapp]: https://www.alfredapp.com/
