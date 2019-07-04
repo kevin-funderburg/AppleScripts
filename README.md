@@ -99,7 +99,8 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Save As Text Script][98e99d57]                    | <i></i>             | <kbd>⌃</kbd><kbd>S</kbd>
 <i></i>                     |  [Toggle Minimal View][3a899b61]                    | <i></i> | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | <i></i> | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
+**[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
+<i></i>                     |  [New Snippet from Clipboard\|Selection][1172c96a]| | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd>
 
 
 [alf]: ./Alfred
@@ -139,6 +140,7 @@ Application                 |  Scripts                                          
 [3a899b61]: ./Script-Debugger/Toggle-Minimal-View.applescript
 [typ]: ./Typinator
 [e918395c]: ./Typinator/Edit-Last-Expanded-Rule.applescript
+[1172c96a]: ./Typinator/New-Snippet-From-Selection|Clipboard.applescript
 
 <a id="Global"></a>
 
@@ -279,6 +281,14 @@ Hyperkey just means that the <kbd>caps lock</kbd> key will emulate holding down 
 ## Resources
 - [AppleScript Language Guide][ude4571a] - Necessary for efficient script development, explains everything about how to script with AppleScript. (I highly recommend the [Dash](https://kapeli.com/dash) version though, much faster and easier to use)
 - [Macscripter.net](https://macscripter.net/) - Forum for AppleScripters to post examples and ask questions. Definitely create a free account.
+- [‘Everyday AppleScriptObjC’ Third Edition](https://macosxautomation.com/applescript/apps/everyday_book.html) - Aimed at the more experienced scripter, but it's a great tool for those interested in expanding scripting power.
+
+### My Favorite AppleScripters
+- [Shane Staley](https://forum.latenightsw.com/u/shanestanley/summary) (unofficial king of AppleScript)
+- [Mark Alldritt](https://forum.latenightsw.com/u/alldritt/summary) (developer of [Script Debugger][sdb])
+- [Christopher Stone](https://github.com/ccstone)
+- [JMichaelTX](https://forum.latenightsw.com/u/jmichaeltx/summary)
+- [ComplexPoint](https://forum.latenightsw.com/u/ComplexPoint)
 
 ### My Favorite Tutorials
 Tutorials I've bookmarked over the years that I've found particularly helpful or educational.
@@ -291,11 +301,17 @@ Tutorials I've bookmarked over the years that I've found particularly helpful or
 - Keyboard Maestro Stuff
     - [Using AppleScript to Get and Set Keyboard Maestro Variables](https://wiki.keyboardmaestro.com/AppleScript)
     - [Scripting the Keyboard Maestro editor](https://wiki.keyboardmaestro.com/Scripting_the_Keyboard_Maestro_editor)
+- Script Debugger stuff
+    - [Tutorials | Late Night Software](https://latenightsw.com/tutorials/)
+- iWork
+    - [iWork and Automation](https://iworkautomation.com/index.html)
 - Various
     - [Date/Time Calculations using AppleScript](https://erikslab.com/2007/11/26/date-time-calculations-using-applescript/)
     - [Storing and Accessing Data with AppleScript](http://preserve.mactech.com/articles/mactech/Vol.22/22.03/StoringandAccessingData/index.html)
     - [AppleScript Power Handlers](https://www.apeth.net/matt/unm/asph.html)
     - [Giving your AppleScripts a Face Lift with AppleScriptObjC](https://www.youtube.com/watch?v=HE5jFCfkD0w&app=desktop)&emsp;:tv:
+- Starting out
+    - [AppleScript - The Language of Autoamtion](https://www.macosxautomation.com/applescript/video/moovs/AppleScriptSeminar.mp4)&emsp;:tv:
 
 ## Licensing & thanks
 

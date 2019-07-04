@@ -9,5 +9,7 @@ Various scripts for use with [Typinator](https://www.ergonis.com/products/typina
 ## Contents
 
 - [Edit Last Expanded Rule][e918395c]&emsp;<kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
+- [New Snippet from Clipboard or Selection][1172c96a]&emsp;<kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd>
 
 [e918395c]: ./Edit-Last-Expanded-Rule.applescript
+[1172c96a]: ./New-Snippet-From-Selection|Clipboard.applescript
