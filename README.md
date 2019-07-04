@@ -33,7 +33,7 @@ This repo was created for two main reasons.
 1. Provide others with useful scripts for automating their workflow on macOS.
 2. As a tool for AppleScript education by providing example scripts, tools, tips and AppleScript resources.
 
-With some exceptions, almost all these scripts are executable by themselves via the [Script Menu](https://iworkautomation.com/Script-Menu-720P.mov). However, I generally turn to third party automation apps to execute them, including [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp] and [Hazel][hazelapp].
+With some exceptions, almost all these scripts are executable by themselves via the [Script Menu][klsie781]. However, I generally turn to third party automation apps to execute them, including [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp] and [Hazel][hazelapp].
 
 - **Notes on formatting**
 For those who are unaware, the standard file format for AppleScripts is `.scpt` or `.scptd`, but these file types are not readable on GitHub, so for readability's sake, all these scripts have been exported as a `.applescript` file (which is just a text file). So if you were wondering about the file type, this is the reason.
@@ -100,7 +100,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Toggle Minimal View][3a899b61]                    | <i></i> | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
-<i></i>                     |  [New Snippet from Clipboard\|Selection][1172c96a] | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd>
+<i></i>                     |  [New Snippet from Clipboard\|Selection][1172c96a]  | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd>
 
 
 [alf]: ./Alfred
@@ -292,26 +292,29 @@ Hyperkey just means that the <kbd>caps lock</kbd> key will emulate holding down 
 
 ### My Favorite Tutorials
 Tutorials I've bookmarked over the years that I've found particularly helpful or educational.
-- Safari Stuff
-    - [How to Fill Out Forms on Websites with AppleScript](http://www.cubemg.com/how-to-fill-out-forms-on-websites-with-applescript/)
-    - [How to click a button on a Web Page with AppleScript](http://www.cubemg.com/how-to-click-a-button-on-a-web-page-with-applescript/)
-    - [How to Extract Information From a Website Using AppleScript](http://www.cubemg.com/how-to-extract-information-from-a-website-using-applescript/)
-    - [How to Select a Drop Down Menu With Applescript](http://www.cubemg.com/how-to-select-a-drop-down-menu-with-applescript/)
-    - [AppleScript Screen Scraping to Excel Example](http://www.cubemg.com/applescript-screen-scraping-to-excel-example/)
-- Keyboard Maestro Stuff
-    - [Using AppleScript to Get and Set Keyboard Maestro Variables](https://wiki.keyboardmaestro.com/AppleScript)
-    - [Scripting the Keyboard Maestro editor](https://wiki.keyboardmaestro.com/Scripting_the_Keyboard_Maestro_editor)
-- Script Debugger stuff
-    - [Tutorials | Late Night Software](https://latenightsw.com/tutorials/)
-- iWork
-    - [iWork and Automation](https://iworkautomation.com/index.html)
-- Various
-    - [Date/Time Calculations using AppleScript](https://erikslab.com/2007/11/26/date-time-calculations-using-applescript/)
-    - [Storing and Accessing Data with AppleScript](http://preserve.mactech.com/articles/mactech/Vol.22/22.03/StoringandAccessingData/index.html)
-    - [AppleScript Power Handlers](https://www.apeth.net/matt/unm/asph.html)
-    - [Giving your AppleScripts a Face Lift with AppleScriptObjC](https://www.youtube.com/watch?v=HE5jFCfkD0w&app=desktop)&emsp;:tv:
-- Starting out
-    - [AppleScript - The Language of Autoamtion](https://www.macosxautomation.com/applescript/video/moovs/AppleScriptSeminar.mp4)&emsp;:tv:
+
+ Context | Link  |  <i></i>
+---------|-------|---------
+ Safari Stuff | [How to Fill Out Forms on Websites with AppleScript](http://www.cubemg.com/how-to-fill-out-forms-on-websites-with-applescript/)  |  <i></i>
+ <i></i> | [How to click a button on a Web Page with AppleScript](http://www.cubemg.com/how-to-click-a-button-on-a-web-page-with-applescript/)  |  <i></i>
+ <i></i> | [How to Extract Information From a Website Using AppleScript](http://www.cubemg.com/how-to-extract-information-from-a-website-using-applescript/)  |  <i></i>
+ <i></i> | [How to Select a Drop Down Menu With Applescript](http://www.cubemg.com/how-to-select-a-drop-down-menu-with-applescript/)  |  <i></i>
+ <i></i> | [AppleScript Screen Scraping to Excel Example](http://www.cubemg.com/applescript-screen-scraping-to-excel-example/)  |  <i></i>
+ <i></i> | <i></i>  |  <i></i>
+ Keyboard Maestro Stuff | [Using AppleScript to Get and Set Keyboard Maestro Variables](https://wiki.keyboardmaestro.com/AppleScript)  |  <i></i>
+ <i></i> |  [Scripting the Keyboard Maestro editor](https://wiki.keyboardmaestro.com/Scripting_the_Keyboard_Maestro_editor) |  <i></i>
+ <i></i> | <i></i>  |  <i></i>
+ Script Debugger stuff | [Tutorials \| Late Night Software](https://latenightsw.com/tutorials/)  |  :tv:
+ <i></i> | <i></i>  |  <i></i>
+ iWork   |  [iWork and Automation](https://iworkautomation.com/index.html) | <i></i>
+ <i></i> | <i></i>  |  <i></i>
+ Various |  [Date/Time Calculations using AppleScript](https://erikslab.com/2007/11/26/date-time-calculations-using-applescript/) |  <i></i>
+ <i></i> |  [Storing and Accessing Data with AppleScript](http://preserve.mactech.com/articles/mactech/Vol.22/22.03/StoringandAccessingData/index.html) |  <i></i>
+ <i></i> | [AppleScript Power Handlers](https://www.apeth.net/matt/unm/asph.html)  |  <i></i>
+ <i></i> | [Giving your AppleScripts a Face Lift with AppleScriptObjC](https://www.youtube.com/watch?v=HE5jFCfkD0w&app=desktop) |  :tv:
+ <i></i> | <i></i>  |  <i></i>
+ Starting Out | [AppleScript - The Language of Autoamtion](https://www.macosxautomation.com/applescript/video/moovs/AppleScriptSeminar.mp4)  |  :tv:
+ <i></i> | [Script Menu][klsie781]  |  :tv:
 
 ## Licensing & thanks
 
@@ -342,6 +345,7 @@ These scripts are released under the [MIT License][mit].
 [vb5342sx]: https://apps.apple.com/us/app/json-helper-for-applescript/id453114608?mt=12
 [f83kch8s]: https://apps.apple.com/us/app/location-helper/id488536386?mt=12
 [ude4571a]: https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html
+[klsie781]: https://iworkautomation.com/Script-Menu-720P.mov
 <!-- My GitHub links -->
 
 [kevinslib]: https://github.com/kevin-funderburg/AppleScript-libraries/blob/master/Kevin's%20Library.applescript
