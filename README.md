@@ -2,7 +2,7 @@
 
 # My AppleScripts
 
-Collection of AppleScripts I've developed or acquired over the years for many purposes. Some are great as standalone scripts while others are great for incorporation with others.
+Collection of AppleScripts I've developed or acquired over the years. Some are great as standalone scripts while others are great for incorporation with others.
 
 > This repo is in continuous development and will be updated as scripts are developed (and as I have time).
 
@@ -64,10 +64,10 @@ Clicking the name of the script will show you the script directly, but **make su
 
 Application                 |  Scripts                                            | <i></i>             |  Shortcut Key
 ----------------------------|-----------------------------------------------------|---------------------|--------------------------
-**[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38]        | :earth_americas: :cinema:   | <kbd>hyperkey</kbd><kbd>O</kbd>
+**[Alfred][alf]**           |  [Show Recent Files for Front App][a345fg38]        | :earth_americas: :cinema:   | <kbd>hyperkey</kbd><kbd>O</kbd>
 <i></i>                     |  [Browse Current Workflow in Alfred][6274c240]      | <i></i>             | <kbd>⌘</kbd><kbd>R</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Calendar](./Calendar)**  |  [WFO to Calendar][d2c1694b]                        | :earth_americas:    | <i></i>
+**[Calendar][cal]**         |  [WFO to Calendar][d2c1694b]                        | :earth_americas:    | <i></i>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Finder][finder]**        |  [Go to Custom Folder][fb40138e]                    | <i></i>             | <kbd>too many to list</kbd>
 <i></i>                     |  [Monthly Cleanups][2f34cbb7]                       | :camera:            | <i></i>
@@ -83,8 +83,9 @@ Application                 |  Scripts                                          
 **[Mail][mail]**            |  [Set Color of Text][d1529523]                      | <i></i>             | <i></i>
 <i></i>                     |  [Make Mail URL][63ba2f90]                          | <i></i>             | <kbd>⌃</kbd><kbd>U</kbd>
 <i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]        | <i></i>             | <i></i>
+<i></i>                     |  [Show Message][9c348c76]                           | :cinema:ˇ            | <i></i>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Safari](./Safari)**      |  [Close Left Tab][6de3c825]                         | <i></i>             | <kbd>⌥</kbd><kbd>[</kbd>
+**[Safari][saf]**           |  [Close Left Tab][6de3c825]                         | <i></i>             | <kbd>⌥</kbd><kbd>[</kbd>
 <i></i>                     |  [Close Right Tab][2f774cb3]                        | <i></i>             | <kbd>⌥</kbd><kbd>]</kbd>
 <i></i>                     |  [Duplicate Tab][74151e54]                          | <i></i>             | <kbd>⌃</kbd><kbd>D</kbd>
 <i></i>                     |  [Do Javascript Handler][3d850154]                  | <i></i>             | <i></i>
@@ -101,9 +102,12 @@ Application                 |  Scripts                                          
 **[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | <i></i> | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
 
 
+[alf]: ./Alfred
 [a345fg38]: ./Alfred/Show-Recent-Files-for-Front-App.applescript
 [6274c240]: ./Alfred/Browse-Current-Workflow-in-Alfred.applescript
+[cal]: .Calendar
 [d2c1694b]: ./Calendar/WFO-to-Calendar.applescript
+[finder]: ./Finder
 [fb40138e]: ./Finder/Go-to-Custom-Folder.applescript
 [2f34cbb7]: ./Finder/Monthly-Cleanups.applescript
 [8fea9aa4]: ./Finder/Open-Selection-in-iTerm.applescript
@@ -114,9 +118,12 @@ Application                 |  Scripts                                          
 [8265051f]: ./Keyboard-Maestro/Edit-Last-Executed-Macro.applescript
 [4355277b]: ./Keyboard-Maestro/Go-To-Executed-Macro.applescript
 [8cbb891d]: ./Keyboard-Maestro/Run-Current-Macro.applescript
+[mail]: ./Mail
 [d1529523]: ./Mail/Set-Color-of-Text.applescript
 [63ba2f90]: ./Mail/Make-Mail-URL.applescript
 [48cdab2f]: ./Mail/Mark-All-Inbox-Messages-as-Read.applescript
+[9c348c76]: ./Mail/Show-Messge.applescript
+[saf]: ./Safari
 [6de3c825]: ./Safari/Close-Left-Tab.applescript
 [2f774cb3]: ./Safari/Close-Right-Tab.applescript
 [74151e54]: ./Safari/Duplicate-Tab.applescript
@@ -163,11 +170,13 @@ Context                          |  Scripts                                     
 [a5d8c9ea]: ./Document-Closers/Close-All-Without-Saving.applescript
 [d370f17e]: ./Document-Closers/Close-With-Saving.applescript
 [dec030b7]: ./Document-Closers/Close-Without-Saving.applescript
+[sc]: ./System-Control
 [456bc1d1]: ./System-Control/Restart-AirPort-Extreme.applescript
 [25e6a902]: ./System-Control/Toggle-Bluetooth.applescript
 [a517cb4f]: ./System-Control/Toggle-Menu-Bar-Visibility.applescript
 [d2434bdc]: ./System-Control/Toggle-Hazel.applescript
 [aa8be569]: ./System-Control/Toggle-WiFi.applescript
+[global]: ./Global
 [d1c0746f]: ./Global/Click-Script-Menu.applescript
 [1d8d603d]: ./Global/Paste-Safari-URL-With-Title.applescript
 [a921fa5d]: ./Global/Start|Stop-Quicktime-Screen-Recording.applescript
@@ -322,9 +331,5 @@ These scripts are released under the [MIT License][mit].
 
 <!-- Sub directories -->
 
-[finder]: ./Finder
-[global]: ./Global
 [gf]: ./imgs/gif.png
-[mail]: ./Mail
 [mit]: https://github.com/kevin-funderburg/AppleScripts/blob/master/LICENSE.txt
-[sc]: ./System-Control
