@@ -8,7 +8,7 @@ Scripts for supercharging Mail.
     - This script was made after Dark Mode was introduced on Mojave. I used to set the background color of messages to color code everything, but in Dark Mode, setting the color of text is much sexier. But for some reason, text color is not settable through the Mail scripting language.
     - To get around this lack of language, this script acts as a temporary rule that sets the color of the currently selected message(s) once and disables itself so it doesn't keep coloring messages. So in order for this to work, you have to make a rule for each color manually , and each rule must be named **exactly like this format**: `Act-On Rule: Messages Text to [<color>]`(screen shot below)
 
-    <p><img src="../imgs/male-rule-set-text-color-conditions.png" width="500"</p>
+    ![conditions](../imgs/male-rule-set-text-color-conditions.png)
 
     - The `From` field will be reset every time the script is called so just set it to gibberish, but it **can't be blank or it won't save**,
 
