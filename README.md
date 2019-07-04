@@ -62,7 +62,7 @@ Clicking the name of the script will show you the script directly, but **make su
 <a id="Application Scripts"></a>
 ### Application Scripts
 
-Application                 |  Scripts                                            |  <i></i>            |  Shortcut Key
+Application                 |  Scripts                                            | <i></i>             |  Shortcut Key
 ----------------------------|-----------------------------------------------------|---------------------|--------------------------
 **[Alfred](./Alfred)**      |  [Show Recent Files for Front App][a345fg38]        | :earth_americas: :cinema:   | <kbd>hyperkey</kbd><kbd>O</kbd>
 <i></i>                     |  [Browse Current Workflow in Alfred][6274c240]      | <i></i>             | <kbd>⌘</kbd><kbd>R</kbd>
@@ -97,6 +97,8 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Run Front Script][u76g4ds3]                       | :earth_americas:    | <kbd>hyperkey</kbd><kbd>R</kbd>
 <i></i>                     |  [Save As Text Script][98e99d57]                    | <i></i>             | <kbd>⌃</kbd><kbd>S</kbd>
 <i></i>                     |  [Toggle Minimal View][3a899b61]                    | <i></i> | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
+<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
+**[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | <i></i> | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
 
 
 [a345fg38]: ./Alfred/Show-Recent-Files-for-Front-App.applescript
@@ -128,6 +130,8 @@ Application                 |  Scripts                                          
 [u76g4ds3]: ./Script-Debugger/Run-Front-Script.applescript
 [98e99d57]: ./Script-Debugger/Save-As-Text-Script.applescript
 [3a899b61]: ./Script-Debugger/Toggle-Minimal-View.applescript
+[typ]: ./Typinator
+[e918395c]: ./Typinator/Edit-Last-Expanded-Rule.applescript
 
 <a id="Global"></a>
 
@@ -173,7 +177,7 @@ Context                          |  Scripts                                     
 ### Scripts for Script Development
 
 Context                         |  Scripts
---                              |--
+--------------------------------|----------------------------------
 **[Text Utilities][jh7839dm]**  |  [Extract Between][f3fd3ca9]
 <i></i>                         |  [Split Text][561dd09a]
 <i></i>                         |  [Transform Text][5748a92f]
@@ -185,10 +189,11 @@ Context                         |  Scripts
 [561dd09a]: ./Script-Development/Text-Utilities/Split-Text.applescript
 [5748a92f]: ./Script-Development/Text-Utilities/Transform-Text.applescript
 
+* * *
 
 _Icon Key_
 
-icon                |  meaning
+Icon                |  Meaning
 --------------------|--------------------------------------------
 :cinema:            | script has a gif demo in its section's README
 :camera:            | script has a screenshot in its section's README
@@ -202,7 +207,7 @@ Symbol              | Key
 <kbd>⌥</kbd>        | <kbd>option</kbd>
 <kbd>⌃</kbd>        | <kbd>control</kbd>
 <kbd>⇧</kbd>        | <kbd>shift</kbd>
-<kbd>hyperkey</kbd> | <kbd>command</kbd><kbd>option</kbd><kbd>control</kbd><kbd>shift</kbd>
+<kbd>hyperkey</kbd> | <kbd>command</kbd> <kbd>option</kbd> <kbd>control</kbd> <kbd>shift</kbd>
 
 
 * * *
@@ -211,8 +216,8 @@ Symbol              | Key
 
 - **[Script Debugger](https://latenightsw.com/)** - By far the most valuable scripting tool. When I first started learning scripting with Script Editor, the process was slow and frustrating. With Script Debugger I learned 100 times faster and understood everything much easier.
 - **[UI Browser](https://pfiddlesoft.com/uibrowser/)** - Invaluable tool for UI scripting. UI scripting is brutal on its own, and slightly less brutal with the Accessibility Inspector, but UI Browser makes it so much simpler, I tried it once and knew I had to get it.
-- **[JSON Helper](https://apps.apple.com/us/app/json-helper-for-applescript/id453114608?mt=12)** - Makes working with JSON so much simpler, incredibly useful and **free**!
-- **[Location Helper](https://apps.apple.com/us/app/location-helper/id488536386?mt=12)** - Find your geo code location in a snap, and for **free**!
+- **[JSON Helper][vb5342sx]** - Makes working with JSON so much simpler, incredibly useful and **free**!
+- **[Location Helper][f83kch8s]** - Find your geo code location in a snap, and for **free**!
 - **[Dash](https://kapeli.com/dash)** - Fantastic tool for API browsing, after installation go to `Preferences` > `Downloads` and install the AppleScript docset to have blazing fast access to AppleScript documentation, plus its **free**!
 - **[Atom Packages](https://atom.io/packages)** (I do all my script writing in Script Debugger but most of my Markdown stuff in [Atom](https://atom.io/) so these are very useful.)
     - [atom-applescript](https://github.com/franzheidl/atom-applescript) - adds language support to Atom so you can view AppleScript syntax
@@ -254,15 +259,15 @@ Here's a screenshot of what it looks like in Finder.
     ```
 
 ### Make a Hyperkey
-The <kbd>caps lock</kbd> key is a border-line useless key for a decent typist, but what's great about Macs is that we can change that. By a few adjustments in `System Preferences` and installing the free software [Karabiner](https://pqrs.org/osx/karabiner/), we can turn that useless key into a extremely useful <kbd>hyperkey</kbd>.
+The <kbd>caps lock</kbd> key is a borderline useless key for a decent typist, but what's great about Macs is that we can change that. By a few adjustments in `System Preferences` and installing the free software [Karabiner](https://pqrs.org/osx/karabiner/), we can turn that useless key into a extremely useful <kbd>hyperkey</kbd>.
 
-Hyperkey just means that the <kbd>caps lock</kbd> key will emulate holding down <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd> at the same time, and since no application would use such a combination of keys to execute a command, this makes a whole new key for us to use.
+Hyperkey just means that the <kbd>caps lock</kbd> key will emulate holding down <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd> at the same time, and since no application would use such a combination of keys to execute a command, this makes a whole new modifier key for us to implement.
 
 {++karabiner tutorial & examples++}
 * * *
 
 ## Resources
-- [AppleScript Language Guide](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) - Necessary for efficient script development, explains everything about how to script with AppleScript. (I highly recommend the [Dash](https://kapeli.com/dash) version though, much faster and easier to use)
+- [AppleScript Language Guide][ude4571a] - Necessary for efficient script development, explains everything about how to script with AppleScript. (I highly recommend the [Dash](https://kapeli.com/dash) version though, much faster and easier to use)
 - [Macscripter.net](https://macscripter.net/) - Forum for AppleScripters to post examples and ask questions. Definitely create a free account.
 
 ### My Favorite Tutorials
@@ -308,18 +313,18 @@ These scripts are released under the [MIT License][mit].
 [bttapp]: https://folivora.ai/
 [kmapp]: https://www.keyboardmaestro.com/
 [hazelapp]: https://www.noodlesoft.com/
-
+[vb5342sx]: https://apps.apple.com/us/app/json-helper-for-applescript/id453114608?mt=12
+[f83kch8s]: https://apps.apple.com/us/app/location-helper/id488536386?mt=12
+[ude4571a]: https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html
 <!-- My GitHub links -->
 
 [kevinslib]: https://github.com/kevin-funderburg/AppleScript-libraries/blob/master/Kevin's%20Library.applescript
 
 <!-- Sub directories -->
 
-[blob]: https://github.com/kevin-funderburg/AppleScripts/blob/master/
-[finder]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Finder
-[global]: https://github.com/kevin-funderburg/AppleScripts/tree/master/Global
+[finder]: ./Finder
+[global]: ./Global
 [gf]: ./imgs/gif.png
 [mail]: ./Mail
 [mit]: https://github.com/kevin-funderburg/AppleScripts/blob/master/LICENSE.txt
-
-[sc]: https://github.com/kevin-funderburg/AppleScripts/blob/master/System-Control
+[sc]: ./System-Control
