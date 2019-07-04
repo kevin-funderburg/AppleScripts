@@ -100,7 +100,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Toggle Minimal View][3a899b61]                    | <i></i> | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
-<i></i>                     |  [New Snippet from Clipboard\|Selection][1172c96a]| | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd>
+<i></i>                     |  [New Snippet from Clipboard\|Selection][1172c96a] | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd>
 
 
 [alf]: ./Alfred
