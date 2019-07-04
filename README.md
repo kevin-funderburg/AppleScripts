@@ -74,7 +74,8 @@ Application                 |  Scripts                                          
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Calendar][cal]**         |  [WFO to Calendar][d2c1694b]                        | :earth_americas:    | <i></i>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Finder][finder]**        |  [Go to Custom Folder][fb40138e]                    | <i></i>             | <kbd>too many to list</kbd>
+**[Finder][finder]**        |  [Copy Path as Alias][02e5746e]                     | <i></i>             | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
+<i></i>                     |  [Go to Custom Folder][fb40138e]                    | <i></i>             | <kbd>too many to list</kbd>
 <i></i>                     |  [Monthly Cleanups][2f34cbb7]                       | :camera:            | <i></i>
 <i></i>                     |  [Open Selection in iTerm][8fea9aa4]                | :cinema:            | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>T</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
@@ -88,7 +89,7 @@ Application                 |  Scripts                                          
 **[Mail][mail]**            |  [Set Color of Text][d1529523]                      | :cinema: :camera:   | <kbd>⌘</kbd><kbd>⇧</kbd><kbd>(C)olor</kbd>
 <i></i>                     |  [Make Mail URL][63ba2f90]                          | <i></i>             | <kbd>⌃</kbd><kbd>U</kbd>
 <i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]        | :earth_americas:    | <i></i>
-<i></i>                     |  [Show Message][9c348c76]                           | :camera:            | <i></i>
+<i></i>                     |  [Show Message][9c348c76]                           | :earth_americas: :camera: | <i></i>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Safari][saf]**           |  [Close Left Tab][6de3c825]                         | <i></i>             | <kbd>⌥</kbd><kbd>[</kbd>
 <i></i>                     |  [Close Right Tab][2f774cb3]                        | <i></i>             | <kbd>⌥</kbd><kbd>]</kbd>
@@ -114,6 +115,7 @@ Application                 |  Scripts                                          
 [cal]: .Calendar
 [d2c1694b]: ./Calendar/WFO-to-Calendar.applescript
 [finder]: ./Finder
+[02e5746e]: ./Finder/Copy-Path-as-Alias.applescript
 [fb40138e]: ./Finder/Go-to-Custom-Folder.applescript
 [2f34cbb7]: ./Finder/Monthly-Cleanups.applescript
 [8fea9aa4]: ./Finder/Open-Selection-in-iTerm.applescript
