@@ -4,6 +4,10 @@ Scripts for supercharging Mail.
 
 ## Contents
 
+- [Make Mail URL][cnj3ds8l]
+
+- [Mark All Inbox Messages as Read][dj28346f]
+
 - [Set Color of Text][djka87dj]
     - This script was made after Dark Mode was introduced on Mojave. I used to set the background color of messages to color code everything, but in Dark Mode, setting the color of text is much sexier. But for some reason, text color is not settable through the Mail scripting language.
     - To get around this lack of language, this script acts as a temporary rule that sets the color of the currently selected message(s) once and disables itself so it doesn't keep coloring messages. So in order for this to work, you have to make a rule for each color manually , and each rule must be named **exactly like this format**: `Act-On Rule: Messages Text to [<color>]`(screen shot below)
@@ -23,8 +27,6 @@ Scripts for supercharging Mail.
 
 * * *
 
-- [Make Mail URL][cnj3ds8l]
-- [Mark All Inbox Messages as Read][dj28346f]
 - [Show Message][9c348c76]
     - This script is used in conjunction with Mail rules to open and show an email
     message. Particularly useful for messages that are important that you don't
