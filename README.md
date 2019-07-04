@@ -83,7 +83,7 @@ Application                 |  Scripts                                          
 **[Mail][mail]**            |  [Set Color of Text][d1529523]                      | <i></i>             | <i></i>
 <i></i>                     |  [Make Mail URL][63ba2f90]                          | <i></i>             | <kbd>⌃</kbd><kbd>U</kbd>
 <i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]        | <i></i>             | <i></i>
-<i></i>                     |  [Show Message][9c348c76]                           | :cinema:ˇ            | <i></i>
+<i></i>                     |  [Show Message][9c348c76]                           | :camera:            | <i></i>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Safari][saf]**           |  [Close Left Tab][6de3c825]                         | <i></i>             | <kbd>⌥</kbd><kbd>[</kbd>
 <i></i>                     |  [Close Right Tab][2f774cb3]                        | <i></i>             | <kbd>⌥</kbd><kbd>]</kbd>
