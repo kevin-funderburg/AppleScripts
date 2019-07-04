@@ -10,7 +10,7 @@ These scripts are generally to make development of scripts easier. They can be c
 - [Split Text][561dd09a]
 - [Transform Text][5748a92f]
 
-[f3fd3ca9]: ./Extract-Between.applescript
-[4b6da3a9]: ./Search-with-Regex.applescript
-[561dd09a]: ./Split-Text.applescript
-[5748a92f]: ./Transform-Text.applescript
+[f3fd3ca9]: ./Text-Utilities/Extract-Between.applescript
+[4b6da3a9]: ./Text-Utilities/Search-with-Regex.applescript
+[561dd09a]: ./Text-Utilities/Split-Text.applescript
+[5748a92f]: ./Text-Utilities/Transform-Text.applescript
