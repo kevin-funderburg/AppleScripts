@@ -33,7 +33,7 @@ This repo was created for two main reasons.
 1. Provide others with useful scripts for automating their workflow on macOS.
 2. As a tool for AppleScript education by providing example scripts, tools, tips and AppleScript resources.
 
-With some exceptions, almost all these scripts are executable by themselves via the {==Script Menu==}{>>make into link<<}. However, I generally turn to third party automation apps to execute them, including [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp] and [Hazel][hazelapp].
+With some exceptions, almost all these scripts are executable by themselves via the [Script Menu](https://iworkautomation.com/Script-Menu-720P.mov). However, I generally turn to third party automation apps to execute them, including [Keyboard Maestro][kmapp], [Alfred][alfredapp], [BetterTouchTool][bttapp] and [Hazel][hazelapp].
 
 - **Notes on formatting**
 For those who are unaware, the standard file format for AppleScripts is `.scpt` or `.scptd`, but these file types are not readable on GitHub, so for readability's sake, all these scripts have been exported as a `.applescript` file (which is just a text file). So if you were wondering about the file type, this is the reason.
@@ -206,6 +206,7 @@ Icon                |  Meaning
 --------------------|--------------------------------------------
 :cinema:            | script has a gif demo in its section's README
 :camera:            | script has a screenshot in its section's README
+:tv:                | video to watch
 :earth_americas:    | script is executed globally for a specific app
 
 _Shortcut key symbols_
@@ -294,7 +295,7 @@ Tutorials I've bookmarked over the years that I've found particularly helpful or
     - [Date/Time Calculations using AppleScript](https://erikslab.com/2007/11/26/date-time-calculations-using-applescript/)
     - [Storing and Accessing Data with AppleScript](http://preserve.mactech.com/articles/mactech/Vol.22/22.03/StoringandAccessingData/index.html)
     - [AppleScript Power Handlers](https://www.apeth.net/matt/unm/asph.html)
-    - [Giving your AppleScripts a Face Lift with AppleScriptObjC](https://www.youtube.com/watch?v=HE5jFCfkD0w&app=desktop) :tv:
+    - [Giving your AppleScripts a Face Lift with AppleScriptObjC](https://www.youtube.com/watch?v=HE5jFCfkD0w&app=desktop)&emsp;:tv:
 
 ## Licensing & thanks
 
