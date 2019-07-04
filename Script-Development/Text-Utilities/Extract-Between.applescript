@@ -1,3 +1,11 @@
+-- @description
+-- extract text between 2 strings
+--
+-- @param $SearchText - whole search string
+-- @param $startText - string before desired string
+-- @param $endText - string after desired string
+-- @return - string between startText & endText
+--
 on extractBetween(SearchText, startText, endText)
 	set tid to AppleScript's text item delimiters
 	set AppleScript's text item delimiters to startText

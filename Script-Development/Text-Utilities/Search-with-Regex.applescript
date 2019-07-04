@@ -1,9 +1,11 @@
 -- @description
 -- search text using regular expression
 --
--- @param thePattern: regex pattern
--- @param theString: string to be searcched
--- @param n: capturing group
+-- @param $thePattern - regex pattern
+-- @param $theString - string to be searcched
+-- @param $n - capturing group
+-- @return - search result
+--
 on SearchWithRegEx(thePattern, theString, n)
 	set theNSString to current application's NSString's stringWithString:theString
 	set theOptions to ((current application's NSRegularExpressionDotMatchesLineSeparators) as integer) + ((current application's NSRegularExpressionAnchorsMatchLines) as integer)

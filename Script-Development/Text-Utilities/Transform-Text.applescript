@@ -3,6 +3,7 @@
 --
 -- @param $inString - text to be transformed
 -- @param $caseIndicator - upper, lower or capitalized
+-- @return - transformed text
 --
 on transformText(inString, caseIndicator)
 	-- create a Cocoa string from the passed text, by calling the NSString class method stringWithString:
