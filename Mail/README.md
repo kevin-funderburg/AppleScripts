@@ -12,11 +12,12 @@ Scripts for supercharging Mail.
 
     - The `From` field will be reset every time the script is called so just set it to gibberish, but it **can't be blank or it won't save**,
 
-    <p><img src="../imgs/mail-rule-set-text-color.png" width="500"</p>
+    ![rules](../imgs/mail-rule-set-text-color.png) width="500"</p>
 
     - After the rules are made the script can be ran by passing in the color you want to make the message (demo below).
-    <p><img src="../imgs/mail-rule-set-text-color.gif" width="500"</p>
 
+    ![demo](../imgs/mail-rule-set-text-color.gif)
+    
     - I have each color mapped to a shortcut key in Keyboard Maestro like <kbd>⌘</kbd><kbd>⇧</kbd><kbd>B</kbd> for Blue, <kbd>⌘</kbd><kbd>⇧</kbd><kbd>R</kbd> for Red etc.
 > If you don't have Keyboard Maestro, just duplicate thi script for each color naming the file like `set text to [<color>]` and erase the first 3 lines and replace it with `set thecolor to [<color>]` then put each script into `~/Library/Scripts/Applications/Mail` an execute via the Script Menu
 
