@@ -6,7 +6,7 @@ Various scripts for Alfred use.
 
 ## Contents
 
-- [Show Recent Files for Front App][f87hsj34]&emsp;<kbd>hyperkey</kbd><kbd>O</kbd>
+- [Show Recent Files for Front App][f87hsj34]&emsp;<kbd>hyperkey</kbd><kbd>O</kbd>&emsp; :earth_americas:
     - Super useful and great when set as a keyboard shortcut, check out the demo below.
 
     <p><img src="../imgs/alfred-recentfilesdemo.gif" width="800"</p>
