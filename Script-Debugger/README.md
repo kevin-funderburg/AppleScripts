@@ -10,7 +10,7 @@ Scripts and clippings for use when working in [Script Debugger](https://latenigh
 
 ## Contents
 
-- [Duplicate Tab](./Duplicate-Tab.applescript) <kbd>F7</kbd>
+- [Duplicate Tab](./Duplicate-Tab.applescript)&emsp;<kbd>F7</kbd>
     - Duplicates the front tab, useful for making edits without breaking what is already written.
 
 - [Duplicate for GitHub](./Duplicate-for-GitHub.applescript)
@@ -20,18 +20,18 @@ Scripts and clippings for use when working in [Script Debugger](https://latenigh
     - Insert a handler description at the beginning of the handler currently selected. The description will inserted by creating a Script Debugger clipping _dynamically_ with the handler's name and parameters.
     - Check out the demo below.
 
-  ![demo](../imgs/sdb-dynamicdescription.gif)
+    <p><img src="../imgs/sdb-dynamicdescription.gif" width="500"</p>
 
-- [Open Used Script Libraries](./Open-Used-Script-Libraries.applescript) <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
+- [Open Used Script Libraries](./Open-Used-Script-Libraries.applescript)&emsp;<kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
     - Open the script libraries that are currently in use in the front script.
 
-- [Run Front Script](./Run-Front-Script.applescript) :earth_americas: <kbd>hyperkey</kbd><kbd>R</kbd>
+- [Run Front Script](./Run-Front-Script.applescript)&emsp;<kbd>hyperkey</kbd><kbd>R</kbd>&emsp; :earth_americas:
     - Execute the frontmost script globally, I use this constantly for testing scripts in other applications.
 
-- [Save As Text Script](./Save-As-Text-Script.applescript) <kbd>⌃</kbd><kbd>S</kbd>
+- [Save As Text Script](./Save-As-Text-Script.applescript)&emsp;<kbd>⌃</kbd><kbd>S</kbd>
     - Prompts for a location to save a file as a text script with unix line endings for readability on GitHub.
 
-- [Toggle Minimal View](./Toggle-Minimal-View.applescript) <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
+- [Toggle Minimal View](./Toggle-Minimal-View.applescript)&emsp;<kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
     - Hides/Shows the toolbar, sidebar, and logging panel.
 
 - [My Clippings](./My-Clippings)
