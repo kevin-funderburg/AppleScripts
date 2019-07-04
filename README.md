@@ -80,7 +80,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Go To Executed Macro][4355277b]                   | <i></i>             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>G</kbd>
 <i></i>                     |  [Run Current Macro][8cbb891d]                      | :earth_americas:    | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>R</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Mail][mail]**            |  [Set Color of Text][d1529523]                      | <i></i>             | <i></i>
+**[Mail][mail]**            |  [Set Color of Text][d1529523]                      | :cinema: :camera:   | <i></i>
 <i></i>                     |  [Make Mail URL][63ba2f90]                          | <i></i>             | <kbd>⌃</kbd><kbd>U</kbd>
 <i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]        | <i></i>             | <i></i>
 <i></i>                     |  [Show Message][9c348c76]                           | :camera:            | <i></i>
