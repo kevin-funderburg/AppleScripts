@@ -6,6 +6,9 @@ Collection of AppleScripts I've developed or acquired over the years. Some are g
 
 > This repo is in continuous development and will be updated as scripts are developed (and as I have time).
 
+<details>
+  <summary><strong>Table of Contents</strong> (click to expand)</summary>
+
 <!-- TOC depthFrom:2 -->
 
 - [About](#about)
@@ -18,12 +21,14 @@ Collection of AppleScripts I've developed or acquired over the years. Some are g
     - [Keep Scripts In Sync Using Aliases](#keep-scripts-in-sync-using-aliases)
     - [Make a Hyperkey](#make-a-hyperkey)
 - [Resources](#resources)
+    - [My Favorite AppleScripters](#my-favorite-applescripters)
     - [My Favorite Tutorials](#my-favorite-tutorials)
 - [Licensing & thanks](#licensing--thanks)
 - [Changelog](#changelog)
 - [To-Do](#to-do)
 
 <!-- /TOC -->
+</details>
 
 <a id="about"></a>
 
