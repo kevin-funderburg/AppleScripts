@@ -16,3 +16,5 @@ Various scripts for Alfred use.
 
 [f87hsj34]: ./Show-Recent-Files-for-Front-App.applescript
 [6274c240]: ./Browse-Current-Workflow-in-Alfred.applescript
+[kmapp]: https://www.keyboardmaestro.com/
+[alfredapp]: https://www.alfredapp.com/
