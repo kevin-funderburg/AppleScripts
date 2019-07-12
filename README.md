@@ -99,6 +99,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Script Debugger][sdb]**  |  [Duplicate Tab][ff203baf]                          | <i></i>             | <kbd>F7</kbd>
 <i></i>                     |  [Duplicate for GitHub][ea9fb946]                   | <i></i>             | <i></i>
+<i></i>                     |  [Handler Tester][9b6bdfdc]                         | <i></i>             | <kbd>F6</kbd>
 <i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]     | :cinema:            | <i></i>
 <i></i>                     |  [Open Used Script Libraries][3c961777]             | <i></i>             | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
 <i></i>                     |  [Run Front Script][u76g4ds3]                       | :earth_americas:    | <kbd>hyperkey</kbd><kbd>R</kbd>
@@ -140,6 +141,7 @@ Application                 |  Scripts                                          
 [sdb]: ./Script-Debugger
 [ff203baf]: ./Script-Debugger/Duplicate-Tab.applescript
 [ea9fb946]: ./Script-Debugger/Duplicate-for-GitHub.applescript
+[9b6bdfdc]: ./Script-Debugger/Handler-Tester.applescript
 [h78j5f3s]: ./Script-Debugger/Insert-Dynamic-Handler-Description.applescript
 [3c961777]: ./Script-Debugger/Open-Used-Script-Libraries.applescript
 [u76g4ds3]: ./Script-Debugger/Run-Front-Script.applescript
@@ -247,7 +249,7 @@ Symbol              | Key
     - [AppScripts](https://github.com/deanishe/alfred-appscripts) - List, search and run/open AppleScripts for the active application
     - [KeyCodes](http://www.packal.org/workflow/keycodes) - Great for UI scripting where you need to type a non-character key. Lets you find AppleScript key codes in an instant by typing `kc [<key name>]`.
         - If you don't have Alfred then bookmark [Complete list of AppleScript key codes](https://eastmanreference.com/complete-list-of-applescript-key-codes)
-
+- **[Keycue](https://www.ergonis.com/products/keycue/)** - I use this more for Keyboard Maestro, but it's a great app for quickly looking up keyboard shortcuts for macros or menu items.
 * * *
 
 ## Tips

@@ -16,6 +16,17 @@ Scripts and clippings for use when working in [Script Debugger](https://latenigh
 - [Duplicate for GitHub](./Duplicate-for-GitHub.applescript)
     - This duplicates the front script in its current file location as a `.applescript` file with unix style line endings so it is readable on GitHub.
 
+- [Handler Tester][9b6bdfdc]&emsp;<kbd>F6</kbd>
+    - This creates a second script for unit testing handlers within a script.
+    - Result looks something like this:
+    ```AppleScript
+    tell application "Script Debugger"
+	   tell document "Kevin's Library"
+		     waitForSafariToLoad()
+	    end tell
+    end tell
+    ```
+
 - [Insert Dynamic Handler Description](./Insert-Dynamic-Handler-Description.applescript)
     - Insert a handler description at the beginning of the handler currently selected. The description will inserted by creating a Script Debugger clipping _dynamically_ with the handler's name and parameters.
     - Check out the demo below.
@@ -40,3 +51,4 @@ Scripts and clippings for use when working in [Script Debugger](https://latenigh
 
 [kmapp]: https://www.keyboardmaestro.com/
 [alfredapp]: https://www.alfredapp.com/
+[9b6bdfdc]: ./Handler-Tester.applescript
