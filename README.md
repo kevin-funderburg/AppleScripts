@@ -286,7 +286,20 @@ The <kbd>caps lock</kbd> key is a borderline useless key for a decent typist, bu
 
 Hyperkey just means that the <kbd>caps lock</kbd> key will emulate holding down <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd> at the same time, and since no application would use such a combination of keys to execute a command, this makes a whole new modifier key for us to implement.
 
-{++karabiner tutorial & examples++}
+**How to do it:**
+
+1. Download [Karabiner](https://pqrs.org/osx/karabiner/)
+2. Go to `System Preferences` > `Keyboard` and click on `Modifier Keys...` and make it look like this
+![keyboardprefs](./imgs/karabiner-keyboard-prefs.png)
+3. Launch the `Karabiner-Elements` app
+4. Click the `Complex Modifications` button and click the `Add Rule` button to install the hyperkey mod. You can see the mods I use below.
+
+![karabinerMods](./imgs/karabiner-mods.png)
+
+And that's it! Now you have the super useful <kbd>hyperkey</kbd>!
+
+> Note that one of the mods I use to toggle <kbd>caps lock</kbd> is to click both shift keys at the same time for those rare cases when I need it.
+
 * * *
 
 ## Resources
