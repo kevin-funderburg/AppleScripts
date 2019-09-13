@@ -10,7 +10,11 @@ These scripts are generally to make development of scripts easier. They can be c
 - [Split Text][561dd09a]
 - [Transform Text][5748a92f]
 
+### Various
+ - [Click at Mouse Location][jau3ndi8]
+
 [f3fd3ca9]: ./Text-Utilities/Extract-Between.applescript
 [4b6da3a9]: ./Text-Utilities/Search-with-Regex.applescript
 [561dd09a]: ./Text-Utilities/Split-Text.applescript
 [5748a92f]: ./Text-Utilities/Transform-Text.applescript
+[jau3ndi8]: ./Click-at-Mouse-Location.applescript
