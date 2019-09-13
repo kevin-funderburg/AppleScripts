@@ -202,14 +202,17 @@ Context                         |  Scripts
 <i></i>                         |  [Search With Regex][4b6da3a9]
 <i></i>                         |  [Split Text][561dd09a]
 <i></i>                         |  [Transform Text][5748a92f]
+<i></i>                         |  <i></i>
+**[Various][jsklandu]**         |  [Click at Mouse Location][jau3ndi8]
 
 
-
+[jsklandu]: ./Script-Development
 [jh7839dm]: ./Script-Development/Text-Utilities
 [f3fd3ca9]: ./Script-Development/Text-Utilities/Extract-Between.applescript
 [4b6da3a9]: ./Script-Development/Text-Utilities/Search-with-Regex.applescript
 [561dd09a]: ./Script-Development/Text-Utilities/Split-Text.applescript
 [5748a92f]: ./Script-Development/Text-Utilities/Transform-Text.applescript
+[jau3ndi8]: ./Script-Development/Click-at-Mouse-Location.applescript
 
 * * *
 
@@ -356,7 +359,7 @@ These scripts are released under the [MIT License][mit].
 - [ ] Refine readme
 - [ ] Add icons to favorite scripts
 - [X] Add tips section
-- [ ] Add karabiner tutorial
+- [X] Add karabiner tutorial
 - [ ] Add descriptions to all the READMEs
 - [X] Add my Script Debugger clippings
 
