@@ -298,7 +298,7 @@ Hyperkey just means that the <kbd>caps lock</kbd> key will emulate holding down 
 
 And that's it! Now you have the super useful <kbd>hyperkey</kbd>!
 
-> Note that one of the mods I use to toggle <kbd>caps lock</kbd> is to click both shift keys at the same time for those rare cases when I need it.
+> Note that one of the mods I use to toggle <kbd>caps lock</kbd> is to click both <kbd>shift</kbd> keys at the same time for those rare cases when I need it.
 
 * * *
 
