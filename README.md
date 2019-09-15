@@ -106,7 +106,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Save As Text Script][98e99d57]                    | <i></i>             | <kbd>⌃</kbd><kbd>S</kbd>
 <i></i>                     |  [Toggle Minimal View][3a899b61]                    | <i></i> | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
+**[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | :earth_americas: :camera: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
 <i></i>                     |  [New Snippet from Clipboard\|Selection][1172c96a]  | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd>
 
 
