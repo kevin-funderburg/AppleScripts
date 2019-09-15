@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Dictionary">
+	<suite name="Alert Suite" code="!ASu" description="Contains commands for displaying enhanced dialogs.">
+		<enumeration name="alert type" code="!AtP" description="Alert type.">
+			<enumerator name="critical alert" code="*riT" description="Critical."/>
+			<enumerator name="informational alert" code="*nfA" description="Informational."/>
+			<enumerator name="warning alert" code="*arN" description="Warning."/>
+		</enumeration>
+		<enumeration name="label alignment" code="!LaL" description="">
+			<enumerator name="left aligned" code="!LlE" description="Left."/>
+			<enumerator name="right aligned" code="!LrI" description="Right."/>
+			<enumerator name="center aligned" code="!LcE" description="Center."/>
+		</enumeration>
+		<enumeration name="control sizing" code="!CsZ" description="">
+			<enumerator name="regular size" code="!CrL" description="Large (16pt)."/>
+			<enumerator name="large size" code="!CrC" description="Regular (13pt) — default."/>
+			<enumerator name="small size" code="!CsC" description="Small (11pt)."/>
+			<enumerator name="mini size" code="!Cmc" description="Mini (9pt)."/>
+		</enumeration>
+		<enumeration name="image scaling" code="!IsC" description="">
+			<enumerator name="scale down proportionally" code="!IsD" description="Maintain proportions, scaling down if necessary."/>
+			<enumerator name="scale to fit" code="!IsF" description="Anamorphic scaling."/>
+			<enumerator name="scale none" code="!IsN" description="Same size."/>
+			<enumerator name="scale proportionally" code="!IsP" description="Maintain proportions and scale up or down if necessary."/>
+		</enumeration>
+		<enumeration name="image alignment" code="!LiL" description="">
+			<enumerator name="center aligned" code="!LcC" description="Center."/>
+			<enumerator name="top aligned" code="!LcE" description="Top."/>
+			<enumerator name="top left aligned" code="!LtL" description="Top-left."/>
+			<enumerator name="top right aligned" code="!LtR" description="Top-right."/>
+			<enumerator name="left aligned" code="!LlE" description="Left."/>
+			<enumerator name="bottom left aligned" code="!LbL" description="Bottom-left."/>
+			<enumerator name="bottom right aligned" code="!LbR" description="Bottom-right."/>
+			<enumerator name="right aligned" code="!LrI" description="Right."/>
+			<enumerator name="bottom aligned" code="!LbB" description="Bottom."/>
+		</enumeration>
+		<command name="max width for labels" code="!ASuMlWd" description="Get the width required for the longest of the supplied label strings.">
+			<direct-parameter description="A list of label strings to measure.">
+				<type type="text" list="yes"/>
+			</direct-parameter>
+			<parameter name="control size" code="!MuS" description="Type size: regular size/small size/mini size. Default is small size." type="control sizing" optional="yes"/>
+			<parameter name="bold type" code="!MuB" description="Whether to use bold type. Default is false." type="boolean" optional="yes"/>
+			<result description="The length of the longest of the supplied strings." type="integer"/>
+		</command>
+		<command name="max depth for label" code="!ASuMlDp" description="Get the depth required for a label with a maximum width specified.">
+			<direct-parameter description="The label string." type="text"/>
+			<parameter name="max width" code="!MxW" description="The maximum width of the proposed label." type="integer" optional="no"/>
+			<parameter name="control size" code="!MuS" description="Type size: regular size/small size/mini size. Default is small size." type="control sizing" optional="yes"/>
+			<parameter name="bold type" code="!MuB" description="Whether to use bold type. Default is false." type="boolean" optional="yes"/>
+			<result description="The depth of the proposed label." type="real"/>
+		</command>
+		<command name="display enhanced alert" code="!AScDiEa" description="Display alert with accessory view.">
+			<direct-parameter description="The alert text, which appears in bold." type="any"/>
+			<parameter name="message" code="mesS" description="The explanatory message." type="text" optional="no"/>
+			<parameter name="as" code="as A" description="The type of alert. Default is informational alert." type="alert type" optional="yes"/>
+			<parameter name="buttons" code="btns" description="A list of button names." optional="no">
+				<type type="text" list="yes"/>
+			</parameter>
+			<parameter name="suppression" code="!suP" description="Whether the suppression checkbox should appear. Default is false." type="boolean" optional="yes"/>
+			<parameter name="giving up after" code="givu" description="Number of seconds to wait before dismissing the alert. Default is 0 (never give up)." type="number" optional="yes"/>
+			<parameter name="acc view width" code="!AvW" description="The width of the accessory view in points." type="integer" optional="no"/>
+			<parameter name="acc view height" code="!AvH" description="The height of the accessory view in points." type="integer" optional="no"/>
+			<parameter name="acc view controls" code="!AvC" description="A list of the controls to be included in the accessory view." optional="no">
+				<type type="any" list="yes"/>
+			</parameter>
+			<result description="A list consisting of the name of the button pressed (or &apos;Gave Up&apos;), the boolean state of the suppression button, and a list of the values of the controls passed in &apos;acc view controls&apos;.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="display enhanced window" code="!AScDiEw" description="Display window with accessory view.">
+			<direct-parameter description="The window title." type="text"/>
+			<parameter name="buttons" code="btns" description="A list of buttons returned by the 'create buttons' command." optional="no">
+				<type type="any" list="yes"/>
+			</parameter>
+			<parameter name="giving up after" code="givu" description="Number of seconds to wait before dismissing the window. Default is 0 (never give up)." type="number" optional="yes"/>
+			<parameter name="acc view width" code="!AvW" description="The width of the accessory view in points." type="integer" optional="no"/>
+			<parameter name="acc view height" code="!AvH" description="The height of the accessory view in points." type="integer" optional="no"/>
+			<parameter name="acc view controls" code="!AvC" description="A list of the controls to be included in the accessory view." optional="no">
+				<type type="any" list="yes"/>
+			</parameter>
+			<parameter name="active field" code="!AcF" description="A reference to the text field you wish to be active when the dialog appears." optional="yes">
+				<type type="any"/>
+			</parameter>
+			<parameter name="initial position" code="!AiP" description="Initial coordinates for window. Pass an empty list for centered window." optional="yes">
+				<type type="real" list="yes"/>
+			</parameter>
+			<parameter name="align cancel button" code="!AvL" description="If the first button is a cancel button, align it to the left. Default is true." type="boolean" optional="yes"/>
+			<result description="A list consisting of the name of the button pressed (or &apos;Gave Up&apos;), and a list of the values of the controls passed in &apos;acc view controls&apos;. If a designated cancel button is pressed, a user canceled error (number -128) is generated instead.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create buttons" code="!ASc!CbS" description="Create a list of buttons to appear at the bottom of an enhanced window.">
+			<direct-parameter description="The button names.">
+				<type type="text" list="yes"/>
+			</direct-parameter>
+			<parameter name="button keys" code="!btK" description="A list of keyboard shortcuts for the buttons. So a shortcut of 'm' means a key will respond to command-M-key, and 'M' means command-shift-M-key." optional="yes">
+				<type type="text" list="yes"/>
+			</parameter>
+			<parameter name="default button" code="dflt" description="The name or number of the default button. Overrides any button keys." optional="yes">
+				<type type="integer"/>
+				<type type="text"/>
+			</parameter>
+			<parameter name="cancel button" code="cbtn" description="The name or number of the cancel button. Overrides any button keys." optional="yes">
+				<type type="integer"/>
+				<type type="text"/>
+			</parameter>
+			<parameter name="equal widths" code="!beQ" description="Whether all buttons should be the same size. Default is no." type="boolean" optional="yes"/>
+			<result description="A list consisting of the list of button objects plus the minimum required accessory view width to fit them.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create label" code="!ASuCrLa" description="Create a text label.">
+			<direct-parameter description="Text of the label." type="text"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="max width" code="!MxW" description="The maximum width of the control." type="integer" optional="no"/>
+			<parameter name="aligns" code="!AlI" description="Text alignment of label: left aligned/right aligned/center aligned. Default is left aligned." type="label alignment" optional="yes"/>
+			<parameter name="multiline" code="!MuL" description="Whether the label will wrap to multiple lines if needed. Default is true." type="any" optional="yes"/>
+			<parameter name="control size" code="!MuS" description="Type size: regular size/small size/mini size. Default is small size." type="control sizing" optional="yes"/>
+			<parameter name="bold type" code="!MuB" description="Whether to use bold type. Default is false." type="boolean" optional="yes"/>
+			<result description="A list containing the label, the distance of its top from the bottom of the accessory view, and its actual width.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create image view" code="!ASuCrIv" description="Create a view containing an image.">
+			<direct-parameter description="POSIX path to the image file." type="text"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="view width" code="!FwV" description="Width of the view." type="integer" optional="no"/>
+			<parameter name="view height" code="!EvH" description="Height of the view." type="integer" optional="no"/>
+			<parameter name="scale image" code="!MsC" description="How to scale the image. Default is 'scale down proportionally'." type="image scaling" optional="yes"/>
+			<parameter name="align image" code="!MsA" description="How to align the image. Default is 'center aligned'." type="image alignment" optional="yes"/>
+			<result description="A list containing the image view, and the distance of its top from the bottom of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create field" code="!ASuCrTf" description="Create a text field for user input.">
+			<direct-parameter description="Initial contents of the field." type="text"/>
+			<parameter name="placeholder text" code="!FpL" description="Placeholder text to appear when field is empty." type="text" optional="yes"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="field width" code="!FwI" description="Width of the field." type="integer" optional="no"/>
+			<parameter name="extra height" code="!ExH" description="If more than 0, the field will be deepened by this amount, and the text within it will wrap if necessary. Default is 0." type="integer" optional="yes"/>
+			<parameter name="accepts linebreak and tab" code="!MlT" description="When true, the field will accept the tab, return and enter keys. Default is false." type="boolean" optional="yes"/>
+			<result description="A list containing the field, and the distance of its top from the bottom of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create secure field" code="!ASuCrSf" description="Create a secure text field for user input. Text typed in a secure field will appear as bullets.">
+			<direct-parameter description="Initial contents of the field." type="text"/>
+			<parameter name="placeholder text" code="!FpL" description="Placeholder text to appear when field is empty." type="text" optional="yes"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="field width" code="!FwI" description="Width of the field." type="integer" optional="no"/>
+			<result description="A list containing the secure field, and the distance of its top from the bottom of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create top labeled field" code="!ASuCrLf" description="Create an entry field with a single-line label at the top.">
+			<direct-parameter description="Initial contents of the field." type="text"/>
+			<parameter name="placeholder text" code="!FpL" description="Placeholder text to appear when field is empty." type="any" optional="yes"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="field width" code="!FwI" description="Width of the field." type="integer" optional="no"/>
+			<parameter name="extra height" code="!ExH" description="If more than 0, the field will be deepened by this amount, and the text within it will wrap if necessary. Default is 0." type="integer" optional="yes"/>
+			<parameter name="accepts linebreak and tab" code="!MlT" description="When true, the field will accept the tab, return and enter keys. Default is false." type="boolean" optional="yes"/>
+			<parameter name="label text" code="!LtX" description="Contents of the label." type="text" optional="no"/>
+			<result description="A list containing the field, the label, and the distance from the top of the label to the bottom of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create side labeled field" code="!ASuCrLs" description="Create an entry field with a label to its left.">
+			<direct-parameter description="Initial contents of the field." type="text"/>
+			<parameter name="placeholder text" code="!FpL" description="Placeholder text to appear when field is empty." type="text" optional="yes"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="total width" code="!StW" description="Total width of the label and field combined." type="integer" optional="no"/>
+			<parameter name="accepts linebreak and tab" code="!MlT" description="When true, the field will accept the tab, return and enter keys. Default is false." type="boolean" optional="yes"/>
+			<parameter name="label text" code="!LtX" description="Contents of the label." type="text" optional="no"/>
+			<parameter name="field left" code="!FlF" description="How much to inset the field from the accessory view&apos;s left. If less than &apos;left inset&apos; value, it will be ignored." type="integer" optional="no"/>
+			<result description="A list containing the field, the label, the distance from the top of the label to the bottom of the accessory view, and the width of the field.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create popup" code="!ASuCrPo" description="Create a popup menu.">
+			<direct-parameter description="A list of menu item names.">
+				<type type="text" list="yes"/>
+			</direct-parameter>
+			<parameter name="left inset" code="!Lli" description="How much to inset the control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="popup width" code="!PuW" description="Width of the popup menu." type="integer" optional="no"/>
+			<parameter name="initial choice" code="!MuD" description="Title or index of initially selected entry. Default is 1." optional="yes">
+				<type type="integer"/>
+				<type type="text"/>
+			</parameter>
+			<result description="A list containing the popup, and the distance from the top of the popup to the bottom of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create labeled popup" code="!ASuCrPl" description="Create a popup menu with a label.">
+			<direct-parameter description="A list of menu item names.">
+				<type type="text" list="yes"/>
+			</direct-parameter>
+			<parameter name="left inset" code="!Lli" description="How much to inset the labeled control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="popup width" code="!PuW" description="Width of the popup menu." type="integer" optional="no"/>
+			<parameter name="max width" code="!MxW" description="Maximum width of the label plus control." type="integer" optional="no"/>
+			<parameter name="label text" code="!LtX" description="Contents of the label." type="text" optional="no"/>
+			<parameter name="popup left" code="!PuL" description="How much to inset the popup from the accessory view&apos;s left. If less than &apos;left inset&apos; value, it will be ignored." type="integer" optional="no"/>
+			<parameter name="initial choice" code="!MuD" description="Title or index of initially selected entry. Default is 1." optional="yes">
+				<type type="integer"/>
+				<type type="text"/>
+			</parameter>
+			<result description="A list containing the popup, the label, the distance from the top of the popup to the bottom of the accessory view, and the distance from the popup to the left of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create checkbox" code="!ASuCrCb" description="Create a checkbox.">
+			<direct-parameter description="The title of the checkbox." type="any"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="max width" code="!MxW" description="Maximum width of the control." type="integer" optional="no"/>
+			<parameter name="initial state" code="!IsT" description="Whether the checkbox is initially checked. Default is false." type="boolean" optional="yes"/>
+			<result description="A list containing the checkbox, the distance from the top of the checkbox to the bottom of the accessory view, and the width of the checkbox.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create labeled checkbox" code="!ASuCrLc" description="Create a checkbox with a label to its left.">
+			<direct-parameter description="Description of direct parameter." type="text"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the labeled control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="max width" code="!MxW" description="Maximum width of the label plus control." type="integer" optional="no"/>
+			<parameter name="label text" code="!LtX" description="Contents of the label." type="text" optional="no"/>
+			<parameter name="checkbox left" code="!CbL" description="How much to inset the checkbox from the accessory view&apos;s left. If less than &apos;left inset&apos; value, it will be ignored." type="integer" optional="no"/>
+			<parameter name="initial state" code="!IsT" description="Whether the checkbox is initially checked. Default is false." type="boolean" optional="yes"/>
+			<result description="A list containing the checkbox, the label, the distance from the top of the checkbox to the bottom of the accessory view, and the distance from the checkbox to the left of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create path control" code="!ASuCrPc" description="Create a path control.">
+			<direct-parameter description="The POSIX path of the initial path to be displayed in the path control." type="text"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the control from the left of the accessory view.  Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="control width" code="!CwI" description="The width of the path control." type="integer" optional="no"/>
+			<parameter name="pops up" code="!PoP" description="If true, it will be a pop-up path control; if false, it will be a standard control path. Default is true." type="boolean" optional="yes"/>
+			<result description="A list containing the path control, and the distance from the top of the path control to the bottom of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create labeled path control" code="!ASuCrP+" description="Create a path control with a label above it.">
+			<direct-parameter description="The POSIX path of the initial path to be displayed in the path control." type="text"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the labeled control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="control width" code="!CwI" description="The width of the path control." type="integer" optional="no"/>
+			<parameter name="pops up" code="!PoP" description="If true, it will be a pop-up path control; if false, it will be a standard control path. Default is true." type="boolean" optional="yes"/>
+			<parameter name="label text" code="!LtX" description="Contents of the label." type="text" optional="no"/>
+			<result description="A list containing the path control, the label, and the distance from the top of the path control to the bottom of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create matrix" code="!ASuCrMa" description="Create a matrix of radio buttons.">
+			<direct-parameter description="A list of names for the radio buttons.">
+				<type type="text" list="yes"/>
+			</direct-parameter>
+			<parameter name="left inset" code="!Lli" description="How much to inset the control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="max width" code="!MxW" description="Maximum width of the control." type="integer" optional="no"/>
+			<parameter name="arranged vertically" code="!VeR" description="If true, the buttons will appear in a single column; if false, they will appear in a single row. Default is true." type="boolean" optional="yes"/>
+			<parameter name="initial choice" code="!MuD" description="Title or index of initially selected entry. Default is 1." optional="yes">
+				<type type="integer"/>
+				<type type="text"/>
+			</parameter>
+			<result description="A list containing the matrix, the distance of its top from the bottom of the accessory view, and its width.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create labeled matrix" code="!ASuCrLm" description="Create a matrix of radio buttons, with a label to the left aligned vertically with the first button.">
+			<direct-parameter description="A list of names for the radio buttons.">
+				<type type="text" list="yes"/>
+			</direct-parameter>
+			<parameter name="left inset" code="!Lli" description="How much to inset the labeled control from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="bottom" code="!BtM" description="The distance from the bottom of the accessory view to the bottom of the control." type="integer" optional="no"/>
+			<parameter name="max width" code="!MxW" description="Maximum width of the label plus control." type="integer" optional="no"/>
+			<parameter name="arranged vertically" code="!VeR" description="If true, the buttons will appear in a single column; if false, they will appear in a single row. Default is true." type="boolean" optional="yes"/>
+			<parameter name="matrix left" code="!MxL" description="How much to inset the matrix from the accessory view&apos;s left. If less than &apos;left inset&apos; value, it will be ignored." type="integer" optional="no"/>
+			<parameter name="label text" code="!LtX" description="Contents of the label." type="text" optional="no"/>
+			<parameter name="initial choice" code="!MuD" description="Title or index of initially selected entry. Default is 1." optional="yes">
+				<type type="integer"/>
+				<type type="text"/>
+			</parameter>
+			<result description="A list containing the matrix, the label, the distance from the top of the matrix to the bottom of the accessory view, and the distance from the matrix to the left of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+		<command name="create rule" code="!ASuCrRu" description="Create a horizontal rule.">
+			<direct-parameter description="The distance from the bottom of the accessory view." type="integer"/>
+			<parameter name="left inset" code="!Lli" description="How much to inset the rule from the left of the accessory view. Default is 0." type="integer" optional="yes"/>
+			<parameter name="rule width" code="!RwI" description="The width of the rule." type="integer" optional="no"/>
+			<result description="A list containing the rule, and the distance of its top from the bottom of the accessory view.">
+				<type type="any" list="yes"/>
+			</result>
+		</command>
+	</suite>
+</dictionary>
