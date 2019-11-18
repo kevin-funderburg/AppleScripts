@@ -16,6 +16,7 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
       - This is done in one of two ways.
         1. Passing a desired `UUID` of a trigger
             - By passing a specified `UUID`, this tells the script to perform an action on a specific trigger.
+            - Recall you can get a `UUID` of a trigger with <kbd>⌘</kbd><kbd>⇧</kbd><kbd>C</kbd> while the trigger is selected.
             - The following example will show 3 triggers and hide another
 
         ```AppleScript
@@ -32,9 +33,9 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
         tell expand to button()'s setVisible(false)
         ```
         2. Passing `missing value`
-            - Passing `missing value` implies that the trigger you want to adjust is the trigger currently selected within BTT. The library will then copy the JSON of the selected trigger and create a script object that allows for easy updating.
-           - Very useful when making visual changes to the touchbar as you can see the result in real time with a shortcut key.
-           - The following example will set the placement of the currently selected button to the left side of the touchbar:
+            - Passing `missing value` implies that the trigger you want to adjust is the trigger _currently selected within BTT_. The library will then copy the JSON of the selected trigger and create a script object that allows for easy updating.
+            - Very useful when making visual changes to the touchbar (especially when mapped to a shortcut key or button) as you can see the result in real time.
+            - The following example will set the placement of the currently selected button to the left side of the touchbar:
 
         ```AppleScript
         tell script "BetterTouchTool Library"
