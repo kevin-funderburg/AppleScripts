@@ -72,6 +72,8 @@ Application                 |  Scripts                                          
 **[Alfred][alf]**           |  [Show Recent Files for Front App][a345fg38]        | :earth_americas: :cinema:   | <kbd>hyperkey</kbd><kbd>O</kbd>
 <i></i>                     |  [Browse Current Workflow in Alfred][6274c240]      | <i></i>             | <kbd>⌘</kbd><kbd>R</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
+**[BetterTouchTool][btt]**       |  [BetterTouchTool Library][ej8172hf]           | <i></i>             | <i></i>
+<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Calendar][cal]**         |  [WFO to Calendar][d2c1694b]                        | :earth_americas:    | <i></i>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Finder][finder]**        |  [Copy Path as Alias][02e5746e]                     | <i></i>             | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
@@ -113,6 +115,8 @@ Application                 |  Scripts                                          
 [alf]: ./Alfred
 [a345fg38]: ./Alfred/Show-Recent-Files-for-Front-App.applescript
 [6274c240]: ./Alfred/Browse-Current-Workflow-in-Alfred.applescript
+[btt]: ./BetterTouchTool
+[ej8172hf]: ./BetterTouchTool/BetterTouchTool-Library.applescript
 [cal]: .Calendar
 [d2c1694b]: ./Calendar/WFO-to-Calendar.applescript
 [finder]: ./Finder
