@@ -35,12 +35,63 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
     2. Passing `missing value`
         - Passing `missing value` implies that the trigger you want to adjust is the trigger _currently selected within BTT_. The library will then copy the JSON of the selected trigger and create a script object that allows for easy updating.
         - Very useful when making visual changes to the touchbar (especially when mapped to a shortcut key or button) as you can see the result in real time.
-        - The following example will set the placement of the currently selected button to the left side of the touchbar:
+        - **Examples** The following some examples of updating triggers: example will set the placement of the currently selected button to the left side of the touchbar:
 
     ```AppleScript
+    -- The following are all actual scripts I have mapped to keyboard shortcuts and buttons.
+    -- Each one is executed individually, not in a row like this, this is just for demonstration
     tell script "BetterTouchTool Library"
-        set trig to trigger(missing value)
-        trig's button()'s placement("left")
+        set trig to trigger(missing value) -- get the currently selected trigger
+        ---------------------------
+        -- button placement
+        ---------------------------
+        trig's button()'s placement("left") -- set to left
+        trig's button()'s placement("center") -- set to center
+        trig's button()'s placement("right") -- set to right
+        ---------------------------
+        -- button freespace
+        ---------------------------
+    	trig's freeSpace()'s increment() -- increase by 1
+        trig's freeSpace()'s decrement() -- decrease by 1
+        -- set to custom size
+        set n to text returned of (display dialog "Enter free space" default answer "5" buttons {"Cancel", "OK"} default button "OK") as number
+    	trig's freeSpace()'s setTo(n)
+        ---------------------------
+        -- button padding
+        ---------------------------
+        trig's padding()'s increment() -- increase by 1
+        trig's padding()'s decrement() -- decrease by 1
+        -- set custom padding
+        set n to text returned of (display dialog "Enter font size" default answer "15" buttons {"Cancel", "OK"} default button "OK") as number
+    	trig's padding()'s setTo(n)
+        ---------------------------
+        -- button radius
+        ---------------------------
+        trig's radius()'s decrement() -- increase by 1
+	    trig's radius()'s increment() -- decrease by 1
+    	trig's radius()'s apply("left") -- apply radius left
+        trig's radius()'s apply("all") -- apply radius all
+        trig's radius()'s apply("right")  -- apply radius right
+        ---------------------------
+        -- change modifier keys
+        ---------------------------
+        trig's setModKey("cmd")
+        ---------------------------
+        -- icon adjustments
+        ---------------------------
+    	trig's button()'s toggleIconOnly() -- toggle icon only
+        trig's button()'s setIconSize(18) -- set icon size to fixed size
+        -- set to custom size with prompt
+        set n to text returned of (display dialog "Enter icon size" default answer "22" buttons {"Cancel", "OK"} default button "OK") as number
+        trig's button()'s setIconSize(n)
+        ---------------------------
+        -- button adjustments
+        ---------------------------
+    	trig's button()'s setColor("red") -- set color button color
+    	trig's font()'s setColor("blue") -- set font color
+        -- set custom font size with prompt
+        set n to text returned of (display dialog "Enter font size" default answer "15" buttons {"Cancel", "OK"} default button "OK") as number
+    	trig's font()'s setSize(n)
     end tell
     ```
 #### Performing BTT Actions
