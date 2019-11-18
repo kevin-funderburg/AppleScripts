@@ -39,7 +39,6 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
             - Each action is executed individually, not in a row like this, this is just for demonstration:
 
     ```AppleScript
-    --
     tell script "BetterTouchTool Library"
         set trig to trigger(missing value) -- get the currently selected trigger
         ---------------------------
