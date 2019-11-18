@@ -10,7 +10,7 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
 
 ### [BetterTouchTool Library][ej8172hf]
 - This is a AppleScript Library to make scripting BetterTouchTool simpler. The main focus of the library is to simplify the updating/adjusting of triggers.
-- The library itself is a `.scptd` bundle which are not readable on GitHub, so the link above is strictly for readability, if you'd like to download the actual file click [this link](./BetterTouchTool-Library.zip).
+- The library itself is a `.scptd` bundle which are not readable on GitHub, so the link above is strictly for readability, if you'd like to download the actual file click [this link][jan23nl1].
 
 #### Updating triggers
   - This is done in one of two ways.
@@ -105,6 +105,9 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
 
     end tell
     ```
+    - Heres a screen shot of my touchbar in BTT using these kind of examples
+    ![bttbuttons](../imgs/bttButtons.png)
+
 #### Performing BTT Actions
 - If you want to perform a spcific BTT via AppleScript normally, you need to know the predefined action type (example below)
 ```AppleScript
@@ -115,3 +118,4 @@ tell application "BetterTouchTool" to trigger_action "{\"BTTPredefinedActionType
 tell script "BetterTouchTool Library" to triggerAction("Toggle BetterTouchTool Touch Bar")
 ```
 [ej8172hf]: ./BetterTouchTool-Library.applescript
+[jan23nl1]: ./BetterTouchTool-Library.zip
