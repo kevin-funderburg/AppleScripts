@@ -50,11 +50,11 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
         ---------------------------
         -- button freespace
         ---------------------------
-    	trig's freeSpace()'s increment() -- increase by 1
+        trig's freeSpace()'s increment() -- increase by 1
         trig's freeSpace()'s decrement() -- decrease by 1
         -- set to custom size
         set n to text returned of (display dialog "Enter free space" default answer "5" buttons {"Cancel", "OK"} default button "OK") as number
-    	trig's freeSpace()'s setTo(n)
+        trig's freeSpace()'s setTo(n)
         ---------------------------
         -- button padding
         ---------------------------
@@ -62,13 +62,13 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
         trig's padding()'s decrement() -- decrease by 1
         -- set custom padding
         set n to text returned of (display dialog "Enter font size" default answer "15" buttons {"Cancel", "OK"} default button "OK") as number
-    	trig's padding()'s setTo(n)
+        trig's padding()'s setTo(n)
         ---------------------------
         -- button radius
         ---------------------------
         trig's radius()'s decrement() -- increase by 1
 	    trig's radius()'s increment() -- decrease by 1
-    	trig's radius()'s apply("left") -- apply radius left
+        trig's radius()'s apply("left") -- apply radius left
         trig's radius()'s apply("all") -- apply radius all
         trig's radius()'s apply("right")  -- apply radius right
         ---------------------------
@@ -78,7 +78,7 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
         ---------------------------
         -- icon adjustments
         ---------------------------
-    	trig's button()'s toggleIconOnly() -- toggle icon only
+        trig's button()'s toggleIconOnly() -- toggle icon only
         trig's button()'s setIconSize(18) -- set icon size to fixed size
         -- set to custom size with prompt
         set n to text returned of (display dialog "Enter icon size" default answer "22" buttons {"Cancel", "OK"} default button "OK") as number
@@ -86,11 +86,11 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
         ---------------------------
         -- button adjustments
         ---------------------------
-    	trig's button()'s setColor("red") -- set color button color
-    	trig's font()'s setColor("blue") -- set font color
+        trig's button()'s setColor("red") -- set color button color
+        trig's font()'s setColor("blue") -- set font color
         -- set custom font size with prompt
         set n to text returned of (display dialog "Enter font size" default answer "15" buttons {"Cancel", "OK"} default button "OK") as number
-    	trig's font()'s setSize(n)
+        trig's font()'s setSize(n)
     end tell
     ```
 #### Performing BTT Actions
