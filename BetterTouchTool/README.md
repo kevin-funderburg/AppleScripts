@@ -91,6 +91,18 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
         -- set custom font size with prompt
         set n to text returned of (display dialog "Enter font size" default answer "15" buttons {"Cancel", "OK"} default button "OK") as number
         trig's font()'s setSize(n)
+        ---------------------------
+        -- add actions to trigger
+        ---------------------------
+        trig's addAction("AppleScript (async)")
+        trig's addAction("AppleScript (blocking)")
+        trig's addAction("Select Menu Item")
+        ---------------------------
+        -- set value of a trigger's AppleScript action without having to view it
+        ---------------------------
+        set _script to the clipboard
+        trig's setInlineAppleScript(_script)
+
     end tell
     ```
 #### Performing BTT Actions
