@@ -12,8 +12,8 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
     - This is a AppleScript Library to make scripting BetterTouchTool simpler. The main focus of the library is to simplify the updating/adjusting of triggers.
     - The library itself is a `.scptd` bundle which are not readable on GitHub, so the link above is strictly for readability, if you'd like to download the actual file click [this link](./BetterTouchTool-Library.zip).
 
-    - ###### Updating triggers
-    This is done in one of two ways.
+    - **Updating triggers**
+      - This is done in one of two ways.
       1. Passing a desired `UUID` of a trigger
         - By passing a specified UUID, this tells the script to perform an action on a specific trigger.
         - The following example will show 3 triggers and hide another
@@ -31,6 +31,7 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
         tell collapse to button()'s setVisible(true)
         tell expand to button()'s setVisible(false)
         ```
+        
       2. Passing `missing value`
          - Passing `missing value` implies that the trigger you want to adjust is the trigger currently selected within BTT. The library will then copy the JSON of the selected trigger and create a script object that allows for easy updating.
          - Very useful when making visual changes to the touchbar as you can see the result in real time with a shortcut key.
