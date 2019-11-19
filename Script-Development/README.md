@@ -10,6 +10,10 @@ These scripts are generally to make development of scripts easier. They can be c
 - [Split Text][561dd09a]
 - [Transform Text][5748a92f]
 
+### File Utilities
+- [Get File Metadata][jdksl139]
+  - Example of using shell to get metadata of files. I use this to see if a file was downloaded from certain sites or was written by some certain author, if it is then I move it to some location (much like Hazel).
+
 ### Various
  - [Click at Mouse Location][jau3ndi8]
 
@@ -17,4 +21,5 @@ These scripts are generally to make development of scripts easier. They can be c
 [4b6da3a9]: ./Text-Utilities/Search-with-Regex.applescript
 [561dd09a]: ./Text-Utilities/Split-Text.applescript
 [5748a92f]: ./Text-Utilities/Transform-Text.applescript
+[jdksl139]: ./Get-File-Metadata.applescript
 [jau3ndi8]: ./Click-at-Mouse-Location.applescript
