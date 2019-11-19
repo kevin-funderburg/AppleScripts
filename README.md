@@ -100,13 +100,13 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Show\|Create Tab][225bf283]                       | <i></i>             | <i></i>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Script Debugger][sdb]**  |  [Duplicate Tab][ff203baf]                          | <i></i>             | <kbd>F7</kbd>
-<i></i>                     |  [Duplicate for GitHub][ea9fb946]                   | <i></i>             | <i></i>
 <i></i>                     |  [Handler Tester][9b6bdfdc]                         | <i></i>             | <kbd>F6</kbd>
 <i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]     | :cinema:            | <i></i>
 <i></i>                     |  [Open Used Script Libraries][3c961777]             | <i></i>             | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
 <i></i>                     |  [Run Front Script][u76g4ds3]                       | :earth_americas:    | <kbd>hyperkey</kbd><kbd>R</kbd>
+<i></i>                     |  [Duplicate for GitHub][ea9fb946]                   | <i></i>             | <i></i>
 <i></i>                     |  [Save As Text Script][98e99d57]                    | <i></i>             | <kbd>⌃</kbd><kbd>S</kbd>
-<i></i>                     |  [Save a Copy of Front Script as Text][5ecfae32] | <i></i>         | <kbd>⌃</kbd><kbd>S</kbd>
+<i></i>                     |  [Save a Copy of Front Script as Text][5ecfae32]    | <i></i>             | <kbd>⌃</kbd><kbd>S</kbd>
 <i></i>                     |  [Toggle Minimal View][3a899b61]                    | <i></i> | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | :earth_americas: :camera: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
