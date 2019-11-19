@@ -106,6 +106,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Open Used Script Libraries][3c961777]             | <i></i>             | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
 <i></i>                     |  [Run Front Script][u76g4ds3]                       | :earth_americas:    | <kbd>hyperkey</kbd><kbd>R</kbd>
 <i></i>                     |  [Save As Text Script][98e99d57]                    | <i></i>             | <kbd>⌃</kbd><kbd>S</kbd>
+<i></i>                     |  [Save a Copy of Front Script as Text][5ecfae32] | <i></i>         | <kbd>⌃</kbd><kbd>S</kbd>
 <i></i>                     |  [Toggle Minimal View][3a899b61]                    | <i></i> | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | :earth_americas: :camera: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
@@ -150,6 +151,7 @@ Application                 |  Scripts                                          
 [3c961777]: ./Script-Debugger/Open-Used-Script-Libraries.applescript
 [u76g4ds3]: ./Script-Debugger/Run-Front-Script.applescript
 [98e99d57]: ./Script-Debugger/Save-As-Text-Script.applescript
+[5ecfae32]: ./Script-Debugger/Save-a-Copy-of-Front-Script-as-Text.applescript
 [3a899b61]: ./Script-Debugger/Toggle-Minimal-View.applescript
 [typ]: ./Typinator
 [e918395c]: ./Typinator/Edit-Last-Expanded-Rule.applescript
@@ -207,6 +209,8 @@ Context                         |  Scripts
 <i></i>                         |  [Split Text][561dd09a]
 <i></i>                         |  [Transform Text][5748a92f]
 <i></i>                         |  <i></i>
+**File Utilities**            |  [Get File Metadata][jdksl139]
+<i></i>                         |  <i></i>  |
 **[Various][jsklandu]**         |  [Click at Mouse Location][jau3ndi8]
 
 
@@ -216,6 +220,7 @@ Context                         |  Scripts
 [4b6da3a9]: ./Script-Development/Text-Utilities/Search-with-Regex.applescript
 [561dd09a]: ./Script-Development/Text-Utilities/Split-Text.applescript
 [5748a92f]: ./Script-Development/Text-Utilities/Transform-Text.applescript
+[jdksl139]: ./Get-File-Metadata.applescript
 [jau3ndi8]: ./Script-Development/Click-at-Mouse-Location.applescript
 
 * * *

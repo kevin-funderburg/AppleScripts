@@ -3,12 +3,14 @@
                            BetterTouchTool Library
 ===============================================================================
 
-Version: 1.0                                 Updated: 10/19/19 21:16:43 CST
+Version: 1.0                                 Updated: 11/18/19, 10:31:44 PM
 By: Kevin Funderburg
 
 PURPOSE:
 
-This library provides several useful editor functions for BetterTouchTool
+This library provides several useful editor functions for BetterTouchTool.
+• View the GitHub page for explanations and examples
+	- https://github.com/kevin-funderburg/AppleScripts/tree/master/BetterTouchTool
 
 REQUIRED:
 	1.    Mac OS X Yosemite 10.10.5+
@@ -237,7 +239,7 @@ on trigger(_uid)
 			run freeSpace
 		end freeSpace
 		
-			on padding()
+		on padding()
 			script padding
 				property padding : missing value
 				property parent : my trigger
