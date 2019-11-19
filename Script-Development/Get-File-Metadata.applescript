@@ -1,6 +1,7 @@
 use scripting additions
 use kl : script "Kevin's Library"
 
+-- add some path posix path here to get the metadata
 --set thePath to somePosixPath
 
 set wherefroms to cleanMdls(do shell script "mdls -name kMDItemWhereFroms " & quoted form of thePath)
