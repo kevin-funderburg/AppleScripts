@@ -93,6 +93,8 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]        | :earth_americas:    | <i></i>
 <i></i>                     |  [Show Message][9c348c76]                           | :earth_americas: :camera: | <i></i>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
+**[OmniFocus][omnif]**      |  [Push Due Date][c82d4171]                          | <i></i>             | <kbd>⌥</kbd><kbd>D</kbd> 
+<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Safari][saf]**           |  [Close Left Tab][6de3c825]                         | <i></i>             | <kbd>⌥</kbd><kbd>[</kbd>
 <i></i>                     |  [Close Right Tab][2f774cb3]                        | <i></i>             | <kbd>⌥</kbd><kbd>]</kbd>
 <i></i>                     |  [Duplicate Tab][74151e54]                          | <i></i>             | <kbd>⌃</kbd><kbd>D</kbd>
@@ -137,6 +139,8 @@ Application                 |  Scripts                                          
 [63ba2f90]: ./Mail/Make-Mail-URL.applescript
 [48cdab2f]: ./Mail/Mark-All-Inbox-Messages-as-Read.applescript
 [9c348c76]: ./Mail/Show-Messge.applescript
+[omnif]: ./OmniFocus
+[c82d4171]: ./OmniFocus/Push-Due-Date.applescript
 [saf]: ./Safari
 [6de3c825]: ./Safari/Close-Left-Tab.applescript
 [2f774cb3]: ./Safari/Close-Right-Tab.applescript
@@ -365,7 +369,7 @@ These scripts are released under the [MIT License][mit].
 ## To-Do
 
 - [ ] Add more app categories
-- [ ] Refine readme
+- [X] Refine readme
 - [ ] Add icons to favorite scripts
 - [X] Add tips section
 - [X] Add karabiner tutorial
