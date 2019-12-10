@@ -179,6 +179,7 @@ Context                          |  Scripts                                     
 <i></i>                          |  [Toggle Bluetooth][25e6a902]                         | <i></i>  | <i></i>
 <i></i>                          |  [Toggle Hazel][d2434bdc]                             | <i></i>  | <i></i>
 <i></i>                          |  [Toggle Menu Bar Visibility][a517cb4f]               | <i></i>  | <i></i>
+<i></i>                          |  [Toggle Screen Resolution][3458d554]                 | <i></i>  | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>F2</kbd>
 <i></i>                          |  [Toggle WiFi][aa8be569]                              | <i></i>  | <i></i>
 <i></i>                          |  <i></i>                                              | <i></i>  | <i></i>
 **[Various][global]**            |  [Click Script Menu][d1c0746f]                        | <i></i>  | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>S</kbd>
@@ -197,6 +198,7 @@ Context                          |  Scripts                                     
 [456bc1d1]: ./System-Control/Restart-AirPort-Extreme.applescript
 [25e6a902]: ./System-Control/Toggle-Bluetooth.applescript
 [a517cb4f]: ./System-Control/Toggle-Menu-Bar-Visibility.applescript
+[3458d554]: ./System-Control/Toggle-Screen-Resolution.applescript
 [d2434bdc]: ./System-Control/Toggle-Hazel.applescript
 [aa8be569]: ./System-Control/Toggle-WiFi.applescript
 [global]: ./Global
