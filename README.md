@@ -93,6 +93,8 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]        | :earth_americas:    | <i></i>
 <i></i>                     |  [Show Message][9c348c76]                           | :earth_americas: :camera: | <i></i>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
+**[Markdown][md]**          |  [Insert Markdown Style Buttons][b89f4ac4]          | :camera:            | <kbd>⌥</kbd><kbd>H</kbd>
+<i></i>                     |  <i></i>                                            | <i></i>             | <i></i> 
 **[OmniFocus][omnif]**      |  [Push Due Date][c82d4171]                          | <i></i>             | <kbd>⌥</kbd><kbd>D</kbd>
 <i></i>                     |  [Set Duration][aaf5d91c]                           | <i></i>             | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>1-9</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
@@ -140,6 +142,8 @@ Application                 |  Scripts                                          
 [63ba2f90]: ./Mail/Make-Mail-URL.applescript
 [48cdab2f]: ./Mail/Mark-All-Inbox-Messages-as-Read.applescript
 [9c348c76]: ./Mail/Show-Messge.applescript
+[md]: ./Markdown
+[b89f4ac4]: ./Markdown/Insert-Markdown-Style-Buttons.applescript
 [omnif]: ./OmniFocus
 [c82d4171]: ./OmniFocus/Push-Due-Date.applescript
 [aaf5d91c]: ./OmniFocus/Set-Duration.applescript

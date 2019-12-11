@@ -13,4 +13,4 @@ Various scripts for use with [OmniFocus](https://www.omnigroup.com/omnifocus/).
 
 
 [c82d4171]: ./Push-Due-Date.applescript
-[aaf5d91c]: ./Set-Duration.applescript
+[aaf5d91c]: ./Set-Duration.

@@ -4,4 +4,10 @@ Various scripts for Markdown manipulation.
 
 ## Contents
 
-- Insert Markdown Buttons
+- [Insert Markdown Style Buttons][b89f4ac4]&emsp;<kbd>⌥</kbd><kbd>H</kbd>
+  - Makes inserting markdown style buttons nice and easy.
+  - **Example**: Below is a screenshot of the window that appears when the script is run, the result will paste markdown style text that looks like: <kbd>⌘</kbd><kbd>⌥</kbd><kbd>A</kbd>
+    ![markdownbuttons](../imgs/markdown-buttons.png)
+
+
+[b89f4ac4]: ./Insert-Markdown-Style-Buttons.applescript
