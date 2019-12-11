@@ -21,6 +21,9 @@ Scripts for use while working in [Keyboard Maestro](https://www.keyboardmaestro.
 - [Add|Remove Status Menu Trigger](./Add|Remove-Status-Menu-Trigger)&emsp;<kbd>⌥</kbd><kbd>S</kbd>
     - Quickly add or remove a status menu trigger, best when mapped to a shortcut key.
 
+- [Collapse all Pause|Type|Execute Macro Actions][a0794034]&emsp;<kbd>⌥</kbd><kbd>⌃</kbd><kbd>[</kbd>
+    - I like to keep `Type Text`, `Pause for`, and `Execute Macro` actions collapsed for neatness so this is a nice script to collapse all of them in the front macro
+
 
 - [Copy Front Macros AppleScript Trigger](./Copy-Front-Macros-AppleScript-Trigger.applescript)&emsp;<kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
     - Copies the AppleScript trigger for the front macro without having to show the script snippet, best when mapped to a shortcut key.
@@ -33,7 +36,6 @@ Scripts for use while working in [Keyboard Maestro](https://www.keyboardmaestro.
     end tell
     # end ignoring
     ```
-
 
 - [Edit Last Executed Macro](./Edit-Last-Executed-Macro.applescript)&emsp;<kbd>⌃</kbd><kbd>⇧</kbd><kbd>E</kbd>&emsp; :earth_americas:
     - Global script that shows the last executed macro, great when an edit needs to be made after execution.
@@ -49,3 +51,4 @@ Scripts for use while working in [Keyboard Maestro](https://www.keyboardmaestro.
 
 [kmapp]: https://www.keyboardmaestro.co[m/
 [alfredapp]: https://www.alfredapp.com/]
+[a0794034]: ./Collapse-All-[Pause|Type|Execute-Macro]-Actions.applescript

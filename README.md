@@ -83,6 +83,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]     | :cinema:            | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>E</kbd>
 <i></i>                     |  [Add\|Remove Status Menu Trigger][8111e7c4]        | <i></i>             | <kbd>⌥</kbd><kbd>S</kbd>
+<i></i>                     |  [Collapse all Pause/Type/Execute Macro Actions][a0794034] | <i></i>      | <kbd>⌥</kbd><kbd>⌃</kbd><kbd>[</kbd>  |
 <i></i>                     |  [Copy Front Macro's AppleScript Trigger][4945c497] | <i></i>             | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
 <i></i>                     |  [Edit Last Executed Macro][8265051f]               | :earth_americas:    | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>E</kbd>
 <i></i>                     |  [Go To Executed Macro][4355277b]                   | <i></i>             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>G</kbd>
@@ -94,7 +95,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Show Message][9c348c76]                           | :earth_americas: :camera: | <i></i>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Markdown][md]**          |  [Insert Markdown Style Buttons][b89f4ac4]          | :camera:            | <kbd>⌥</kbd><kbd>H</kbd>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i> 
+<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[OmniFocus][omnif]**      |  [Push Due Date][c82d4171]                          | <i></i>             | <kbd>⌥</kbd><kbd>D</kbd>
 <i></i>                     |  [Set Duration][aaf5d91c]                           | <i></i>             | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>1-9</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
@@ -133,6 +134,7 @@ Application                 |  Scripts                                          
 [km]: ./Keyboard-Maestro
 [3034f6a6]: ./Keyboard-Maestro/Edit-Linked-or-In-Line-AppleScript.applescript
 [8111e7c4]: ./Keyboard-Maestro/Add|Remove-Status-Menu-Trigger.applescript
+[a0794034]: ./Keyboard-Maestro/Collapse-All-[Pause|Type|Execute-Macro]-Actions.applescript
 [4945c497]: ./Keyboard-Maestro/Copy-Front-Macros-AppleScript-Trigger.applescript
 [8265051f]: ./Keyboard-Maestro/Edit-Last-Executed-Macro.applescript
 [4355277b]: ./Keyboard-Maestro/Go-To-Executed-Macro.applescript
