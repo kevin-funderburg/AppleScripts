@@ -1,6 +1,6 @@
 # Markdown Scripts
 
-Various scripts for Markdown manipulation.
+Various scripts for working with Markdown.
 
 ## Contents
 
