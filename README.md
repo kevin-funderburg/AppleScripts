@@ -89,6 +89,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Edit Macro Group of Front App][bca5fefd]          | :earth_americas:    | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>K</kbd>
 <i></i>                     |  [Go To Executed Macro][4355277b]                   | <i></i>             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>G</kbd>
 <i></i>                     |  [Run Current Macro][8cbb891d]                      | :earth_americas:    | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>R</kbd>
+<i></i>                     |  [Renumber Macro Prefix Numbers][7037aad4]          | :camera:            | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>3</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Mail][mail]**            |  [Set Color of Text][d1529523]                      | :cinema: :camera:   | <kbd>⌘</kbd><kbd>⇧</kbd><kbd>(C)olor</kbd>
 <i></i>                     |  [Make Mail URL][63ba2f90]                          | <i></i>             | <kbd>⌃</kbd><kbd>U</kbd>
@@ -140,6 +141,7 @@ Application                 |  Scripts                                          
 [8265051f]: ./Keyboard-Maestro/Edit-Last-Executed-Macro.applescript
 [bca5fefd]: ./Keyboard-Maestro/Edit-Macro-Group-of-Front-App.applescript
 [4355277b]: ./Keyboard-Maestro/Go-To-Executed-Macro.applescript
+[7037aad4]: ./Keyboard-Maestro/Renumber-Macro-Prefix-Numbers.applescript
 [8cbb891d]: ./Keyboard-Maestro/Run-Current-Macro.applescript
 [mail]: ./Mail
 [d1529523]: ./Mail/Set-Color-of-Text.applescript
