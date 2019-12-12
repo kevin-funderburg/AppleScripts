@@ -86,6 +86,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Collapse all Pause/Type/Execute Macro Actions][a0794034] | <i></i>      | <kbd>⌥</kbd><kbd>⌃</kbd><kbd>[</kbd>  |
 <i></i>                     |  [Copy Front Macro's AppleScript Trigger][4945c497] | <i></i>             | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
 <i></i>                     |  [Edit Last Executed Macro][8265051f]               | :earth_americas:    | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>E</kbd>
+<i></i>                     |  [Edit Macro Group of Front App][bca5fefd]          | :earth_americas:    | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>K</kbd>
 <i></i>                     |  [Go To Executed Macro][4355277b]                   | <i></i>             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>G</kbd>
 <i></i>                     |  [Run Current Macro][8cbb891d]                      | :earth_americas:    | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>R</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
@@ -137,6 +138,7 @@ Application                 |  Scripts                                          
 [a0794034]: ./Keyboard-Maestro/Collapse-All-[Pause|Type|Execute-Macro]-Actions.applescript
 [4945c497]: ./Keyboard-Maestro/Copy-Front-Macros-AppleScript-Trigger.applescript
 [8265051f]: ./Keyboard-Maestro/Edit-Last-Executed-Macro.applescript
+[bca5fefd]: ./Keyboard-Maestro/Edit-Macro-Group-of-Front-App.applescript
 [4355277b]: ./Keyboard-Maestro/Go-To-Executed-Macro.applescript
 [8cbb891d]: ./Keyboard-Maestro/Run-Current-Macro.applescript
 [mail]: ./Mail

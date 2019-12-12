@@ -38,6 +38,9 @@ Scripts for use while working in [Keyboard Maestro][kmapp].
 - [Edit Last Executed Macro][2f47df90]&emsp;<kbd>⌃</kbd><kbd>⇧</kbd><kbd>E</kbd>&emsp; :earth_americas:
     - Global script that shows the last executed macro, great when an edit needs to be made after execution.
 
+- [Edit Macro Group of Front App][bca5fefd]&emsp;<kbd>⌘</kbd><kbd>⌥</kbd><kbd>K</kbd>&emsp; :earth_americas:
+    - Quickly jump to the macro group of the app you're currently in.
+
 - [Go To Executed Macro][8f04478c]&emsp;<kbd>⌘</kbd><kbd>⌥</kbd><kbd>G</kbd>
     - Jump to the macro being called within a macro by the `Execute Macro` action.
 
@@ -51,5 +54,6 @@ Scripts for use while working in [Keyboard Maestro][kmapp].
 [d4cdec98]: ./Copy-Front-Macros-AppleScript-Trigger.applescript
 [c02bcb30]: ./Edit-Linked-or-In-Line-AppleScript.applescript
 [2f47df90]: ./Edit-Last-Executed-Macro.applescript
+[bca5fefd]: ./Edit-Macro-Group-of-Front-App.applescript
 [8f04478c]: ./Go-To-Executed-Macro.applescript
 [a0794034]: ./Collapse-All-[Pause|Type|Execute-Macro]-Actions.applescript
