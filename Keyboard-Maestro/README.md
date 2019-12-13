@@ -46,7 +46,7 @@ Scripts for use while working in [Keyboard Maestro][kmapp].
 
 - [Renumber Macro Number Prefix][7037aad4]&emsp;<kbd>⌘</kbd><kbd>⌃</kbd><kbd>3</kbd>
   - Batch rename macros to give them ordered number prefixes, or clear the prefixes altogether.
-![demo](../imgs/renumbermacros.gif)
+![demo](../imgs/km-renumbermacros.gif)
 
 - [Run Current Macro](./Run-Current-Macro.applescript)&emsp;<kbd>⌘</kbd><kbd>⌃</kbd><kbd>R</kbd>&emsp; :earth_americas:
     - Crucial action, I use it all the time to test out the macro I'm working on but haven't set a trigger for it yet.

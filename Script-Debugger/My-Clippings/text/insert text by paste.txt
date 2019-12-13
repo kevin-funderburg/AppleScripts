@@ -1,6 +1,2 @@
 set the clipboard to [[selection:clipVar]]
-tell application "System Events"
-	tell process "[[template:appName]]"
-		keystroke "v" using {command down}
-	end tell
-end tell
+tell application "System Events" to keystroke "v" using {command down}

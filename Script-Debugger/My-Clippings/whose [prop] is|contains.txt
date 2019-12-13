@@ -1,1 +1,1 @@
-whose name is [[template:varname]]
+whose name contains [[template:varname]]

@@ -1,6 +1,1 @@
--- @description
--- [[template:description]]
---
--- @param $[[template:param1]] - [[template:param1description]]
--- @param $[[template:param2]] - [[template:param2description]]
---
+-- @description-- [[template:description]]---- @param $uid - [[template:description]]--
