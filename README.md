@@ -81,6 +81,8 @@ Application                 |  Scripts                                          
 <i></i>                     |  [Monthly Cleanups][2f34cbb7]                       | :camera:            | <i></i>
 <i></i>                     |  [Open Selection in iTerm][8fea9aa4]                | :cinema:            | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>T</kbd>
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
+**[iTerm][iterm]**          |  [Copy Text and Send to iTerm][9badd7b8]            | :earth_americas:    | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>T</kbd>
+<i></i>                     |  <i></i>                                            | <i></i>             | <i></i> 
 **[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]     | :cinema:            | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>E</kbd>
 <i></i>                     |  [Add\|Remove Status Menu Trigger][8111e7c4]        | <i></i>             | <kbd>⌥</kbd><kbd>S</kbd>
 <i></i>                     |  [Collapse all Pause/Type/Execute Macro Actions][a0794034] | <i></i>      | <kbd>⌥</kbd><kbd>⌃</kbd><kbd>[</kbd>  |
@@ -133,6 +135,8 @@ Application                 |  Scripts                                          
 [fb40138e]: ./Finder/Go-to-Custom-Folder.applescript
 [2f34cbb7]: ./Finder/Monthly-Cleanups.applescript
 [8fea9aa4]: ./Finder/Open-Selection-in-iTerm.applescript
+[iterm]: ./iTerm
+[9badd7b8]: ./iTerm/Copy-Text-and-Send-To-iTerm.applescript
 [km]: ./Keyboard-Maestro
 [3034f6a6]: ./Keyboard-Maestro/Edit-Linked-or-In-Line-AppleScript.applescript
 [8111e7c4]: ./Keyboard-Maestro/Add|Remove-Status-Menu-Trigger.applescript

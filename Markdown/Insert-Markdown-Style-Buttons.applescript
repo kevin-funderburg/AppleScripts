@@ -26,16 +26,16 @@ try
 	set {boldLabel, theTop} to create label "Insert Markdown style buttons" bottom theTop + 8 max width accViewWidth control size regular size with bold type
 	-- make list of cotronls and pass to display command
 	set allControls to {keyField, keyLabel, hyperkey, shft, ctrl, opt, cmd, boldLabel, messageLabel}
-	
+
 	--set {buttonName, suppressedState, controlsResults} to display enhanced alert "Send for output" message "More text goes in here" as informational alert buttons {"Cancel", "OK"} giving up after 120 acc view width 250 acc view height theTop acc view controls allControls without suppression
-	
+
 	-- controlResults will in the same order as allControls
 	set {buttonName, controlsResults} to display enhanced window "Markdown Style Buttons" acc view width accViewWidth acc view height theTop acc view controls allControls buttons theButtons initial position {100, 30} giving up after 50 with align cancel button
-	
+
 	set {_key, unused, hyperkey, shft, ctrl, opt, cmd, unused, unused} to controlsResults
-	
+
 	if buttonName = "Cancel" then return
-	
+
 	set str to ""
 	if cmd then set str to str & "<kbd>⌘</kbd>"
 	if opt then set str to str & "<kbd>⌥</kbd>"
@@ -43,9 +43,9 @@ try
 	if shft then set str to str & "<kbd>⇧</kbd>"
 	if hyperkey then set str to str & "<kbd>hyperkey</kbd>"
 	set str to str & "<kbd>" & _key & "</kbd>"
-	
+
 	set the clipboard to str
-	
+
 	tell application "System Events"
 		--set frontapp to bundle identifier of (first application whose frontmost is true)
 		--activate application id frontapp
@@ -58,4 +58,3 @@ on error errMsg number errNum
 			default button "OK" with icon caution
 	end if
 end try
-
