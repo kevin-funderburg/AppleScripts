@@ -3,7 +3,7 @@
                            BetterTouchTool Library
 ===============================================================================
 
-Version: 1.0                                 Updated: 11/19/19, 12:25:39 AM
+Version: 1.0                                 Updated: 2/18/20, 3:10:44 PM
 By: Kevin Funderburg
 
 PURPOSE:
@@ -77,8 +77,10 @@ on trigger(_uid)
 		
 		on run
 			if isEmpty(_uid) then
-				setJSONtoClipboard()
+				set json to getTrigger(copyUUID())
 				set uid to json's BTTUUID
+			else
+				set json to getTrigger(_uid)
 			end if
 			return me
 		end run
@@ -86,13 +88,16 @@ on trigger(_uid)
 		-- @description
 		-- get JSON of currently selected trigger
 		--
-		on setJSONtoClipboard()
+		on copyUUID()
 			try
 				set the clipboard to ""
 				delay 0.1
-				tell application "System Events" to keystroke "c" using {command down}
+				tell application "System Events"
+					click menu item "Copy Selected Item UUID" of menu 1 of menu item "Edit" of menu bar 1
+				end tell
 				delay 0.1
-				if (the clipboard) does not contain "BTTTrigger" then error number -1000
+				if (the clipboard) = "" then error number -1000
+				return the clipboard
 			on error errMsg number errNum
 				if errNum = -1000 then
 					display notification "Select a trigger and try again" with title ¬
@@ -101,7 +106,7 @@ on trigger(_uid)
 				end if
 			end try
 			set json to its convertJSONToAS:(the clipboard) isPath:false
-		end setJSONtoClipboard
+		end copyUUID
 		
 		-- @return modifier key value of JSON
 		--
@@ -117,13 +122,13 @@ on trigger(_uid)
 		-- @description
 		-- set the modifier keys required for a trigger
 		--
-		-- @param _mod - modifier key to add: cmd, opt, ctrl, shft, or fn
+		-- @param _mod - modifier key to add: cmd, opt, ctrl, shft, fn, or clear
 		--
 		on setModKey(_mod)
-			set modSum to getModKeys(uid)
+			set modSum to getModKeys()
 			
 			log "modSum before: " & modSum
-			if _mod = "none" then
+			if _mod = "clear" then
 				set modSum to 0
 			else
 				repeat with m in mods
@@ -326,9 +331,7 @@ on trigger(_uid)
 				-- sets a trigger's visibility
 				--
 				-- @param visibility - true, false, or toggle
-				-- NOTE: toggle only works for a currently selected trigger in BTT
-				-- becuase the script is unable to retrieve the JSON for a particular
-				-- trigger without copying it first
+				-- 
 				on setVisible(visibility)
 					if visibility = true then
 						set n to 1
@@ -528,6 +531,11 @@ on toggleVar(var)
 		my setVar:var toVal:true persist:true
 	end if
 end toggleVar
+
+on getTrigger(uid)
+	tell application "BetterTouchTool" to set json to get_trigger uid
+	return my convertJSONToAS:json isPath:false
+end getTrigger
 
 --==========================================================
 --» Helper Functions
