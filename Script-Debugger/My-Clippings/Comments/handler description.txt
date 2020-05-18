@@ -1,1 +1,1 @@
--- @description-- [[template:description]]---- @param $uid - [[template:description]]--
+-- @description-- [[template:description]]---- @param $SearchText - [[template:description]]-- @param $thetab - [[template:description]]--

@@ -1,0 +1,22 @@
+on [[linked-template:scriptName]]()
+	script [[linked-template:scriptName]]
+		
+		property [[linked-template:property1]] : [[template:missing value]]
+		property [[linked-template:property2]] : [[template:missing value]]
+		property [[linked-template:property3]] : [[template:missing value]]
+		
+		on run
+			set [[linked-template:property1]] to [[template:property1val]]
+			set [[linked-template:property2]] to [[template:property2val]]
+			set [[linked-template:property3]] to [[template:property3val]]
+			return me
+		end run
+
+		
+		on [[template:handlerName]]([[template:param1]])
+			[[template:--your code goes here]]
+		end
+	
+	end script
+	run script [[linked-template:scriptName]]
+end

@@ -3,7 +3,7 @@
                            BetterTouchTool Library
 ===============================================================================
 
-Version: 1.0                                 Updated: 2/18/20, 3:10:44 PM
+Version: 1.0                                 Updated: 5/18/20, 2:43:54 PM
 By: Kevin Funderburg
 
 PURPOSE:
@@ -21,7 +21,9 @@ REQUIRED:
                 • None
 
 VERSION HISTORY:
-1.0 - Initial version.
+1.0.0 - Initial version.
+1.0.1 - Added newJSON property to and update() to allow 1 update_trigger
+        command to BTT instead of 1 per function, much faster. 
 ===============================================================================
 *)
 use AppleScript version "2.4" -- Yosemite (10.10) or later
@@ -74,13 +76,14 @@ on trigger(_uid)
 		property parent : script "BetterTouchTool Library"
 		property uid : _uid
 		property json : missing value
+		property newJSON : missing value
 		
 		on run
 			if isEmpty(_uid) then
 				set json to getTrigger(copyUUID())
 				set uid to json's BTTUUID
-			else
-				set json to getTrigger(_uid)
+				--else
+				--	set json to getTrigger(_uid)
 			end if
 			return me
 		end run
@@ -93,7 +96,9 @@ on trigger(_uid)
 				set the clipboard to ""
 				delay 0.1
 				tell application "System Events"
-					click menu item "Copy Selected Item UUID" of menu 1 of menu item "Edit" of menu bar 1
+					tell process "BetterTouchTool"
+						keystroke "c" using {command down, shift down}
+					end tell
 				end tell
 				delay 0.1
 				if (the clipboard) = "" then error number -1000
@@ -103,9 +108,11 @@ on trigger(_uid)
 					display notification "Select a trigger and try again" with title ¬
 						"Error: Invalid selection" subtitle ¬
 						"A trigger must be selected" sound name "Basso"
+				else
+					display dialog errMsg & return & return & errNum buttons {"Cancel", "OK"} ¬
+						default button "OK" with icon caution
 				end if
 			end try
-			set json to its convertJSONToAS:(the clipboard) isPath:false
 		end copyUUID
 		
 		-- @return modifier key value of JSON
@@ -138,7 +145,7 @@ on trigger(_uid)
 					end if
 				end repeat
 			end if
-			updateTrigger({BTTRequiredModifierKeys:modSum})
+			setNewJSON({BTTRequiredModifierKeys:modSum})
 		end setModKey
 		
 		on radius()
@@ -338,13 +345,14 @@ on trigger(_uid)
 					else if visibility = false then
 						set n to 0
 					else if visibility = "toggle" then
+						set json to getTrigger(_uid)
 						if json's BTTEnabled2 = 0 then
 							set n to 1
 						else
 							set n to 0
 						end if
 					end if
-					updateTrigger({BTTEnabled2:n})
+					setNewJSON({BTTEnabled2:n})
 				end setVisible
 				
 				on toggleIconOnly()
@@ -394,7 +402,7 @@ on trigger(_uid)
 		-- @param _script - AppleScript text to insert
 		--
 		on setInlineAppleScript(_script)
-			updateTrigger({BTTInlineAppleScript:_script})
+			setNewJSON({BTTInlineAppleScript:_script})
 		end setInlineAppleScript
 		
 		-- @description
@@ -405,7 +413,7 @@ on trigger(_uid)
 		-- @param act - action to insert
 		--
 		on addAction(act)
-			updateTrigger(getAction(act))
+			setNewJSON(getAction(act))
 		end addAction
 		
 		-- @description
@@ -414,8 +422,16 @@ on trigger(_uid)
 		-- @param _name - new name
 		--
 		on rename(_name)
-			updateTrigger({BTTTouchBarButtonName:_name})
+			setNewJSON({BTTTouchBarButtonName:_name})
 		end rename
+		
+		on setNewJSON(json)
+			if newJSON = missing value then
+				set newJSON to json
+			else
+				set newJSON to newJSON & json
+			end if
+		end setNewJSON
 		
 		-- @description
 		-- update a trigger's JSON configuration
@@ -423,7 +439,15 @@ on trigger(_uid)
 		-- @param update - AppleScript record to update with
 		--
 		on updateConfig(update)
-			updateTrigger({BTTTriggerConfig:update})
+			--updateTrigger({BTTTriggerConfig:update})
+			try
+				set tmp to newJSON's BTTTriggerConfig
+				set newJSON's BTTTriggerConfig to {}
+				set tmp to tmp & update
+				set newJSON's BTTTriggerConfig to tmp
+			on error errMsg number errNum
+				setNewJSON({BTTTriggerConfig:update})
+			end try
 		end updateConfig
 		
 		-- @description
@@ -431,9 +455,9 @@ on trigger(_uid)
 		--
 		-- @param update - AppleScript record to update with
 		--
-		on updateTrigger(update)
-			tell application "BetterTouchTool" to update_trigger uid json my toJSON(update)
-		end updateTrigger
+		on update()
+			tell application "BetterTouchTool" to update_trigger uid json my toJSON(newJSON)
+		end update
 		
 	end script
 	run trigger

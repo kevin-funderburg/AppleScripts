@@ -1,0 +1,1 @@
+its addMod:"[[template:cmd]]" valid:[[template:true]] arg:[[template:theArg]] subtitle:[[template:theSub]]
