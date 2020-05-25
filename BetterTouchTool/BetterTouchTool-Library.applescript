@@ -3,7 +3,7 @@
                            BetterTouchTool Library
 ===============================================================================
 
-Version: 1.0                                 Updated: 5/24/20, 10:27:21 PM
+Version: 1.0                                 Updated: 5/24/20, 10:30:17 PM
 By: Kevin Funderburg
 
 PURPOSE:
