@@ -3,7 +3,7 @@
                            BetterTouchTool Library
 ===============================================================================
 
-Version: 1.0                                 Updated: 5/18/20, 2:43:54 PM
+Version: 1.0                                 Updated: 5/24/20, 10:27:21 PM
 By: Kevin Funderburg
 
 PURPOSE:
@@ -22,8 +22,10 @@ REQUIRED:
 
 VERSION HISTORY:
 1.0.0 - Initial version.
-1.0.1 - Added newJSON property to and update() to allow 1 update_trigger
-        command to BTT instead of 1 per function, much faster. 
+1.0.1 - Added newJSON property and update() to allow 1 update_trigger
+        command to BTT instead of 1 per function, much faster.
+1.0.2 - Changed parameters to be key-value pairs rather than AppleScript
+        records to allow for more mutability for trigger objects.
 ===============================================================================
 *)
 use AppleScript version "2.4" -- Yosemite (10.10) or later
@@ -32,10 +34,12 @@ use framework "Foundation"
 
 property name : "BetterTouchTool Library"
 property id : "com.kfunderburg.library.betterTouchToolLibrary"
-property version : "1.0.0"
+property version : "1.0.1"
 
 -- classes, constants, and enums used
+property NSJSONSerialization : a reference to current application's NSJSONSerialization
 property NSString : a reference to current application's NSString
+property ca : a reference to current application
 
 -- modifier key values
 property mods : {¬
@@ -82,8 +86,6 @@ on trigger(_uid)
 			if isEmpty(_uid) then
 				set json to getTrigger(copyUUID())
 				set uid to json's BTTUUID
-				--else
-				--	set json to getTrigger(_uid)
 			end if
 			return me
 		end run
@@ -145,7 +147,7 @@ on trigger(_uid)
 					end if
 				end repeat
 			end if
-			setNewJSON({BTTRequiredModifierKeys:modSum})
+			setNewJSON({"BTTRequiredModifierKeys", modSum})
 		end setModKey
 		
 		on radius()
@@ -182,7 +184,7 @@ on trigger(_uid)
 				-- @param n - value to set radius to
 				--
 				on setTo(n)
-					updateConfig({BTTTouchBarButtonCornerRadius:n})
+					updateConfig({"BTTTouchBarButtonCornerRadius", n})
 					display notification "new corner radius: " & n with title "Set Radius"
 				end setTo
 				
@@ -201,7 +203,7 @@ on trigger(_uid)
 					else
 						error "invalid side choice: " & side
 					end if
-					updateConfig({BTTTouchBarApplyCornerRadiusTo:n})
+					updateConfig({"BTTTouchBarApplyCornerRadiusTo", n})
 				end apply
 				
 			end script
@@ -243,7 +245,7 @@ on trigger(_uid)
 				-- @param n - free space value
 				--
 				on setTo(n)
-					updateConfig({BTTTouchBarFreeSpaceAfterButton:n})
+					updateConfig({"BTTTouchBarFreeSpaceAfterButton", n})
 					display notification "new freespace: " & n with title "Set Freespace"
 				end setTo
 				
@@ -285,7 +287,7 @@ on trigger(_uid)
 				-- @param n - padding value
 				--
 				on setTo(n)
-					updateConfig({BTTTouchBarItemPadding:n})
+					updateConfig({"BTTTouchBarItemPadding", n})
 					display notification "new padding: " & n with title "Set Padding"
 				end setTo
 			end script
@@ -302,7 +304,7 @@ on trigger(_uid)
 				-- @param _color - name of color
 				--
 				on setColor(clr)
-					updateConfig({BTTTouchBarButtonColor:(getColor(clr))})
+					updateConfig({"BTTTouchBarButtonColor", (getColor(clr))})
 				end setColor
 				
 				-- @description
@@ -312,7 +314,7 @@ on trigger(_uid)
 				-- @param _size - size of icon
 				--
 				on setIconSize(_size)
-					updateConfig({BTTTouchBarItemIconWidth:_size, BTTTouchBarItemIconHeight:_size})
+					updateConfig({"BTTTouchBarItemIconWidth", _size}, {"BTTTouchBarItemIconHeight", _size})
 					display notification "new icon size: " & _size with title "Set Icon Size"
 				end setIconSize
 				
@@ -331,7 +333,7 @@ on trigger(_uid)
 					else
 						error "invalid placement option: " & placement
 					end if
-					updateConfig({BTTTouchBarItemPlacement:p})
+					updateConfig({"BTTTouchBarItemPlacement", p})
 				end placement
 				
 				-- @description
@@ -352,7 +354,7 @@ on trigger(_uid)
 							set n to 0
 						end if
 					end if
-					setNewJSON({BTTEnabled2:n})
+					setNewJSON({"BTTEnabled2", n})
 				end setVisible
 				
 				on toggleIconOnly()
@@ -366,7 +368,7 @@ on trigger(_uid)
 						set n to true
 					end try
 					
-					updateConfig({BTTTouchBarOnlyShowIcon:n})
+					updateConfig({"BTTTouchBarOnlyShowIcon", n})
 				end toggleIconOnly
 				
 			end script
@@ -382,7 +384,7 @@ on trigger(_uid)
 				-- @param _size - size of font
 				--
 				on setSize(_size)
-					updateConfig({BTTTouchBarButtonFontSize:_size})
+					updateConfig({"BTTTouchBarButtonFontSize", _size})
 				end setSize
 				
 				-- @description
@@ -391,7 +393,7 @@ on trigger(_uid)
 				-- @param _color - name of color
 				--
 				on setColor(clr)
-					updateConfig({BTTTouchBarFontColor:(getColor(clr))})
+					updateConfig({"BTTTouchBarFontColor", (getColor(clr))})
 				end setColor
 			end script
 		end _font
@@ -402,7 +404,7 @@ on trigger(_uid)
 		-- @param _script - AppleScript text to insert
 		--
 		on setInlineAppleScript(_script)
-			setNewJSON({BTTInlineAppleScript:_script})
+			setNewJSON({"BTTInlineAppleScript", _script})
 		end setInlineAppleScript
 		
 		-- @description
@@ -422,38 +424,35 @@ on trigger(_uid)
 		-- @param _name - new name
 		--
 		on rename(_name)
-			setNewJSON({BTTTouchBarButtonName:_name})
+			setNewJSON({"BTTTouchBarButtonName", _name})
 		end rename
 		
-		on setNewJSON(json)
-			if newJSON = missing value then
-				set newJSON to json
-			else
-				set newJSON to newJSON & json
-			end if
+		on setNewJSON(update)
+			set newJSON to its setValue:(item 2 of update) forKey:(item 1 of update) inRecord:newJSON
 		end setNewJSON
 		
 		-- @description
 		-- update a trigger's JSON configuration
 		--
-		-- @param update - AppleScript record to update with
+		-- @param update - List of key-value pairs, can be a list of lists of key-value pairs too
 		--
 		on updateConfig(update)
-			--updateTrigger({BTTTriggerConfig:update})
-			try
-				set tmp to newJSON's BTTTriggerConfig
-				set newJSON's BTTTriggerConfig to {}
-				set tmp to tmp & update
-				set newJSON's BTTTriggerConfig to tmp
-			on error errMsg number errNum
-				setNewJSON({BTTTriggerConfig:update})
-			end try
+			if class of item 1 of update = list then
+				repeat with u in update
+					updateConfig(u)
+				end repeat
+			else
+				try
+					set newJSON's BTTTriggerConfig to its setValue:(item 2 of update) forKey:(item 1 of update) inRecord:(newJSON's BTTTriggerConfig)
+				on error errMsg number errNum
+					set update to its recordFromLabels:{(item 1 of update)} andValues:{(item 2 of update)}
+					setNewJSON({"BTTTriggerConfig", update})
+				end try
+			end if
 		end updateConfig
 		
 		-- @description
 		-- update trigger's JSON
-		--
-		-- @param update - AppleScript record to update with
 		--
 		on update()
 			tell application "BetterTouchTool" to update_trigger uid json my toJSON(newJSON)
@@ -468,7 +467,7 @@ end trigger
 --
 on getAction(act)
 	repeat with a in _actions
-		if a's name = act then return {BTTPredefinedActionType:a's value}
+		if a's name = act then return {"BTTPredefinedActionType", a's value}
 	end repeat
 	error "Invalid action: " & act
 end getAction
@@ -557,6 +556,9 @@ on toggleVar(var)
 end toggleVar
 
 on getTrigger(uid)
+	-- this is a useful function of BTT to get the JSON of a particular trigger,
+	-- but it will slow down performance dramatically if called multiple times.
+	-- Use sparingly.
 	tell application "BetterTouchTool" to set json to get_trigger uid
 	return my convertJSONToAS:json isPath:false
 end getTrigger
@@ -581,24 +583,35 @@ end SearchandReplace
 -- pass either a POSIX path to the JSON file, or a JSON string; isPath is a boolean value to tell which
 on convertJSONToAS:jsonStringOrPath isPath:isPath
 	if isPath then -- read file as data
-		set theData to current application's NSData's dataWithContentsOfFile:jsonStringOrPath
+		set theData to ca's NSData's dataWithContentsOfFile:jsonStringOrPath
 	else -- it's a string, convert to data
-		set aString to current application's NSString's stringWithString:jsonStringOrPath
-		set theData to aString's dataUsingEncoding:(current application's NSUTF8StringEncoding)
+		set aString to NSString's stringWithString:jsonStringOrPath
+		set theData to aString's dataUsingEncoding:(ca's NSUTF8StringEncoding)
 	end if
 	-- convert to Cocoa object
-	set {theThing, theError} to current application's NSJSONSerialization's JSONObjectWithData:theData options:0 |error|:(reference)
+	set {theThing, theError} to NSJSONSerialization's JSONObjectWithData:theData options:0 |error|:(reference)
 	if theThing is missing value then error (theError's localizedDescription() as text) number -10000
 	-- we don't know the class of theThing for coercion, so...
-	set listOfThing to current application's NSArray's arrayWithObject:theThing
+	set listOfThing to ca's NSArray's arrayWithObject:theThing
 	return item 1 of (theThing as list)
 end convertJSONToAS:isPath:
 
 on toJSON(str)
 	--convert to JSON data
-	set {theData, theError} to current application's NSJSONSerialization's dataWithJSONObject:str options:0 |error|:(reference)
+	set {theData, theError} to NSJSONSerialization's dataWithJSONObject:str options:0 |error|:(reference)
 	if theData is missing value then error (theError's localizedDescription() as text) number -10000
 	-- convert data to a UTF8 string
-	set someString to current application's NSString's alloc()'s initWithData:theData encoding:(current application's NSUTF8StringEncoding)
+	set someString to NSString's alloc()'s initWithData:theData encoding:(ca's NSUTF8StringEncoding)
 	return someString as text
 end toJSON
+
+on recordFromLabels:labels andValues:values
+	set theResult to ca's NSDictionary's dictionaryWithObjects:values forKeys:labels
+	return theResult as record
+end recordFromLabels:andValues:
+
+on setValue:val forKey:_key inRecord:rec
+	set theDict to ca's NSMutableDictionary's dictionaryWithDictionary:rec
+	theDict's setValue:val forKey:_key
+	return theDict as record
+end setValue:forKey:inRecord:
