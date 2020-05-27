@@ -22,5 +22,5 @@ try
 		end tell
 	end tell
 on error errMsg number errNum
-		display dialog errMsg & return & return & errNum buttons {"Cancel", "OK"} default button "OK"
+	display dialog errMsg & return & return & errNum buttons {"Cancel", "OK"} default button "OK"
 end try

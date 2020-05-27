@@ -3,7 +3,7 @@
                            BetterTouchTool Library
 ===============================================================================
 
-Version: 1.0                                 Updated: 5/24/20, 10:30:17 PM
+Version: 1.0                                 Updated: 5/27/20, 2:18:13 AM
 By: Kevin Funderburg
 
 PURPOSE:
@@ -107,12 +107,15 @@ on trigger(_uid)
 				return the clipboard
 			on error errMsg number errNum
 				if errNum = -1000 then
-					display notification "Select a trigger and try again" with title ¬
-						"Error: Invalid selection" subtitle ¬
-						"A trigger must be selected" sound name "Basso"
+					display notification ("Select a trigger and try again") ¬
+						with title ("Error: Invalid selection") ¬
+						subtitle ("A trigger must be selected") ¬
+						sound name "Basso"
 				else
-					display dialog errMsg & return & return & errNum buttons {"Cancel", "OK"} ¬
-						default button "OK" with icon caution
+					display dialog (errMsg & return & return & errNum) ¬
+						buttons {"Cancel", "OK"} ¬
+						default button ("OK") ¬
+						with icon caution
 				end if
 			end try
 		end copyUUID
