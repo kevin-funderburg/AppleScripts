@@ -1,1 +1,6 @@
-display alert "[[template:theAlertText]]" message "[[template:theAlertMessage]]" as critical buttons {"Cancel", "OK"} default button "OK" cancel button "Cancel"
+display alert ("[[template:theAlertText]]") ¬
+message ("[[template:theAlertMessage]]") ¬
+as critical ¬
+buttons {"[[template:Cancel]]", "[[template:OK]]"} ¬
+default button ("[[template:OK]]") ¬
+cancel button ("[[template:Cancel]]")

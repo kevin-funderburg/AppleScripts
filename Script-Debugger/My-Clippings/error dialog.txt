@@ -1,2 +1,4 @@
-display dialog [[template:errMsg]] & return & return & errNum buttons {"Cancel", "OK"} ¬
-default button "OK" with icon caution
+display dialog ([[template:errMsg]] & return & return & errNum) ¬
+buttons {"Cancel", "OK"} ¬
+default button ("OK") ¬
+with icon caution

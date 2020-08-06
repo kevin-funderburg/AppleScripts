@@ -1,4 +1,5 @@
-set [[template:dialogResult]] to display dialog ¬
-"[[template:message]]" buttons {[[template:"Cancel", "OK"]]} ¬
-default button [[template:"OK"]] ¬
-default answer [[template:answer]]
+set [[template:dialogResult]] to ¬
+display dialog ("[[template:message]]") ¬
+buttons {[[template:"Cancel", "OK"]]} ¬
+default button ([[template:"OK"]]) ¬
+default answer "[[template:answer]]"
