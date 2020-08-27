@@ -54,7 +54,7 @@ set gitStatus to do shell script "sh " & shellPath & space & quoted form of curr
 
 if gitStatus ≠ "false" then
 	set statSymbols to getStatusSymbols(gitStatus)
-	
+
 	tell symbolsTrig
 		rename(statSymbols)
 		_font()'s setColor("red")
@@ -62,7 +62,7 @@ if gitStatus ≠ "false" then
 		button()'s setVisible(true)
 		update()
 	end tell
-	
+
 else
 	hideSymbolsTrig()
 end if
@@ -71,18 +71,18 @@ return branch
 
 
 on getStatusSymbols(gitStatus)
-	
+
 	set branch to paragraph 1 of gitStatus
 	set stream to paragraph 2 of gitStatus
-	
+
 	set statSymbols to ""
-	
+
 	if stream = "ahead" then
 		set statSymbols to "⇡"
 	else if stream = "behind" then
 		set statSymbols to "⇣"
 	end if
-	
+
 	if (count of paragraphs of gitStatus) > 2 then
 		set hash to {m:0, R:0, d:0, u:0}
 		repeat with p in (paragraphs 3 thru -1 of gitStatus)
@@ -96,13 +96,13 @@ on getStatusSymbols(gitStatus)
 		if hash's R ≠ 0 then set statSymbols to statSymbols & "»"
 		if hash's u ≠ 0 then set statSymbols to statSymbols & "?"
 	end if
-	
+
 	if statSymbols ≠ "" then set statSymbols to "[" & statSymbols & "]"
-	
+
 	set lastStatSymbols to statSymbols
-	
+
 	return statSymbols
-	
+
 end getStatusSymbols
 
 on makeNewName(_path)
@@ -146,4 +146,3 @@ on hideSymbolsTrig()
 	end tell
 	set branch to ""
 end hideSymbolsTrig
-
