@@ -44,6 +44,9 @@ Scripts for use while working in [Keyboard Maestro][kmapp].
 - [Go To Executed Macro][8f04478c]&emsp;<kbd>⌘</kbd><kbd>⌥</kbd><kbd>G</kbd>
     - Jump to the macro being called within a macro by the `Execute Macro` action.
 
+- [Recursively Get Every Action][jf9jsn87]
+    - This is a useful subroutine to get _every_ action of the front macro, even those nested within if/else statements, switch statements, groups, etc.
+
 - [Renumber Macro Number Prefix][7037aad4]&emsp;<kbd>⌘</kbd><kbd>⌃</kbd><kbd>3</kbd>
   - Batch rename macros to give them ordered number prefixes, or clear the prefixes altogether.
 ![demo](../imgs/km-renumbermacros.gif)
@@ -60,5 +63,6 @@ Scripts for use while working in [Keyboard Maestro][kmapp].
 [2f47df90]: ./Edit-Last-Executed-Macro.applescript
 [bca5fefd]: ./Edit-Macro-Group-of-Front-App.applescript
 [8f04478c]: ./Go-To-Executed-Macro.applescript
+[jf9jsn87]: ./Recursively-Get-Every-Action.applescript
 [7037aad4]: ./Renumber-Macro-Prefix-Numbers.applescript
 [a0794034]: ./Collapse-All-[Pause|Type|Execute-Macro]-Actions.applescript

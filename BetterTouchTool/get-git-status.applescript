@@ -6,6 +6,7 @@ use kl : script "Kevin's Library"
 property lastpath : missing value
 property branch : missing value
 property shellPath : "~/github/AppleScripts/BetterTouchTool/getGitBranch.sh"
+property pythonpath : "~/Dropbox/Code/python/getGitStatus/getGitStatus.py"
 property charlimit : 20
 
 property symbolsTrig : missing value
@@ -22,7 +23,8 @@ tell application "Finder"
 	end tell
 end tell
 
-set newname to makeNewName(currentPath)
+--set newname to makeNewName(currentPath)
+set newname to do shell script "python3 " & pythonpath & " -n \"" & currentPath & "\""
 
 log "INFO:		lastpath: " & lastpath
 log "INFO:		currentpath: " & currentPath
@@ -45,7 +47,8 @@ end if
 
 set lastpath to currentPath
 
-if currentPath contains "Users/kevinfunderburg/Library" then
+if currentPath contains "Users/kevinfunderburg/Library" or ¬
+	currentPath starts with "/Volumes" then
 	hideSymbolsTrig()
 	return branch
 end if
@@ -53,8 +56,10 @@ end if
 set gitStatus to do shell script "sh " & shellPath & space & quoted form of currentPath
 
 if gitStatus ≠ "false" then
-	set statSymbols to getStatusSymbols(gitStatus)
-
+	--set statSymbols to getStatusSymbols(gitStatus)
+	set branch to do shell script "cd " & quoted form of currentPath & "; git rev-parse --abbrev-ref HEAD"
+	set statSymbols to do shell script "python3 " & pythonpath & " -p \"" & currentPath & "\""
+	
 	tell symbolsTrig
 		rename(statSymbols)
 		_font()'s setColor("red")
@@ -62,7 +67,7 @@ if gitStatus ≠ "false" then
 		button()'s setVisible(true)
 		update()
 	end tell
-
+	
 else
 	hideSymbolsTrig()
 end if
@@ -71,18 +76,18 @@ return branch
 
 
 on getStatusSymbols(gitStatus)
-
+	
 	set branch to paragraph 1 of gitStatus
 	set stream to paragraph 2 of gitStatus
-
+	
 	set statSymbols to ""
-
+	
 	if stream = "ahead" then
 		set statSymbols to "⇡"
 	else if stream = "behind" then
 		set statSymbols to "⇣"
 	end if
-
+	
 	if (count of paragraphs of gitStatus) > 2 then
 		set hash to {m:0, R:0, d:0, u:0}
 		repeat with p in (paragraphs 3 thru -1 of gitStatus)
@@ -96,13 +101,13 @@ on getStatusSymbols(gitStatus)
 		if hash's R ≠ 0 then set statSymbols to statSymbols & "»"
 		if hash's u ≠ 0 then set statSymbols to statSymbols & "?"
 	end if
-
+	
 	if statSymbols ≠ "" then set statSymbols to "[" & statSymbols & "]"
-
+	
 	set lastStatSymbols to statSymbols
-
+	
 	return statSymbols
-
+	
 end getStatusSymbols
 
 on makeNewName(_path)
@@ -146,3 +151,4 @@ on hideSymbolsTrig()
 	end tell
 	set branch to ""
 end hideSymbolsTrig
+
