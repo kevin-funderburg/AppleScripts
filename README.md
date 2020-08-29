@@ -195,10 +195,10 @@ Context                          |  Scripts                                     
 <i></i>                          |  [Toggle WiFi][aa8be569]                              | <i></i>  | <i></i>
 <i></i>                          |  <i></i>                                              | <i></i>  | <i></i>
 **[Various][global]**            |  [Click Script Menu][d1c0746f]                        | <i></i>  | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>S</kbd>
+<i></i>                          |  [Get Keychain Access Passwords][eb8aab1d]            | <i></i>  | <i></i>
 <i></i>                          |  [Paste Safari URL With Title][1d8d603d]              | <i></i>  | <kbd>hyperkey</kbd><kbd>U</kbd>
 <i></i>                          |  [Start\|Stop Quicktime Screen Recording][a921fa5d]   | <i></i>  | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>Q</kbd>
 <i></i>                          |  [Play\|Pause Apple TV][nh8765gf]                     | <i></i>  | <i></i>
-<i></i>                          |  {++keychain access++}                                | <i></i>  | <i></i>
 
 [c98jhawe]: ./Document-Closers
 [9a704632]: ./Document-Closers/Close-All-Un-Saved-Documents.applescript
@@ -215,6 +215,7 @@ Context                          |  Scripts                                     
 [aa8be569]: ./System-Control/Toggle-WiFi.applescript
 [global]: ./Global
 [d1c0746f]: ./Global/Click-Script-Menu.applescript
+[eb8aab1d]: ./Global/Get-Keychain-Access-Passwords.applescript
 [1d8d603d]: ./Global/Paste-Safari-URL-With-Title.applescript
 [a921fa5d]: ./Global/Start|Stop-Quicktime-Screen-Recording.applescript
 [nh8765gf]: ./Global/Play|Pause-Apple-TV.applescript
