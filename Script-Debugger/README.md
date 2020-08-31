@@ -24,16 +24,16 @@ Scripts and clippings for use when working in [Script Debugger](https://latenigh
     end tell
     ```
 
-- [Insert Dynamic Handler Description](./Insert-Dynamic-Handler-Description.applescript)
+- [Insert Dynamic Handler Description][hdnkas73]
     - Insert a handler description at the beginning of the handler currently selected. The description will inserted by creating a Script Debugger clipping _dynamically_ with the handler's name and parameters.
     - Check out the demo below.
 
     <p><img src="../imgs/sdb-dynamicdescription.gif" width="500"</p>
 
-- [Open Used Script Libraries](./Open-Used-Script-Libraries.applescript)&emsp;<kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
+- [Open Used Script Libraries][k9g57d35]&emsp;<kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
     - Open the script libraries that are currently in use in the front script.
 
-- [Run Front Script](./Run-Front-Script.applescript)&emsp;<kbd>hyperkey</kbd><kbd>R</kbd>&emsp; :earth_americas:
+- [Run Front Script][f4s6h3f9]&emsp;<kbd>hyperkey</kbd><kbd>R</kbd>&emsp; :earth_americas:
     - Execute the frontmost script globally, I use this constantly for testing scripts in other applications.
 
 - [Toggle Minimal View][e30bd9c8]&emsp;<kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
@@ -54,8 +54,11 @@ Scripts and clippings for use when working in [Script Debugger](https://latenigh
 
 [kmapp]: https://www.keyboardmaestro.com/
 [alfredapp]: https://www.alfredapp.com/
+[hdnkas73]: ./Insert-Dynamic-Handler-Description.applescript
 [9b6bdfdc]: ./Handler-Tester.applescript
 [8474e70d]: ./Duplicate-for-GitHub.applescript
+[k9g57d35]: ./Open-Used-Script-Libraries.applescript
+[f4s6h3f9]: ./Run-Front-Script.applescript
 [28c70107]: ./Save-As-Text-Script.applescript
 [5ecfae32]: ./Save-a-Copy-of-Front-Script-as-Text.applescript
 [e30bd9c8]: ./Toggle-Minimal-View.applescript
