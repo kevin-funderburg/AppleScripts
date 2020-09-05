@@ -11,21 +11,24 @@ Collection of AppleScripts I've developed or acquired over the years. Some are g
 
 <!-- TOC depthFrom:2 -->
 
-- [About](#about)
-- [Contents](#contents)
+- [My AppleScripts](#my-applescripts)
+  - [About](#about)
+  - [Contents](#contents)
     - [Application Scripts](#application-scripts)
     - [Global Scripts](#global-scripts)
     - [Scripts for Script Development](#scripts-for-script-development)
-- [Tools](#tools)
-- [Tips](#tips)
+    - [Icon Key](#icon-key)
+    - [Shortcut key symbols](#shortcut-key-symbols)
+  - [Tools](#tools)
+  - [Tips](#tips)
     - [Keep Scripts In Sync Using Aliases](#keep-scripts-in-sync-using-aliases)
     - [Make a Hyperkey](#make-a-hyperkey)
-- [Resources](#resources)
+  - [Resources](#resources)
     - [My Favorite AppleScripters](#my-favorite-applescripters)
     - [My Favorite Tutorials](#my-favorite-tutorials)
-- [Licensing & thanks](#licensing--thanks)
-- [Changelog](#changelog)
-- [To-Do](#to-do)
+  - [Licensing & thanks](#licensing--thanks)
+  - [Changelog](#changelog)
+  - [To-Do](#to-do)
 
 <!-- /TOC -->
 </details>
@@ -52,6 +55,7 @@ use kl : script "Kevin's Library"
 ## Contents
 
 I've divided the scripts into 3 sections:
+
 1. **Application Scripts** - Scripts designed for use in a specific application.
 2. **Global Scripts** - Scripts that are meant to be executed in any application.
     - _NOTE_: There are scripts here that are specific to an application but are meant to executed globally, so the scripts in the Application Scripts section with the globe icon ( :earth_americas: ) next to them imply global scope for that specific application.
@@ -230,7 +234,7 @@ Context                         |  Scripts
 <i></i>                         |  [Split Text][561dd09a]
 <i></i>                         |  [Transform Text][5748a92f]
 <i></i>                         |  <i></i>
-**File Utilities**            |  [Get File Metadata][jdksl139]
+**File Utilities**              |  [Get File Metadata][jdksl139]
 <i></i>                         |  <i></i>  |
 **[Various][jsklandu]**         |  [Click at Mouse Location][jau3ndi8]
 
@@ -246,7 +250,7 @@ Context                         |  Scripts
 
 * * *
 
-_Icon Key_
+### Icon Key
 
 Icon                |  Meaning
 --------------------|--------------------------------------------
@@ -255,7 +259,7 @@ Icon                |  Meaning
 :tv:                | video to watch
 :earth_americas:    | script is executed globally for a specific app
 
-_Shortcut key symbols_
+### Shortcut key symbols
 
 Symbol              | Key
 --------------------|------------------
@@ -276,13 +280,14 @@ Symbol              | Key
 - **[Location Helper][f83kch8s]** - Find your geo code location in a snap, and for **free**!
 - **[Dash](https://kapeli.com/dash)** - Fantastic tool for API browsing, after installation go to `Preferences` > `Downloads` and install the AppleScript docset to have blazing fast access to AppleScript documentation, plus its **free**!
 - **[Atom Packages](https://atom.io/packages)** (I do all my script writing in Script Debugger but most of my Markdown stuff in [Atom](https://atom.io/) so these are very useful.)
-    - [atom-applescript](https://github.com/franzheidl/atom-applescript) - adds language support to Atom so you can view AppleScript syntax
-    - [build-osa](https://github.com/idleberg/atom-build-osa) - Lets you build and execute AppleScripts from Atom.
+  - [atom-applescript](https://github.com/franzheidl/atom-applescript) - adds language support to Atom so you can view AppleScript syntax
+  - [build-osa](https://github.com/idleberg/atom-build-osa) - Lets you build and execute AppleScripts from Atom.
 - **[Alfred Workflows][alfredapp]**
-    - [AppScripts](https://github.com/deanishe/alfred-appscripts) - List, search and run/open AppleScripts for the active application
-    - [KeyCodes](http://www.packal.org/workflow/keycodes) - Great for UI scripting where you need to type a non-character key. Lets you find AppleScript key codes in an instant by typing `kc [<key name>]`.
-        - If you don't have Alfred then bookmark [Complete list of AppleScript key codes](https://eastmanreference.com/complete-list-of-applescript-key-codes)
+  - [AppScripts](https://github.com/deanishe/alfred-appscripts) - List, search and run/open AppleScripts for the active application
+  - [KeyCodes](http://www.packal.org/workflow/keycodes) - Great for UI scripting where you need to type a non-character key. Lets you find AppleScript key codes in an instant by typing `kc [<key name>]`.
+    - If you don't have Alfred then bookmark [Complete list of AppleScript key codes](https://eastmanreference.com/complete-list-of-applescript-key-codes)
 - **[Keycue](https://www.ergonis.com/products/keycue/)** - I use this more for Keyboard Maestro, but it's a great app for quickly looking up keyboard shortcuts for macros or menu items.
+
 * * *
 
 ## Tips
@@ -301,12 +306,12 @@ Here's a screenshot of what it looks like in Finder.
 
 **How to do it:**
 
-1.  **Make a backup** of the folder your moving to your Desktop just in case you mess up.
-2.  I recommend having the same folder structure in Dropbox so make the folder `~/Dropbox/Library/`
-3.  Copy the folder you want to sync (`~/Library/Scripts/` or `~/Library/Script Libraries/`) and paste into the `~/Dropbox/Library/` folder you made.
-4.  Delete the original folder you copied from `~/Library/`
-5.  Select the folder you pasted into `~/Dropbox/Library/` then click `File` > `Make Alias`
-6.  Move the resulting alias back to `~/Library/`. The result will be like `~/Library/Scripts alias` so rename the alias by removing the " alias" part so it looks like `~/Library/Scripts` and you're good to go!
+1. **Make a backup** of the folder your moving to your Desktop just in case you mess up.
+2. I recommend having the same folder structure in Dropbox so make the folder `~/Dropbox/Library/`
+3. Copy the folder you want to sync (`~/Library/Scripts/` or `~/Library/Script Libraries/`) and paste into the `~/Dropbox/Library/` folder you made.
+4. Delete the original folder you copied from `~/Library/`
+5. Select the folder you pasted into `~/Dropbox/Library/` then click `File` > `Make Alias`
+6. Move the resulting alias back to `~/Library/`. The result will be like `~/Library/Scripts alias` so rename the alias by removing the " alias" part so it looks like `~/Library/Scripts` and you're good to go!
 
 - **NOTE**: Symlinks don't work for this method, I originally tried the following command which did make an alias, but then the scripts weren't accessible via the Script Menu.
 

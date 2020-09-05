@@ -1,5 +1,7 @@
 set [[template:dialogResult]] to ¬
 display dialog ("[[template:message]]") ¬
+with title ([[template:"title"]]) ¬
+default answer ([[template:"answer"]]) ¬
 buttons {[[template:"Cancel", "OK"]]} ¬
 default button ([[template:"OK"]]) ¬
-default answer "[[template:answer]]"
+with icon [[template:note]]
