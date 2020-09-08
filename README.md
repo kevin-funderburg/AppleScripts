@@ -6,8 +6,8 @@ Collection of AppleScripts I've developed or acquired over the years. Some are g
 
 > This repo is in continuous development and will be updated as scripts are developed (and as I have time).
 
-<details>
-  <summary><strong>Table of Contents</strong> (click to expand)</summary>
+<!--<details>
+  <summary><strong>Table of Contents</strong> (click to expand)</summary> -->
 
 <!-- TOC depthFrom:2 -->
 
@@ -31,13 +31,14 @@ Collection of AppleScripts I've developed or acquired over the years. Some are g
   - [To-Do](#to-do)
 
 <!-- /TOC -->
-</details>
+<!-- </details> -->
 
 <a id="about"></a>
 
 ## About
 
 This repo was created for two main reasons.
+
 1. Provide others with useful scripts for automating their workflow on macOS.
 2. As a tool for AppleScript education by providing example scripts, tools, tips and AppleScript resources.
 
@@ -87,7 +88,7 @@ Application                 |  Scripts                                          
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]     | :cinema:            | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>E</kbd>
 <i></i>                     |  [Add\|Remove Status Menu Trigger][8111e7c4]        | <i></i>             | <kbd>⌥</kbd><kbd>S</kbd>
-<i></i>                     |  [Collapse all Pause/Type/Execute Macro Actions][a0794034] | <i></i>      | <kbd>⌥</kbd><kbd>⌃</kbd><kbd>[</kbd>  |
+<i></i>                     |  [Collapse All Pause/Type/Execute/Cancel/Paste/Delete/Menu Actions][a0794034]|:cinema:| <kbd>⌥</kbd><kbd>⌃</kbd><kbd>[</kbd>  |
 <i></i>                     |  [Copy Front Macro's AppleScript Trigger][4945c497] | <i></i>             | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
 <i></i>                     |  [Edit Last Executed Macro][8265051f]               | :earth_americas:    | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>E</kbd>
 <i></i>                     |  [Edit Macro Group of Front App][bca5fefd]          | :earth_americas:    | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>K</kbd>
@@ -141,7 +142,7 @@ Application                 |  Scripts                                          
 [km]: ./Keyboard-Maestro
 [3034f6a6]: ./Keyboard-Maestro/Edit-Linked-or-In-Line-AppleScript.applescript
 [8111e7c4]: ./Keyboard-Maestro/Add|Remove-Status-Menu-Trigger.applescript
-[a0794034]: ./Keyboard-Maestro/Collapse-All-[Pause|Type|Execute-Macro]-Actions.applescript
+[a0794034]: ./Keyboard-Maestro/ollapse-All-[Pause|Type|Execute|Cancel|Paste|Delete|Menu]-Actions.applescript
 [4945c497]: ./Keyboard-Maestro/Copy-Front-Macros-AppleScript-Trigger.applescript
 [8265051f]: ./Keyboard-Maestro/Edit-Last-Executed-Macro.applescript
 [bca5fefd]: ./Keyboard-Maestro/Edit-Macro-Group-of-Front-App.applescript
