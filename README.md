@@ -321,6 +321,7 @@ Here's a screenshot of what it looks like in Finder.
     ```
 
 ### Make a Hyperkey
+
 The <kbd>caps lock</kbd> key is a borderline useless key for a decent typist, but what's great about Macs is that we can change that. By a few adjustments in `System Preferences` and installing the free software [Karabiner](https://pqrs.org/osx/karabiner/), we can turn that useless key into a extremely useful <kbd>hyperkey</kbd>.
 
 Hyperkey just means that the <kbd>caps lock</kbd> key will emulate holding down <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd> at the same time, and since no application would use such a combination of keys to execute a command, this makes a whole new modifier key for us to implement.
@@ -342,11 +343,13 @@ And that's it! Now you have the super useful <kbd>hyperkey</kbd>!
 * * *
 
 ## Resources
+
 - [AppleScript Language Guide][ude4571a] - Necessary for efficient script development, explains everything about how to script with AppleScript. (I highly recommend the [Dash](https://kapeli.com/dash) version though, much faster and easier to use)
 - [Macscripter.net](https://macscripter.net/) - Forum for AppleScripters to post examples and ask questions. Definitely create a free account.
 - [‘Everyday AppleScriptObjC’ Third Edition](https://macosxautomation.com/applescript/apps/everyday_book.html) - Aimed at the more experienced scripter, but it's a great tool for those interested in expanding scripting power.
 
 ### My Favorite AppleScripters
+
 - [Shane Staley](https://forum.latenightsw.com/u/shanestanley/summary) (unofficial king of AppleScript)
 - [Mark Alldritt](https://forum.latenightsw.com/u/alldritt/summary) (developer of [Script Debugger][sdb])
 - [Christopher Stone](https://github.com/ccstone)
@@ -354,6 +357,7 @@ And that's it! Now you have the super useful <kbd>hyperkey</kbd>!
 - [ComplexPoint](https://forum.latenightsw.com/u/ComplexPoint)
 
 ### My Favorite Tutorials
+
 Tutorials I've bookmarked over the years that I've found particularly helpful or educational.
 
  Context | Link  |  <i></i>
