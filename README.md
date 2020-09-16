@@ -124,6 +124,8 @@ Application                 |  Scripts                                          
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | :earth_americas: :camera: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
 <i></i>                     |  [New Snippet from Clipboard\|Selection][1172c96a]  | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd>
+**[zoom][zm]**              |  [Zoom - Toggle Mute][hdjkasdf]                     | :earth_americas:  | <i><kbd>⌘</kbd><kbd>⌥</kbd><kbd>space</kbd></i>
+<i></i>                     |  [Zoom - Toggle Video][ndhjskas]                    | :earth_americas:  | <i><kbd>⌘</kbd><kbd>⌃</kbd><kbd>space</kbd></i>
 
 
 [alf]: ./Alfred
@@ -178,6 +180,7 @@ Application                 |  Scripts                                          
 [typ]: ./Typinator
 [e918395c]: ./Typinator/Edit-Last-Expanded-Rule.applescript
 [1172c96a]: ./Typinator/New-Snippet-From-Selection|Clipboard.applescript
+[zm]: https://zoom.us/
 
 <a id="Global"></a>
 
@@ -202,8 +205,7 @@ Context                          |  Scripts                                     
 <i></i>                          |  [Get Keychain Access Passwords][eb8aab1d]            | <i></i>  | <i></i>
 <i></i>                          |  [Paste Safari URL With Title][1d8d603d]              | <i></i>  | <kbd>hyperkey</kbd><kbd>U</kbd>
 <i></i>                          |  [Start\|Stop Quicktime Screen Recording][a921fa5d]   | <i></i>  | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>Q</kbd>
-<i></i>                          |  [Zoom - Toggle Mute][hdjkasdf]                       | <i></i>  | <i><kbd>⌘</kbd><kbd>⌥</kbd><kbd>space</kbd></i>
-<i></i>                          |  [Zoom - Toggle Video][ndhjskas]                      | <i></i>  | <i><kbd>⌘</kbd><kbd>⌃</kbd><kbd>space</kbd></i>
+
 
 [c98jhawe]: ./Document-Closers
 [9a704632]: ./Document-Closers/Close-All-Un-Saved-Documents.applescript
