@@ -9,11 +9,13 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
 ## Contents
 
 ### [BetterTouchTool Library][ej8172hf]
+
 - This is a AppleScript Library to make scripting BetterTouchTool simpler. The main focus of the library is to simplify the updating/adjusting of triggers.
 - The library itself is a `.scptd` bundle which are not readable on GitHub, so the link above is strictly for readability, if you'd like to download the actual file click [this link][jan23nl1].
 - For those who are unaware, in order to for the library to function, you must place the `BetterTouchTool.scptd` file in `~/Library/Script Libraries/`
 
 #### Updating triggers
+
   - This is done in one of two ways.
     1. Passing a desired `UUID` of a trigger
         - By passing a specified `UUID`, this tells the script to perform an action on a specific trigger.
@@ -35,6 +37,7 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
     tell collapse to button()'s setVisible(true)
     tell expand to button()'s setVisible(false)
     ```
+
     2. Passing `missing value`
         - Passing `missing value` implies that the trigger you want to adjust is the trigger _currently selected within BTT_. The library will then copy the JSON of the selected trigger and create a script object that allows for easy updating.
         - Very useful when making visual changes to the touchbar (especially when mapped to a shortcut key or button) as you can see the result in real time.
@@ -108,17 +111,23 @@ Various scripts for use with [BetterTouchTool](https://folivora.ai/).
 
     end tell
     ```
+
     - Heres a screen shot of my touchbar in BTT using these kind of examples
     ![bttbuttons](../imgs/bttButtons.png)
 
 #### Performing BTT Actions
+
 - If you want to perform a spcific BTT via AppleScript normally, you need to know the predefined action type (example below)
+
 ```AppleScript
 tell application "BetterTouchTool" to trigger_action "{\"BTTPredefinedActionType\" : 188}"
 ```
+
 - This works great but I don't like trying to keep track of the numbers so this library has several actions that I commonly used stored so you can execute it by the actions name instead.
+
 ```AppleScript
 tell script "BetterTouchTool Library" to triggerAction("Toggle BetterTouchTool Touch Bar")
 ```
+
 [ej8172hf]: ./BetterTouchTool-Library.applescript
 [jan23nl1]: ./BetterTouchTool-Library.zip

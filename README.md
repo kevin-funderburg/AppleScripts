@@ -65,67 +65,63 @@ Clicking the name of the script will show you the script directly, but **make su
 
 > Although not needed, the shortcut keys I use to execute these via [Keyboard Maestro][kmapp] or [Alfred][alfredapp] are included in case your're interested
 
-
-
-
-<a id="Application Scripts"></a>
 ### Application Scripts
 
-Application                 |  Scripts                                            | <i></i>             |  Shortcut Key
-----------------------------|-----------------------------------------------------|---------------------|--------------------------
-**[Alfred][alf]**           |  [Show Recent Files for Front App][a345fg38]        | :earth_americas: :cinema:   | <kbd>hyperkey</kbd><kbd>O</kbd>
-<i></i>                     |  [Browse Current Workflow in Alfred][6274c240]      | <i></i>             | <kbd>⌘</kbd><kbd>R</kbd>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[BetterTouchTool][btt]**  |  [BetterTouchTool Library][ej8172hf]                | <i></i>             | <i></i>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Finder][finder]**        |  [Copy Path as Alias][02e5746e]                     | <i></i>             | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
-<i></i>                     |  [Go to Custom Folder][fb40138e]                    | <i></i>             | <kbd>too many to list</kbd>
-<i></i>                     |  [Monthly Cleanups][2f34cbb7]                       | :camera:            | <i></i>
-<i></i>                     |  [Open Selection in iTerm][8fea9aa4]                | :cinema:            | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>T</kbd>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[iTerm][iterm]**          |  [Copy Text and Send to iTerm][9badd7b8]            | :earth_americas:    | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>T</kbd>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Keyboard Maestro][km]**  |  [Edit Linked or In-Line AppleScript][3034f6a6]     | :cinema:            | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>E</kbd>
-<i></i>                     |  [Add\|Remove Status Menu Trigger][8111e7c4]        | <i></i>             | <kbd>⌥</kbd><kbd>S</kbd>
-<i></i>                     |  [Collapse All Pause/Type/Execute/Cancel/Paste/Delete/Menu Actions][a0794034]|:cinema:| <kbd>⌥</kbd><kbd>⌃</kbd><kbd>[</kbd>  |
-<i></i>                     |  [Copy Front Macro's AppleScript Trigger][4945c497] | <i></i>             | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>
-<i></i>                     |  [Edit Last Executed Macro][8265051f]               | :earth_americas:    | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>E</kbd>
-<i></i>                     |  [Edit Macro Group of Front App][bca5fefd]          | :earth_americas:    | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>K</kbd>
-<i></i>                     |  [Go To Executed Macro][4355277b]                   | <i></i>             | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>G</kbd>
-<i></i>                     |  [Recursively Get Every Action][jf9jsn87]           | <i></i>             | <i></i>
-<i></i>                     |  [Renumber Macro Prefix Numbers][7037aad4]          | :camera:            | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>3</kbd>
-<i></i>                     |  [Run Current Macro][8cbb891d]                      | :earth_americas:    | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>R</kbd>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Mail][mail]**            |  [Set Color of Text][d1529523]                      | :cinema: :camera:   | <kbd>⌘</kbd><kbd>⇧</kbd><kbd>(C)olor</kbd>
-<i></i>                     |  [Make Mail URL][63ba2f90]                          | <i></i>             | <kbd>⌃</kbd><kbd>U</kbd>
-<i></i>                     |  [Mark All Inbox Messages as Read][48cdab2f]        | :earth_americas:    | <i></i>
-<i></i>                     |  [Show Message][9c348c76]                           | :earth_americas: :camera: | <i></i>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Markdown][md]**          |  [Insert Markdown Style Buttons][b89f4ac4]          | :camera:            | <kbd>⌥</kbd><kbd>H</kbd>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[OmniFocus][omnif]**      |  [Push Due Date][c82d4171]                          | <i></i>             | <kbd>⌥</kbd><kbd>D</kbd>
-<i></i>                     |  [Set Duration][aaf5d91c]                           | <i></i>             | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>1-9</kbd>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Safari][saf]**           |  [Close Left Tab][6de3c825]                         | <i></i>             | <kbd>⌥</kbd><kbd>[</kbd>
-<i></i>                     |  [Close Right Tab][2f774cb3]                        | <i></i>             | <kbd>⌥</kbd><kbd>]</kbd>
-<i></i>                     |  [Duplicate Tab][74151e54]                          | <i></i>             | <kbd>⌃</kbd><kbd>D</kbd>
-<i></i>                     |  [Do Javascript Handler][3d850154]                  | <i></i>             | <i></i>
-<i></i>                     |  [Show\|Create Tab][225bf283]                       | <i></i>             | <i></i>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Script Debugger][sdb]**  |  [Duplicate Tab][ff203baf]                          | <i></i>             | <kbd>F7</kbd>
-<i></i>                     |  [Handler Tester][9b6bdfdc]                         | <i></i>             | <kbd>F6</kbd>
-<i></i>                     |  [Insert Dynamic Handler Description][h78j5f3s]     | :cinema:            | <i></i>
-<i></i>                     |  [Open Used Script Libraries][3c961777]             | <i></i>             | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>
-<i></i>                     |  [Run Front Script][u76g4ds3]                       | :earth_americas:    | <kbd>hyperkey</kbd><kbd>R</kbd>
-<i></i>                     |  [Duplicate for GitHub][ea9fb946]                   | <i></i>             | <i></i>
-<i></i>                     |  [Save As Text Script][98e99d57]                    | <i></i>             | <kbd>⌃</kbd><kbd>S</kbd>
-<i></i>                     |  [Save a Copy of Front Script as Text][5ecfae32]    | <i></i>             | <kbd>⌃</kbd><kbd>S</kbd>
-<i></i>                     |  [Toggle Minimal View][3a899b61]                    | <i></i> | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd>
-<i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
-**[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | :earth_americas: :camera: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
-<i></i>                     |  [New Snippet from Clipboard\|Selection][1172c96a]  | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd>
-**[zoom][zm]**              |  [Toggle Mute][hdjkasdf]                     | :earth_americas:  | <i><kbd>⌘</kbd><kbd>⌥</kbd><kbd>space</kbd></i>
-<i></i>                     |  [Toggle Video][ndhjskas]                    | :earth_americas:  | <i><kbd>⌘</kbd><kbd>⌃</kbd><kbd>space</kbd></i>
+| Application                | Scripts                                           | <i></i>                   | Shortcut Key                                     |
+| -------------------------- | ------------------------------------------------- | ------------------------- | ------------------------------------------------ |
+| **[Alfred][alf]**          | [Show Recent Files for Front App][a345fg38]       | :earth_americas: :cinema: | <kbd>hyperkey</kbd><kbd>O</kbd>                  |
+| <i></i>                    | [Browse Current Workflow in Alfred][6274c240]     | <i></i>                   | <kbd>⌘</kbd><kbd>R</kbd>                         |
+| <i></i>                    | <i></i>                                           | <i></i>                   | <i></i>                                          |
+| **[BetterTouchTool][btt]** | [BetterTouchTool Library][ej8172hf]               | <i></i>                   | <i></i>                                          |
+| <i></i>                    | <i></i>                                           | <i></i>                   | <i></i>                                          |
+| **[Finder][finder]**       | [Copy Path as Alias][02e5746e]                    | <i></i>                   | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>             |
+| <i></i>                    | [Go to Custom Folder][fb40138e]                   | <i></i>                   | <kbd>too many to list</kbd>                      |
+| <i></i>                    | [Monthly Cleanups][2f34cbb7]                      | :camera:                  | <i></i>                                          |
+| <i></i>                    | [Open Selection in iTerm][8fea9aa4]               | :cinema:                  | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>T</kbd>             |
+| <i></i>                    | <i></i>                                           | <i></i>                   | <i></i>                                          |
+| **[iTerm][iterm]**         | [Copy Text and Send to iTerm][9badd7b8]           | :earth_americas:          | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>T</kbd> |
+| <i></i>                    | <i></i>                                           | <i></i>                   | <i></i>                                          |
+| **[Keyboard Maestro][km]** | [Edit Linked or In-Line AppleScript][3034f6a6]    | :cinema:                  | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>E</kbd>             |
+| <i></i>                    | [Add\|Remove Status Menu Trigger][8111e7c4]       | <i></i>                   | <kbd>⌥</kbd><kbd>S</kbd>                         |
+| <i></i>                    | [Collapse All Desired Actions][a0794034]          | :cinema:                  | <kbd>⌥</kbd><kbd>⌃</kbd><kbd>[</kbd>             |
+| <i></i>                    | [Copy Macro's AppleScript Trigger][4945c497]      | <i></i>                   | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>C</kbd>             |
+| <i></i>                    | [Edit Last Executed Macro][8265051f]              | :earth_americas:          | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>E</kbd>             |
+| <i></i>                    | [Edit Macro Group of Front App][bca5fefd]         | :earth_americas:          | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>K</kbd>             |
+| <i></i>                    | [Go To Executed Macro][4355277b]                  | <i></i>                   | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>G</kbd>             |
+| <i></i>                    | [Recursively Get Every Action][jf9jsn87]          | <i></i>                   | <i></i>                                          |
+| <i></i>                    | [Renumber Macro Prefix Numbers][7037aad4]         | :camera:                  | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>3</kbd>             |
+| <i></i>                    | [Run Current Macro][8cbb891d]                     | :earth_americas:          | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>R</kbd>             |
+| <i></i>                    | <i></i>                                           | <i></i>                   | <i></i>                                          |
+| **[Mail][mail]**           | [Set Color of Text][d1529523]                     | :cinema: :camera:         | <kbd>⌘</kbd><kbd>⇧</kbd><kbd>(C)olor</kbd>       |
+| <i></i>                    | [Make Mail URL][63ba2f90]                         | <i></i>                   | <kbd>⌃</kbd><kbd>U</kbd>                         |
+| <i></i>                    | [Mark All Inbox Messages as Read][48cdab2f]       | :earth_americas:          | <i></i>                                          |
+| <i></i>                    | [Show Message][9c348c76]                          | :earth_americas: :camera: | <i></i>                                          |
+| <i></i>                    | <i></i>                                           | <i></i>                   | <i></i>                                          |
+| **[Markdown][md]**         | [Insert Markdown Style Buttons][b89f4ac4]         | :camera:                  | <kbd>⌥</kbd><kbd>H</kbd>                         |
+| <i></i>                    | <i></i>                                           | <i></i>                   | <i></i>                                          |
+| **[OmniFocus][omnif]**     | [Push Due Date][c82d4171]                         | <i></i>                   | <kbd>⌥</kbd><kbd>D</kbd>                         |
+| <i></i>                    | [Set Duration][aaf5d91c]                          | <i></i>                   | <kbd>⌥</kbd><kbd>⇧</kbd><kbd>1-9</kbd>           |
+| <i></i>                    | <i></i>                                           | <i></i>                   | <i></i>                                          |
+| **[Safari][saf]**          | [Close Left Tab][6de3c825]                        | <i></i>                   | <kbd>⌥</kbd><kbd>[</kbd>                         |
+| <i></i>                    | [Close Right Tab][2f774cb3]                       | <i></i>                   | <kbd>⌥</kbd><kbd>]</kbd>                         |
+| <i></i>                    | [Duplicate Tab][74151e54]                         | <i></i>                   | <kbd>⌃</kbd><kbd>D</kbd>                         |
+| <i></i>                    | [Do Javascript Handler][3d850154]                 | <i></i>                   | <i></i>                                          |
+| <i></i>                    | [Show\|Create Tab][225bf283]                      | <i></i>                   | <i></i>                                          |
+| <i></i>                    | <i></i>                                           | <i></i>                   | <i></i>                                          |
+| **[Script Debugger][sdb]** | [Duplicate Tab][ff203baf]                         | <i></i>                   | <kbd>F7</kbd>                                    |
+| <i></i>                    | [Handler Tester][9b6bdfdc]                        | <i></i>                   | <kbd>F6</kbd>                                    |
+| <i></i>                    | [Insert Dynamic Handler Description][h78j5f3s]    | :cinema:                  | <i></i>                                          |
+| <i></i>                    | [Open Used Script Libraries][3c961777]            | <i></i>                   | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>O</kbd>             |
+| <i></i>                    | [Run Front Script][u76g4ds3]                      | :earth_americas:          | <kbd>hyperkey</kbd><kbd>R</kbd>                  |
+| <i></i>                    | [Duplicate for GitHub][ea9fb946]                  | <i></i>                   | <i></i>                                          |
+| <i></i>                    | [Save As Text Script][98e99d57]                   | <i></i>                   | <kbd>⌃</kbd><kbd>S</kbd>                         |
+| <i></i>                    | [Save a Copy of Front Script as Text][5ecfae32]   | <i></i>                   | <kbd>⌃</kbd><kbd>S</kbd>                         |
+| <i></i>                    | [Toggle Minimal View][3a899b61]                   | <i></i>                   | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>M</kbd> |
+| <i></i>                    | <i></i>                                           | <i></i>                   | <i></i>                                          |
+| **[Typinator][typ]**       | [Edit Last Expanded Rule][e918395c]               | :earth_americas::camera: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd> |
+| <i></i>                    | [New Snippet from Clipboard\|Selection][1172c96a] | :earth_americas:          | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd> |
+| **[zoom][zm]**             | [Toggle Mute][hdjkasdf]                           | :earth_americas:          | <i><kbd>⌘</kbd><kbd>⌥</kbd><kbd>space</kbd></i>  |
+| <i></i>                    | [Toggle Video][ndhjskas]                          | :earth_americas:          | <i><kbd>⌘</kbd><kbd>⌃</kbd><kbd>space</kbd></i>  |
 
 
 [alf]: ./Alfred
@@ -186,25 +182,25 @@ Application                 |  Scripts                                          
 
 ### Global Scripts
 
-Context                          |  Scripts                                              |  <i></i> | Shortcut Key
----------------------------------|-------------------------------------------------------|----------|-------------
-**[Document Closers][c98jhawe]** |  [Close All Un-Saved Documents][9a704632]             | :camera: | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
-<i></i>                          |  [Close All With Saving][3b80a0d2]                    | :camera: | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
-<i></i>                          |  [Close All Without Saving][a5d8c9ea]                 | :camera: | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd>
-<i></i>                          |  [Close With Saving][d370f17e]                        | :camera: | <kbd>⌥</kbd><kbd>W</kbd>
-<i></i>                          |  [Close Without Saving][dec030b7]                     | :camera: | <kbd>⌃</kbd><kbd>W</kbd>
-<i></i>                          |  <i></i>                                              | <i></i>  | <i></i>
-**[System Control][sc]**         |  [Restart AirPort Extreme][456bc1d1]                  | <i></i>  | <i></i>
-<i></i>                          |  [Toggle Bluetooth][25e6a902]                         | <i></i>  | <i></i>
-<i></i>                          |  [Toggle Hazel][d2434bdc]                             | <i></i>  | <i></i>
-<i></i>                          |  [Toggle Menu Bar Visibility][a517cb4f]               | <i></i>  | <i></i>
-<i></i>                          |  [Toggle Screen Resolution][3458d554]                 | <i></i>  | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>F2</kbd>
-<i></i>                          |  [Toggle WiFi][aa8be569]                              | <i></i>  | <i></i>
-<i></i>                          |  <i></i>                                              | <i></i>  | <i></i>
-**[Various][global]**            |  [Click Script Menu][d1c0746f]                        | <i></i>  | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>S</kbd>
-<i></i>                          |  [Get Keychain Access Passwords][eb8aab1d]            | <i></i>  | <i></i>
-<i></i>                          |  [Paste Safari URL With Title][1d8d603d]              | <i></i>  | <kbd>hyperkey</kbd><kbd>U</kbd>
-<i></i>                          |  [Start\|Stop Quicktime Screen Recording][a921fa5d]   | <i></i>  | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>Q</kbd>
+| Context                          | Scripts                                            | <i></i>  | Shortcut Key                                     |
+| -------------------------------- | -------------------------------------------------- | -------- | ------------------------------------------------ |
+| **[Document Closers][c98jhawe]** | [Close All Un-Saved Documents][9a704632]           | :camera: | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd> |
+| <i></i>                          | [Close All With Saving][3b80a0d2]                  | :camera: | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd> |
+| <i></i>                          | [Close All Without Saving][a5d8c9ea]               | :camera: | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>W</kbd> |
+| <i></i>                          | [Close With Saving][d370f17e]                      | :camera: | <kbd>⌥</kbd><kbd>W</kbd>                         |
+| <i></i>                          | [Close Without Saving][dec030b7]                   | :camera: | <kbd>⌃</kbd><kbd>W</kbd>                         |
+| <i></i>                          | <i></i>                                            | <i></i>  | <i></i>                                          |
+| **[System Control][sc]**         | [Restart AirPort Extreme][456bc1d1]                | <i></i>  | <i></i>                                          |
+| <i></i>                          | [Toggle Bluetooth][25e6a902]                       | <i></i>  | <i></i>                                          |
+| <i></i>                          | [Toggle Hazel][d2434bdc]                           | <i></i>  | <i></i>                                          |
+| <i></i>                          | [Toggle Menu Bar Visibility][a517cb4f]             | <i></i>  | <i></i>                                          |
+| <i></i>                          | [Toggle Screen Resolution][3458d554]               | <i></i>  | <kbd>⌘</kbd><kbd>⌥</kbd><kbd>F2</kbd>            |
+| <i></i>                          | [Toggle WiFi][aa8be569]                            | <i></i>  | <i></i>                                          |
+| <i></i>                          | <i></i>                                            | <i></i>  | <i></i>                                          |
+| **[Various][global]**            | [Click Script Menu][d1c0746f]                      | <i></i>  | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>S</kbd>             |
+| <i></i>                          | [Get Keychain Access Passwords][eb8aab1d]          | <i></i>  | <i></i>                                          |
+| <i></i>                          | [Paste Safari URL With Title][1d8d603d]            | <i></i>  | <kbd>hyperkey</kbd><kbd>U</kbd>                  |
+| <i></i>                          | [Start\|Stop Quicktime Screen Recording][a921fa5d] | <i></i>  | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>Q</kbd>             |
 
 
 [c98jhawe]: ./Document-Closers
@@ -232,16 +228,17 @@ Context                          |  Scripts                                     
 
 ### Scripts for Script Development
 
-Context                         |  Scripts
---------------------------------|----------------------------------
-**[Text Utilities][jh7839dm]**  |  [Extract Between][f3fd3ca9]
-<i></i>                         |  [Search With Regex][4b6da3a9]
-<i></i>                         |  [Split Text][561dd09a]
-<i></i>                         |  [Transform Text][5748a92f]
-<i></i>                         |  <i></i>
-**File Utilities**              |  [Get File Metadata][jdksl139]
-<i></i>                         |  <i></i>  |
-**[Various][jsklandu]**         |  [Click at Mouse Location][jau3ndi8]
+| Context                        | Scripts                             |
+| ------------------------------ | ----------------------------------- |
+| **[Text Utilities][jh7839dm]** | [Extract Between][f3fd3ca9]         |
+| <i></i>                        | [Search With Regex][4b6da3a9]       |
+| <i></i>                        | [Split Text][561dd09a]              |
+| <i></i>                        | [Transform Text][5748a92f]          |
+| <i></i>                        | {++JSON handlers++}                 |
+| <i></i>                        | <i></i>                             |
+| **File Utilities**             | [Get File Metadata][jdksl139]       |
+| <i></i>                        | <i></i>                             |
+| **[Various][jsklandu]**        | [Click at Mouse Location][jau3ndi8] |
 
 
 [jsklandu]: ./Script-Development
@@ -257,43 +254,56 @@ Context                         |  Scripts
 
 ### Icon Key
 
-Icon                |  Meaning
---------------------|--------------------------------------------
-:cinema:            | script has a gif demo in its section's README
-:camera:            | script has a screenshot in its section's README
-:tv:                | video to watch
-:earth_americas:    | script is executed globally for a specific app
+| Icon             | Meaning                                         |
+| ---------------- | ----------------------------------------------- |
+| :cinema:         | script has a gif demo in its section's README   |
+| :camera:         | script has a screenshot in its section's README |
+| :tv:             | video to watch                                  |
+| :earth_americas: | script is executed globally for a specific app  |
 
 ### Shortcut key symbols
 
-Symbol              | Key
---------------------|------------------
-<kbd>⌘</kbd>        | <kbd>command</kbd>
-<kbd>⌥</kbd>        | <kbd>option</kbd>
-<kbd>⌃</kbd>        | <kbd>control</kbd>
-<kbd>⇧</kbd>        | <kbd>shift</kbd>
-<kbd>hyperkey</kbd> | <kbd>command</kbd> <kbd>option</kbd> <kbd>control</kbd> <kbd>shift</kbd>
+| Symbol              | Key                                                                      |
+| ------------------- | ------------------------------------------------------------------------ |
+| <kbd>⌘</kbd>        | <kbd>command</kbd>                                                       |
+| <kbd>⌥</kbd>        | <kbd>option</kbd>                                                        |
+| <kbd>⌃</kbd>        | <kbd>control</kbd>                                                       |
+| <kbd>⇧</kbd>        | <kbd>shift</kbd>                                                         |
+| <kbd>hyperkey</kbd> | <kbd>command</kbd> <kbd>option</kbd> <kbd>control</kbd> <kbd>shift</kbd> |
 
 * * *
 
 ## Tools
 
-- **[Script Debugger](https://latenightsw.com/)** - By far the most valuable scripting tool. When I first started learning scripting with Script Editor, the process was slow and frustrating. With Script Debugger I learned 100 times faster and understood everything much easier.
-- **[UI Browser](https://pfiddlesoft.com/uibrowser/)** - Invaluable tool for UI scripting. UI scripting is brutal on its own, and slightly less brutal with the Accessibility Inspector, but UI Browser makes it so much simpler, I tried it once and knew I had to get it.
+- **[Script Debugger][b7d3d0a1]** - By far the most valuable scripting tool. When I first started learning scripting with Script Editor, the process was slow and frustrating. With Script Debugger I learned 100 times faster and understood everything much easier.
+- **[UI Browser][733e1356]** - Invaluable tool for UI scripting. UI scripting is brutal on its own, and slightly less brutal with the Accessibility Inspector, but UI Browser makes it so much simpler, I tried it once and knew I had to get it.
 - **[JSON Helper][vb5342sx]** - Makes working with JSON so much simpler, incredibly useful and **free**!
 - **[Location Helper][f83kch8s]** - Find your geo code location in a snap, and for **free**!
-- **[Dash](https://kapeli.com/dash)** - Fantastic tool for API browsing, after installation go to `Preferences` > `Downloads` and install the AppleScript docset to have blazing fast access to AppleScript documentation, plus its **free**!
-- **IDE Extensions** (I do all my script writing in Script Debugger but most of my Markdown stuff in [VS Code](https://code.visualstudio.com/) or [Atom](https://atom.io/) or so these are very useful.)
+- **[Dash][ba330e94]** - Fantastic tool for API browsing, after installation go to `Preferences` > `Downloads` and install the AppleScript docset to have blazing fast access to AppleScript documentation, plus its **free**!
+- **IDE Extensions** (I do all my script writing in Script Debugger but most of my Markdown stuff in [VS Code][jsla8872] or [Atom][[23ce9ea9]] or so these are very useful.)
   - VSCode Extensions:
-    - [AppleScript](https://code.visualstudio.com/) - allows AppleScript syntax and the ability to build and run AppleScripts.
+    - [AppleScript][038e5f13] - allows AppleScript syntax and the ability to build and run AppleScripts.
   - Atom Packages
-    - [atom-applescript](https://github.com/franzheidl/atom-applescript) - adds language support to Atom so you can view AppleScript syntax
-    - [build-osa](https://github.com/idleberg/atom-build-osa) - Lets you build and execute AppleScripts from Atom.
+    - [atom-applescript][ebc1bce1] - adds language support to Atom so you can view AppleScript syntax
+    - [build-osa][81efcc24] - Lets you build and execute AppleScripts from Atom.
 - **[Alfred Workflows][alfredapp]**
-  - [AppScripts](https://github.com/deanishe/alfred-appscripts) - List, search and run/open AppleScripts for the active application
-  - [KeyCodes](http://www.packal.org/workflow/keycodes) - Great for UI scripting where you need to type a non-character key. Lets you find AppleScript key codes in an instant by typing `kc [<key name>]`.
-    - If you don't have Alfred then bookmark [Complete list of AppleScript key codes](https://eastmanreference.com/complete-list-of-applescript-key-codes)
-- **[Keycue](https://www.ergonis.com/products/keycue/)** - I use this more for Keyboard Maestro, but it's a great app for quickly looking up keyboard shortcuts for macros or menu items.
+  - [AppScripts][7059c39d] - List, search and run/open AppleScripts for the active application
+  - [KeyCodes][f4cf643d] - Great for UI scripting where you need to type a non-character key. Lets you find AppleScript key codes in an instant by typing `kc [<key name>]`.
+    - If you don't have Alfred then bookmark [Complete list of AppleScript key codes][84203753]
+- **[Keycue][3383effc]** - I use this more for Keyboard Maestro, but it's a great app for quickly looking up keyboard shortcuts for macros or menu items.
+
+[b7d3d0a1]: https://latenightsw.com/
+[d9ca98d8]: https://pfiddlesoft.com/uibrowser/
+[ba330e94]: https://kapeli.com/dash
+[jsla8872]: https://code.visualstudio.com/
+[23ce9ea9]: https://atom.io/
+[038e5f13]: https://marketplace.visualstudio.com/items?itemName=idleberg.applescript
+[ebc1bce1]: https://github.com/franzheidl/atom-applescript
+[81efcc24]: https://github.com/idleberg/atom-build-osa
+[7059c39d]: https://github.com/deanishe/alfred-appscripts
+[f4cf643d]: http://www.packal.org/workflow/keycodes
+[84203753]: https://eastmanreference.com/complete-list-of-applescript-key-codes
+[3383effc]: https://www.ergonis.com/products/keycue/
 
 * * *
 
@@ -327,13 +337,13 @@ Here's a screenshot of what it looks like in Finder.
 
 ### Make a Hyperkey
 
-The <kbd>caps lock</kbd> key is a borderline useless key for a decent typist, but what's great about Macs is that we can change that. By a few adjustments in `System Preferences` and installing the free software [Karabiner](https://pqrs.org/osx/karabiner/), we can turn that useless key into a extremely useful <kbd>hyperkey</kbd>.
+The <kbd>caps lock</kbd> key is a borderline useless key for a decent typist, but what's great about Macs is that we can change that. By a few adjustments in `System Preferences` and installing the free software [Karabiner][0896dcbc], we can turn that useless key into a extremely useful <kbd>hyperkey</kbd>.
 
 Hyperkey just means that the <kbd>caps lock</kbd> key will emulate holding down <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd> at the same time, and since no application would use such a combination of keys to execute a command, this makes a whole new modifier key for us to implement.
 
 **How to do it:**
 
-1. Download [Karabiner](https://pqrs.org/osx/karabiner/)
+1. Download [Karabiner][0896dcbc]
 2. Go to `System Preferences` > `Keyboard` and click on `Modifier Keys...` and make it look like this
 ![keyboardprefs](./imgs/karabiner-keyboard-prefs.png)
 3. Launch the `Karabiner-Elements` app
@@ -343,50 +353,76 @@ Hyperkey just means that the <kbd>caps lock</kbd> key will emulate holding down 
 
 And that's it! Now you have the super useful <kbd>hyperkey</kbd>!
 
-> Note that one of the mods I use to toggle <kbd>caps lock</kbd> is to click both <kbd>shift</kbd> keys at the same time for those rare cases when I need it.
+> Note that one of the mods I use to toggle <kbd>caps lock</kbd> is to click both <kbd>shift</kbd> keys at the same time for those rare cases when I need it. 
 
 * * *
 
 ## Resources
 
-- [AppleScript Language Guide][ude4571a] - Necessary for efficient script development, explains everything about how to script with AppleScript. (I highly recommend the [Dash](https://kapeli.com/dash) version though, much faster and easier to use)
-- [Macscripter.net](https://macscripter.net/) - Forum for AppleScripters to post examples and ask questions. Definitely create a free account.
-- [‘Everyday AppleScriptObjC’ Third Edition](https://macosxautomation.com/applescript/apps/everyday_book.html) - Aimed at the more experienced scripter, but it's a great tool for those interested in expanding scripting power.
+- [AppleScript Language Guide][ude4571a] - Necessary for efficient script development, explains everything about how to script with AppleScript. (I highly recommend the [Dash][a2da41e8] version though, much faster and easier to use)
+- [Macscripter.net][196e4a85] - Forum for AppleScripters to post examples and ask questions. Definitely create a free account.
+- [‘Everyday AppleScriptObjC’ Third Edition][0cb12c89] - Aimed at the more experienced scripter, but it's a great tool for those interested in expanding scripting power.
 
 ### My Favorite AppleScripters
 
-- [Shane Staley](https://forum.latenightsw.com/u/shanestanley/summary) (unofficial king of AppleScript)
-- [Mark Alldritt](https://forum.latenightsw.com/u/alldritt/summary) (developer of [Script Debugger][sdb])
-- [Christopher Stone](https://github.com/ccstone)
-- [JMichaelTX](https://forum.latenightsw.com/u/jmichaeltx/summary)
-- [ComplexPoint](https://forum.latenightsw.com/u/ComplexPoint)
+- [Shane Staley][46ffdc6e] (unofficial king of AppleScript)
+- [Mark Alldritt][b743c007] (developer of [Script Debugger][sdb])
+- [Christopher Stone][98d6806f]
+- [JMichaelTX][c4dd539b]
+- [ComplexPoint][15ef5898]
+
+[0896dcbc]: https://pqrs.org/osx/karabiner/
+[a2da41e8]: https://kapeli.com/dash
+[196e4a85]: https://macscripter.net/
+[0cb12c89]: https://macosxautomation.com/applescript/apps/everyday_book.html
+[46ffdc6e]: https://forum.latenightsw.com/u/shanestanley/summary
+[b743c007]: https://forum.latenightsw.com/u/alldritt/summary
+[98d6806f]: https://github.com/ccstone
+[c4dd539b]: https://forum.latenightsw.com/u/jmichaeltx/summary
+[15ef5898]: https://forum.latenightsw.com/u/ComplexPoint
 
 ### My Favorite Tutorials
 
 Tutorials I've bookmarked over the years that I've found particularly helpful or educational.
 
- Context | Link  |  <i></i>
----------|-------|---------
- Safari Stuff | [How to Fill Out Forms on Websites with AppleScript](http://www.cubemg.com/how-to-fill-out-forms-on-websites-with-applescript/)  |  <i></i>
- <i></i> | [How to click a button on a Web Page with AppleScript](http://www.cubemg.com/how-to-click-a-button-on-a-web-page-with-applescript/)  |  <i></i>
- <i></i> | [How to Extract Information From a Website Using AppleScript](http://www.cubemg.com/how-to-extract-information-from-a-website-using-applescript/)  |  <i></i>
- <i></i> | [How to Select a Drop Down Menu With Applescript](http://www.cubemg.com/how-to-select-a-drop-down-menu-with-applescript/)  |  <i></i>
- <i></i> | [AppleScript Screen Scraping to Excel Example](http://www.cubemg.com/applescript-screen-scraping-to-excel-example/)  |  <i></i>
- <i></i> | <i></i>  |  <i></i>
- Keyboard Maestro Stuff | [Using AppleScript to Get and Set Keyboard Maestro Variables](https://wiki.keyboardmaestro.com/AppleScript)  |  <i></i>
- <i></i> |  [Scripting the Keyboard Maestro editor](https://wiki.keyboardmaestro.com/Scripting_the_Keyboard_Maestro_editor) |  <i></i>
- <i></i> | <i></i>  |  <i></i>
- Script Debugger stuff | [Tutorials \| Late Night Software](https://latenightsw.com/tutorials/)  |  :tv:
- <i></i> | <i></i>  |  <i></i>
- iWork   |  [iWork and Automation](https://iworkautomation.com/index.html) | <i></i>
- <i></i> | <i></i>  |  <i></i>
- Various |  [Date/Time Calculations using AppleScript](https://erikslab.com/2007/11/26/date-time-calculations-using-applescript/) |  <i></i>
- <i></i> |  [Storing and Accessing Data with AppleScript](http://preserve.mactech.com/articles/mactech/Vol.22/22.03/StoringandAccessingData/index.html) |  <i></i>
- <i></i> | [AppleScript Power Handlers](https://www.apeth.net/matt/unm/asph.html)  |  <i></i>
- <i></i> | [Giving your AppleScripts a Face Lift with AppleScriptObjC](https://www.youtube.com/watch?v=HE5jFCfkD0w&app=desktop) |  :tv:
- <i></i> | <i></i>  |  <i></i>
- Starting Out | [AppleScript - The Language of Autoamtion](https://www.macosxautomation.com/applescript/video/moovs/AppleScriptSeminar.mp4)  |  :tv:
- <i></i> | [Script Menu][klsie781]  |  :tv:
+ | Context                | Link                                                                    | <i></i> |
+ | ---------------------- | ----------------------------------------------------------------------- | ------- |
+ | Safari Stuff           | [How to Fill Out Forms on Websites with AppleScript][15e87ba6]          | <i></i> |
+ | <i></i>                | [How to click a button on a Web Page with AppleScript][e6c7e35a]        | <i></i> |
+ | <i></i>                | [How to Extract Information From a Website Using AppleScript][6caf9661] | <i></i> |
+ | <i></i>                | [How to Select a Drop Down Menu With Applescript][300dea31]             | <i></i> |
+ | <i></i>                | [AppleScript Screen Scraping to Excel Example][a0a12163]                | <i></i> |
+ | <i></i>                | <i></i>                                                                 | <i></i> |
+ | Keyboard Maestro Stuff | [Using AppleScript to Get and Set Keyboard Maestro Variables][4210c7c0] | <i></i> |
+ | <i></i>                | [Scripting the Keyboard Maestro editor][5f9f87f1]                       | <i></i> |
+ | <i></i>                | <i></i>                                                                 | <i></i> |
+ | Script Debugger stuff  | [Tutorials \| Late Night Software][99eede5e]                            | :tv:    |
+ | <i></i>                | <i></i>                                                                 | <i></i> |
+ | iWork                  | [iWork and Automation][dd23076d]                                        | <i></i> |
+ | <i></i>                | <i></i>                                                                 | <i></i> |
+ | Various                | [Date/Time Calculations using AppleScript][cac6f064]                    | <i></i> |
+ | <i></i>                | [Storing and Accessing Data with AppleScript][4fff2e7a]                 | <i></i> |
+ | <i></i>                | [AppleScript Power Handlers][6d31ed47]                                  | <i></i> |
+ | <i></i>                | [Giving your AppleScripts a Face Lift with AppleScriptObjC][233c0938]   | :tv:    |
+ | <i></i>                | <i></i>                                                                 | <i></i> |
+ | Starting Out           | [AppleScript - The Language of Autoamtion][ed581bbc]                    | :tv:    |
+ | <i></i>                | [Script Menu][klsie781]                                                 | :tv:    |
+
+[15e87ba6]: http://www.cubemg.com/how-to-fill-out-forms-on-websites-with-applescript/
+[e6c7e35a]: http://www.cubemg.com/how-to-click-a-button-on-a-web-page-with-applescript/
+[6caf9661]: http://www.cubemg.com/how-to-extract-information-from-a-website-using-applescript/
+[300dea31]: http://www.cubemg.com/how-to-select-a-drop-down-menu-with-applescript/
+[a0a12163]: http://www.cubemg.com/applescript-screen-scraping-to-excel-example/
+[4210c7c0]: https://wiki.keyboardmaestro.com/AppleScript
+[5f9f87f1]: https://wiki.keyboardmaestro.com/Scripting_the_Keyboard_Maestro_editor
+[99eede5e]: https://latenightsw.com/tutorials/
+[dd23076d]: https://iworkautomation.com/index.html
+[cac6f064]: https://erikslab.com/2007/11/26/date-time-calculations-using-applescript/
+[4fff2e7a]: http://preserve.mactech.com/articles/mactech/Vol.22/22.03/StoringandAccessingData/index.html
+[233c0938]: https://www.youtube.com/watch?v=HE5jFCfkD0w&app=desktop
+[ed581bbc]: https://www.macosxautomation.com/applescript/video/moovs/AppleScriptSeminar.mp4
+[6d31ed47]: https://www.apeth.net/matt/unm/asph.html
+
 
 ## Licensing & thanks
 
@@ -400,13 +436,14 @@ These scripts are released under the [MIT License][mit].
 
 ## To-Do
 
-- [ ] Add more app categories
+- [X] Add more app categories
 - [X] Refine readme
 - [ ] Add icons to favorite scripts
 - [X] Add tips section
 - [X] Add karabiner tutorial
-- [ ] Add descriptions to all the READMEs
+- [X] Add descriptions to all the READMEs
 - [X] Add my Script Debugger clippings
+- [ ] Add JSON and plist handlers to script development section
 
 <!-- External links -->
 
