@@ -27,7 +27,6 @@ Collection of AppleScripts I've developed or acquired over the years. Some are g
     - [My Favorite AppleScripters](#my-favorite-applescripters)
     - [My Favorite Tutorials](#my-favorite-tutorials)
   - [Licensing & thanks](#licensing--thanks)
-  - [Changelog](#changelog)
   - [To-Do](#to-do)
 
 <!-- /TOC -->
@@ -273,7 +272,6 @@ Symbol              | Key
 <kbd>⇧</kbd>        | <kbd>shift</kbd>
 <kbd>hyperkey</kbd> | <kbd>command</kbd> <kbd>option</kbd> <kbd>control</kbd> <kbd>shift</kbd>
 
-
 * * *
 
 ## Tools
@@ -299,7 +297,6 @@ Symbol              | Key
 ### Keep Scripts In Sync Using Aliases
 
 In order for scripts to be accessible via the Script Menu, scripts must be stored in `~/Library/Scripts`, but if you like to keep your scripts synced between devices, this location is a pain. I used to have a [Hazel][hazelapp] rule set up to sync `~/Library/Scripts` to Dropbox that worked fine for years, but I didn't like all the extra processing needed to sync and worse yet I had 2 copies of every script which was messy and got confusing.
-
 
 I realized later that moving all my scripts to `~/Dropbox/Library/Scripts` then creating an alias to that location and moving it `~/Library` allows for my scripts to be stored in Dropbox, and still be accessible in the Script Menu!
 > This method works exactly as well with the `~/Library/Script Libraries` folder.
@@ -392,7 +389,7 @@ These scripts are released under the [MIT License][mit].
 
 <a id="changelog"></a>
 
-## Changelog
+<!-- ## Changelog -->
 
 - v1.0.0
 
