@@ -283,9 +283,12 @@ Symbol              | Key
 - **[JSON Helper][vb5342sx]** - Makes working with JSON so much simpler, incredibly useful and **free**!
 - **[Location Helper][f83kch8s]** - Find your geo code location in a snap, and for **free**!
 - **[Dash](https://kapeli.com/dash)** - Fantastic tool for API browsing, after installation go to `Preferences` > `Downloads` and install the AppleScript docset to have blazing fast access to AppleScript documentation, plus its **free**!
-- **[Atom Packages](https://atom.io/packages)** (I do all my script writing in Script Debugger but most of my Markdown stuff in [Atom](https://atom.io/) so these are very useful.)
-  - [atom-applescript](https://github.com/franzheidl/atom-applescript) - adds language support to Atom so you can view AppleScript syntax
-  - [build-osa](https://github.com/idleberg/atom-build-osa) - Lets you build and execute AppleScripts from Atom.
+- **IDE Extensions** (I do all my script writing in Script Debugger but most of my Markdown stuff in [VS Code](https://code.visualstudio.com/) or [Atom](https://atom.io/) or so these are very useful.)
+  - VSCode Extensions:
+    - [AppleScript](https://code.visualstudio.com/) - allows AppleScript syntax and the ability to build and run AppleScripts.
+  - Atom Packages
+    - [atom-applescript](https://github.com/franzheidl/atom-applescript) - adds language support to Atom so you can view AppleScript syntax
+    - [build-osa](https://github.com/idleberg/atom-build-osa) - Lets you build and execute AppleScripts from Atom.
 - **[Alfred Workflows][alfredapp]**
   - [AppScripts](https://github.com/deanishe/alfred-appscripts) - List, search and run/open AppleScripts for the active application
   - [KeyCodes](http://www.packal.org/workflow/keycodes) - Great for UI scripting where you need to type a non-character key. Lets you find AppleScript key codes in an instant by typing `kc [<key name>]`.
