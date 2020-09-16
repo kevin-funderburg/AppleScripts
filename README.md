@@ -203,7 +203,8 @@ Context                          |  Scripts                                     
 <i></i>                          |  [Get Keychain Access Passwords][eb8aab1d]            | <i></i>  | <i></i>
 <i></i>                          |  [Paste Safari URL With Title][1d8d603d]              | <i></i>  | <kbd>hyperkey</kbd><kbd>U</kbd>
 <i></i>                          |  [Start\|Stop Quicktime Screen Recording][a921fa5d]   | <i></i>  | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>Q</kbd>
-<i></i>                          |  [Play\|Pause Apple TV][nh8765gf]                     | <i></i>  | <i></i>
+<i></i>                          |  [Zoom - Toggle Mute][hdjkasdf]                       | <i></i>  | <i><kbd>⌘</kbd><kbd>⌥</kbd><kbd>space</kbd></i>
+<i></i>                          |  [Zoom - Toggle Video][ndhjskas]                      | <i></i>  | <i><kbd>⌘</kbd><kbd>⌃</kbd><kbd>space</kbd></i>
 
 [c98jhawe]: ./Document-Closers
 [9a704632]: ./Document-Closers/Close-All-Un-Saved-Documents.applescript
@@ -224,7 +225,9 @@ Context                          |  Scripts                                     
 [1d8d603d]: ./Global/Paste-Safari-URL-With-Title.applescript
 [a921fa5d]: ./Global/Start|Stop-Quicktime-Screen-Recording.applescript
 [nh8765gf]: ./Global/Play|Pause-Apple-TV.applescript
-
+[hdjkasdf]: ./Global/zoom-toggle-mute.applescript
+[ndhjskas]: ./Global/zoom-toggle-video.applescript
+* * *
 
 ### Scripts for Script Development
 
