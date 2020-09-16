@@ -124,8 +124,8 @@ Application                 |  Scripts                                          
 <i></i>                     |  <i></i>                                            | <i></i>             | <i></i>
 **[Typinator][typ]**        |  [Edit Last Expanded Rule][e918395c]                | :earth_americas: :camera: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>E</kbd>
 <i></i>                     |  [New Snippet from Clipboard\|Selection][1172c96a]  | :earth_americas: | <kbd>⌘</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>N</kbd>
-**[zoom][zm]**              |  [Zoom - Toggle Mute][hdjkasdf]                     | :earth_americas:  | <i><kbd>⌘</kbd><kbd>⌥</kbd><kbd>space</kbd></i>
-<i></i>                     |  [Zoom - Toggle Video][ndhjskas]                    | :earth_americas:  | <i><kbd>⌘</kbd><kbd>⌃</kbd><kbd>space</kbd></i>
+**[zoom][zm]**              |  [Toggle Mute][hdjkasdf]                     | :earth_americas:  | <i><kbd>⌘</kbd><kbd>⌥</kbd><kbd>space</kbd></i>
+<i></i>                     |  [Toggle Video][ndhjskas]                    | :earth_americas:  | <i><kbd>⌘</kbd><kbd>⌃</kbd><kbd>space</kbd></i>
 
 
 [alf]: ./Alfred
