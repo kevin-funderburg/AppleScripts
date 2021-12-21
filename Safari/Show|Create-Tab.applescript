@@ -22,6 +22,9 @@ tell application "Safari"
 	end repeat
 	
 	if urlFound is false then
+		if winList is {} then
+			make new document
+		end if
 		tell front window
 			set current tab to make new tab at end of tabs with properties {URL:theURL}
 		end tell
