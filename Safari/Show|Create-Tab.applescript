@@ -5,6 +5,7 @@ set theURL to "https://play.hbonow.com/series"
 
 --
 tell application "Safari"
+	activate
 	set winList to every window
 	set urlFound to false
 	repeat with i from 1 to (count of winList)
