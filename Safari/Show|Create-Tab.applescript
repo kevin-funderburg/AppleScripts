@@ -5,6 +5,7 @@ set theURL to "https://play.hbonow.com/series"
 
 --
 tell application "Safari"
+	activate
 	set winList to every window
 	set urlFound to false
 	repeat with i from 1 to (count of winList)
@@ -22,6 +23,9 @@ tell application "Safari"
 	end repeat
 	
 	if urlFound is false then
+		if winList is {} then
+			make new document
+		end if
 		tell front window
 			set current tab to make new tab at end of tabs with properties {URL:theURL}
 		end tell
